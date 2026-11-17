@@ -60,7 +60,14 @@ export type Media = {
   enriched: boolean;
   status?: string;
   credit?: string;
-  editorial?: { period: 'daily' | 'weekly'; theme: string; hook: string; why: string };
+  editorial?: {
+    period: 'daily' | 'weekly';
+    theme: string;
+    hook: string;
+    why: string;
+    evidence?: Evidence[];
+    coverage?: number;
+  };
   cast?: { id?: number; name: string; character: string; image: string | null }[];
   crew?: { name: string; job: string }[];
   seasons?: number;

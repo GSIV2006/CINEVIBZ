@@ -99,10 +99,10 @@ export async function recommend(i: Interpretation, p?: Preferences) {
   const shortlist = unique([...reserved, ...preliminary]).slice(0, 72);
   const detailed = await enrich(shortlist);
   return {
-    results: rank(detailed, i, p),
+    results: rank(detailed, i, p, 5),
     interpretation: i,
     candidateCount: pool.length,
     enrichedCount: detailed.filter((m) => m.enriched).length,
-    partial: batches.some((b) => !b.ok),
+    partial: batches.some((b) => !b.ok) || detailed.some((m) => !m.enriched),
   };
 }

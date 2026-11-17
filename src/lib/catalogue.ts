@@ -10,7 +10,7 @@ import {
   tvGenre,
 } from './catalogue-intent';
 import { dateKey } from './dates';
-import type { CatalogueResult, Constraints, Media, MediaType, Person } from './types';
+import type { CatalogueResult, Constraints, Media, MediaType, Person, PageResult } from './types';
 
 type Raw = Record<string, any>;
 export function normalizePerson(raw: Raw): Person {
@@ -92,7 +92,13 @@ export function titleOrder(items: Media[], query: string) {
     );
   return items
     .map((m, index) => ({ m, index }))
-    .sort((a, b) => strength(b.m) - strength(a.m) || a.index - b.index)
+    .sort(
+      (a, b) =>
+        strength(b.m) - strength(a.m) ||
+        b.m.votes - a.m.votes ||
+        b.m.popularity - a.m.popularity ||
+        a.index - b.index,
+    )
     .map((x) => x.m);
 }
 export function discoverParams(c: Constraints, type: MediaType, page = 1) {
@@ -130,7 +136,29 @@ export async function searchCatalogue(
     : isBrowse
       ? []
       : await findPeople(query);
-  const person = personId ? people[0] : people.find((p) => isPersonMatch(p, query));
+  let person = personId ? people[0] : people.find((p) => isPersonMatch(p, query));
+  let titlePages: PageResult[] | undefined;
+  // Bare queries favour an exact title over a same-named person. Explicit
+  // actor/director queries and selected person IDs keep verified credits.
+  if (
+    person &&
+    !personId &&
+    !/\b(actor|actress|director|starring|featuring|directed by|filmography|with|by)\b/i.test(query)
+  ) {
+    const types: MediaType[] = c.type ? [c.type] : ['movie', 'tv'];
+    const first = await Promise.all(
+      types.map((type) => cataloguePage(`/search/${type}`, type, { query, page: 1 })),
+    );
+    const q = normalizedName(query);
+    if (
+      first.some((p) =>
+        p.results.some((m) => [m.title, m.originalTitle].some((t) => normalizedName(t) === q)),
+      )
+    ) {
+      person = undefined;
+      if (page === 1) titlePages = first;
+    }
+  }
   if ((person || isBrowse) && i.conflicts.length)
     throw new (await import('./providers/tmdb')).CatalogueError(
       i.conflicts.join(' '),
@@ -182,25 +210,28 @@ export async function searchCatalogue(
   if (!isBrowse)
     c = { ...interpret('', overrides).constraints, allowMature: !safe, excludeWatched: false };
   const types: MediaType[] = c.type ? [c.type] : ['movie', 'tv'];
-  const pages = await Promise.all(
-    types.map((type) =>
-      cataloguePage(
-        isBrowse ? `/discover/${type}` : `/search/${type}`,
-        type,
-        isBrowse
-          ? discoverParams(c, type, page)
-          : {
-              query,
-              page,
-              ...(c.yearFrom && c.yearFrom === c.yearTo
-                ? {
-                    [type === 'movie' ? 'primary_release_year' : 'first_air_date_year']: c.yearFrom,
-                  }
-                : {}),
-            },
+  const pages =
+    titlePages ||
+    (await Promise.all(
+      types.map((type) =>
+        cataloguePage(
+          isBrowse ? `/discover/${type}` : `/search/${type}`,
+          type,
+          isBrowse
+            ? discoverParams(c, type, page)
+            : {
+                query,
+                page,
+                ...(c.yearFrom && c.yearFrom === c.yearTo
+                  ? {
+                      [type === 'movie' ? 'primary_release_year' : 'first_air_date_year']:
+                        c.yearFrom,
+                    }
+                  : {}),
+              },
+        ),
       ),
-    ),
-  );
+    ));
   const raw = unique(pages.flatMap((p) => p.results));
   const detailed = await enrich(raw);
   const filtered = detailed.filter((m) => complies(m, c));

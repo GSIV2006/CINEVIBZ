@@ -20,6 +20,7 @@ export type QuizRun = {
 type ChallengeRun = { explored: boolean; complete: boolean; favourite?: string };
 type WeeklySnapshot = { items: Media[]; theme: string; description: string };
 export type State = {
+  editionVersion: number;
   watchlist: Media[];
   preferences: Preferences;
   history: { prompt: string; date: string }[];
@@ -32,6 +33,7 @@ export type State = {
   weeklySnapshots: Record<string, WeeklySnapshot>;
 };
 const empty: State = {
+  editionVersion: 3,
   watchlist: [],
   preferences: { feedback: [], moods: [], allowMature: false, excludeWatched: true },
   history: [],
@@ -73,14 +75,15 @@ export function restore(raw: string | null): State {
   if (!raw) return empty;
   try {
     const s = JSON.parse(raw);
+    if (!s || typeof s !== 'object' || Array.isArray(s)) return empty;
     const quiz: Record<string, QuizRun> = {};
     for (const [key, value] of Object.entries(s.quiz || {})) {
       const run = value as QuizRun;
-      if (!Array.isArray(run.answers)) continue;
+      if (!run || !Array.isArray(run.answers)) continue;
       const category = key.slice(11),
         day = key.slice(0, 10);
       const ids =
-        run.questionIds ||
+        (Array.isArray(run.questionIds) ? run.questionIds : undefined) ||
         seeded(
           LEGACY_QUESTIONS.filter((q) => q.category === category),
           day + category,
@@ -101,6 +104,7 @@ export function restore(raw: string | null): State {
     return {
       ...empty,
       ...s,
+      editionVersion: empty.editionVersion,
       watchlist: Array.isArray(s.watchlist)
         ? s.watchlist
             .filter(
@@ -115,21 +119,110 @@ export function restore(raw: string | null): State {
       preferences: {
         ...empty.preferences,
         ...s.preferences,
-        feedback: Array.isArray(s.preferences?.feedback) ? s.preferences.feedback : [],
-        moods: Array.isArray(s.preferences?.moods) ? s.preferences.moods : [],
+        feedback: Array.isArray(s.preferences?.feedback)
+          ? s.preferences.feedback.filter(
+              (f: Feedback) =>
+                f &&
+                typeof f.key === 'string' &&
+                ['like', 'dislike', 'watched'].includes(f.kind) &&
+                Array.isArray(f.genres) &&
+                typeof f.language === 'string',
+            )
+          : [],
+        moods: Array.isArray(s.preferences?.moods)
+          ? s.preferences.moods.filter((m: unknown) => typeof m === 'string')
+          : [],
+        allowMature: s.preferences?.allowMature === true,
+        excludeWatched: s.preferences?.excludeWatched !== false,
       },
       history: Array.isArray(s.history) ? s.history.slice(0, 30) : [],
       quiz,
-      completedDays: Array.isArray(s.completedDays) ? s.completedDays : [],
-      events: Array.isArray(s.events) ? s.events.slice(0, 150) : [],
-      activities: s.activities || {},
-      challenges: s.challenges || {},
-      homeSnapshots: s.homeSnapshots || {},
-      weeklySnapshots: s.weeklySnapshots || {},
+      completedDays: Array.isArray(s.completedDays)
+        ? [...new Set(s.completedDays.filter(validDay))]
+        : [],
+      events: Array.isArray(s.events)
+        ? s.events
+            .filter(
+              (e: HistoryEntry) =>
+                e &&
+                typeof e.id === 'string' &&
+                typeof e.kind === 'string' &&
+                typeof e.label === 'string' &&
+                typeof e.href === 'string' &&
+                e.href.startsWith('/') &&
+                Number.isFinite(Date.parse(e.at)),
+            )
+            .slice(0, 150)
+        : [],
+      activities: Object.fromEntries(
+        Object.entries(s.activities || {})
+          .filter(([d, a]) => validDay(d) && Array.isArray(a))
+          .map(([d, a]) => [
+            d,
+            (a as unknown[]).filter((x) =>
+              ['quiz', 'rabbit-hole', 'challenge'].includes(x as string),
+            ),
+          ]),
+      ),
+      challenges: Object.fromEntries(
+        Object.entries(s.challenges || {}).filter(
+          ([d, r]) => validDay(d) && r && typeof r === 'object',
+        ),
+      ),
+      // Invalidate old recommendation snapshots only; watchlists, quizzes and
+      // streaks survive the editorial policy upgrade.
+      homeSnapshots:
+        s.editionVersion === empty.editionVersion
+          ? Object.fromEntries(
+              Object.entries(s.homeSnapshots || {}).filter(([, h]) => validHome(h)),
+            )
+          : {},
+      weeklySnapshots:
+        s.editionVersion === empty.editionVersion
+          ? Object.fromEntries(
+              Object.entries(s.weeklySnapshots || {}).filter(([, w]) => validWeekly(w)),
+            )
+          : {},
     };
   } catch {
     return empty;
   }
+}
+function validDay(day: unknown): day is string {
+  return (
+    typeof day === 'string' &&
+    /^\d{4}-\d{2}-\d{2}$/.test(day) &&
+    Number.isFinite(Date.parse(day)) &&
+    new Date(day).toISOString().slice(0, 10) === day
+  );
+}
+function validItems(items: unknown): items is Media[] {
+  return (
+    Array.isArray(items) &&
+    items.every(
+      (m) =>
+        m &&
+        typeof m.key === 'string' &&
+        typeof m.title === 'string' &&
+        Array.isArray(m.genres) &&
+        Array.isArray(m.keywords),
+    )
+  );
+}
+function validHome(value: unknown): value is HomeData {
+  const h = value as HomeData | null;
+  return Boolean(
+    h &&
+    validDay(h.dayKey) &&
+    validDay(h.weekKey) &&
+    [h.daily, h.weekly, h.popular, h.trending, h.outside].every(validItems),
+  );
+}
+function validWeekly(value: unknown): value is WeeklySnapshot {
+  const w = value as WeeklySnapshot | null;
+  return Boolean(
+    w && validItems(w.items) && typeof w.theme === 'string' && typeof w.description === 'string',
+  );
 }
 export function applyQuizAnswer(
   s: State,

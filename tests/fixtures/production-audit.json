@@ -1,0 +1,397 @@
+{
+  "source": "https://cinevibz.vercel.app",
+  "capturedAt": "2026-11-17T18:26:11.058Z",
+  "records": [
+    {
+      "id": 426,
+      "key": "movie:426",
+      "type": "movie",
+      "title": "Vertigo",
+      "originalTitle": "Vertigo",
+      "overview": "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend's wife, all the while becoming dangerously obsessed with her.",
+      "poster": "/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+      "backdrop": "/rtVwkTqllcmyY4TVOycgVBHppWf.jpg",
+      "date": "1958-05-28",
+      "year": 1958,
+      "genres": [
+        9648,
+        10749,
+        53
+      ],
+      "genreNames": [
+        "Mystery",
+        "Romance",
+        "Thriller"
+      ],
+      "language": "en",
+      "countries": [
+        "US"
+      ],
+      "rating": 8.132,
+      "votes": 6628,
+      "popularity": 9.029,
+      "adult": false,
+      "runtime": 128,
+      "keywords": [
+        "plan",
+        "love of one's life",
+        "sense of guilt",
+        "san francisco, california",
+        "suicide attempt",
+        "obsession",
+        "bachelor",
+        "detective",
+        "necklace",
+        "vertigo",
+        "museum",
+        "painting",
+        "insurance fraud",
+        "film noir",
+        "golden gate bridge",
+        "psychological thriller",
+        "rescue from drowning",
+        "paranoid",
+        "neo-noir",
+        "nervous",
+        "fear of heights",
+        "dark romance",
+        "complicated",
+        "vistavision"
+      ],
+      "certification": {
+        "country": "US",
+        "rating": "PG"
+      },
+      "enriched": true,
+      "status": "Released"
+    },
+    {
+      "id": 129,
+      "key": "movie:129",
+      "type": "movie",
+      "title": "Spirited Away",
+      "originalTitle": "\u5343\u3068\u5343\u5c0b\u306e\u795e\u96a0\u3057",
+      "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+      "poster": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+      "backdrop": "/m4TUa2ciEWSlk37rOsjiSIvZDXE.jpg",
+      "date": "2001-07-20",
+      "year": 2001,
+      "genres": [
+        16,
+        10751,
+        14
+      ],
+      "genreNames": [
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "language": "ja",
+      "countries": [
+        "JP"
+      ],
+      "rating": 8.5,
+      "votes": 19231,
+      "popularity": 37.1978,
+      "adult": false,
+      "runtime": 125,
+      "keywords": [
+        "witch",
+        "parent child relationship",
+        "darkness",
+        "bath house",
+        "magic",
+        "spirit",
+        "parallel world",
+        "amusement park",
+        "youkai",
+        "japanese mythology",
+        "anime"
+      ],
+      "certification": {
+        "country": "US",
+        "rating": "PG"
+      },
+      "enriched": true,
+      "status": "Released"
+    },
+    {
+      "id": 299555,
+      "key": "tv:299555",
+      "type": "tv",
+      "title": "Chainsaw Man - The Compilation",
+      "originalTitle": "\u30c1\u30a7\u30f3\u30bd\u30fc\u30de\u30f3 \u7dcf\u96c6\u7bc7",
+      "overview": "The two-part compilation, Part I and Part II, re-edits and condenses the key moments from the first season of the Chainsaw Man anime. This compilation revisits Denji's journey, from his humble beginnings as a debt-ridden devil hunter to his transformation into the Chainsaw Man.\n\nIn addition to the re-edited material, the compilation includes newly animated segments titled Chainsaw Days. These segments adapt bonus chapters from the original manga.",
+      "poster": "/1ErNyXf0hm9HeQXjHRz1X0hffpe.jpg",
+      "backdrop": "/q5DjMk4rmZuTWRBkXRpjYKQX9ZQ.jpg",
+      "date": "2025-09-05",
+      "year": 2025,
+      "genres": [
+        16,
+        10759,
+        10765
+      ],
+      "genreNames": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "language": "ja",
+      "countries": [
+        "JP"
+      ],
+      "rating": 9.172,
+      "votes": 102,
+      "popularity": 4.5005,
+      "adult": false,
+      "runtime": null,
+      "keywords": [
+        "secret organization",
+        "supernatural",
+        "gore",
+        "compilation",
+        "chainsaw",
+        "based on manga",
+        "cruelty",
+        "devil",
+        "demon",
+        "combat",
+        "shounen",
+        "anime",
+        "philosophical",
+        "complex",
+        "recap",
+        "fantasy",
+        "urban fantasy",
+        "depressed",
+        "absurd"
+      ],
+      "certification": {
+        "country": "US",
+        "rating": "TV-14"
+      },
+      "enriched": true,
+      "status": "Ended",
+      "seasons": 1,
+      "episodes": 2
+    },
+    {
+      "id": 67070,
+      "key": "tv:67070",
+      "type": "tv",
+      "title": "Fleabag",
+      "originalTitle": "Fleabag",
+      "overview": "A portrait into the mind of a dry-witted, sexual, angry, porn-watching, grief-riddled woman, trying to make sense of the world. As she hurls herself headlong at modern living, Fleabag is thrown roughly up against the walls of contemporary London, with all its frenetic energy, late nights, and bright lights.",
+      "poster": "/vFn0nLPcIggPH5LTWWaJ2hcsGlc.jpg",
+      "backdrop": "/hXdQ4MWsEOX6qg6VydKrLb3YJ4g.jpg",
+      "date": "2016-07-21",
+      "year": 2016,
+      "genres": [
+        35,
+        18
+      ],
+      "genreNames": [
+        "Comedy",
+        "Drama"
+      ],
+      "language": "en",
+      "countries": [
+        "GB"
+      ],
+      "rating": 8.277,
+      "votes": 2008,
+      "popularity": 14.3151,
+      "adult": false,
+      "runtime": null,
+      "keywords": [
+        "london, england",
+        "feminism",
+        "cynicism",
+        "stepmother",
+        "grief",
+        "loneliness",
+        "dysfunctional family",
+        "priest",
+        "dark comedy",
+        "based on play or musical",
+        "promiscuity",
+        "breaking the fourth wall",
+        "guilt",
+        "death of mother",
+        "passive aggression",
+        "casual sex",
+        "evil stepmother",
+        "guilty conscience",
+        "sitcom",
+        "death of best friend",
+        "lonely woman",
+        "fear of intimacy",
+        "sister sister relationship",
+        "loss of mother",
+        "loss of a friend",
+        "bisexual woman"
+      ],
+      "certification": {
+        "country": "US",
+        "rating": "TV-MA"
+      },
+      "enriched": true,
+      "status": "Ended",
+      "seasons": 2,
+      "episodes": 12
+    },
+    {
+      "id": 59436,
+      "key": "movie:59436",
+      "type": "movie",
+      "title": "Midnight in Paris",
+      "originalTitle": "Midnight in Paris",
+      "overview": "While on a trip to Paris with his fianc\u00e9e's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.",
+      "poster": "/4wBG5kbfagTQclETblPRRGihk0I.jpg",
+      "backdrop": "/b5bcKhvN6VP82U5ztNdPfOLiolD.jpg",
+      "date": "2011-05-11",
+      "year": 2011,
+      "genres": [
+        14,
+        35,
+        10749
+      ],
+      "genreNames": [
+        "Fantasy",
+        "Comedy",
+        "Romance"
+      ],
+      "language": "en",
+      "countries": [
+        "US"
+      ],
+      "rating": 7.508,
+      "votes": 7989,
+      "popularity": 6.3663,
+      "adult": false,
+      "runtime": 94,
+      "keywords": [
+        "paris, france",
+        "based on novel or book",
+        "detective",
+        "screenwriter",
+        "camping",
+        "diary",
+        "time travel",
+        "forbidden love",
+        "painter",
+        "midnight",
+        "nostalgia",
+        "past",
+        "versailles",
+        "sculpture",
+        "romance",
+        "magic realism",
+        "nostalgic",
+        "art history",
+        "back in time",
+        "wine drinking"
+      ],
+      "certification": {
+        "country": "US",
+        "rating": "PG-13"
+      },
+      "enriched": true,
+      "status": "Released"
+    },
+    {
+      "id": 146233,
+      "key": "movie:146233",
+      "type": "movie",
+      "title": "Prisoners",
+      "originalTitle": "Prisoners",
+      "overview": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
+      "poster": "/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+      "backdrop": "/3RFmTz5h2UuFWEV4oH00XICBR9y.jpg",
+      "date": "2013-09-19",
+      "year": 2013,
+      "genres": [
+        18,
+        53,
+        80
+      ],
+      "genreNames": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "language": "en",
+      "countries": [
+        "US"
+      ],
+      "rating": 8.105,
+      "votes": 13778,
+      "popularity": 14.1672,
+      "adult": false,
+      "runtime": 153,
+      "keywords": [
+        "pennsylvania, usa",
+        "kidnapping",
+        "detective",
+        "symbolism",
+        "investigation",
+        "father",
+        "vigilante",
+        "psychological thriller",
+        "brutality",
+        "neo-noir",
+        "search for child",
+        "child abduction",
+        "rural town",
+        "suspense mystery"
+      ],
+      "certification": {
+        "country": "US",
+        "rating": "R"
+      },
+      "enriched": true,
+      "status": "Released"
+    },
+    {
+      "id": 22504,
+      "key": "movie:22504",
+      "type": "movie",
+      "title": "The King and the Mockingbird",
+      "originalTitle": "Le Roi et l'Oiseau",
+      "overview": "A young shepherdess and a chimneysweep plan to get married and escape the clutches of a tyrannical king in love with her, assisted by the guile of a cheeky mockingbird, the king's archenemy.",
+      "poster": "/yDbfVUrb9b0Dkm1TptWtzkujXBk.jpg",
+      "backdrop": "/pSL75Sg1APD4OHpQs4VyFb8pIFv.jpg",
+      "date": "1980-03-19",
+      "year": 1980,
+      "genres": [
+        16,
+        10751,
+        14
+      ],
+      "genreNames": [
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "language": "fr",
+      "countries": [
+        "FR"
+      ],
+      "rating": 7.763,
+      "votes": 431,
+      "popularity": 1.8213,
+      "adult": false,
+      "runtime": 83,
+      "keywords": [
+        "magic",
+        "fairy tale",
+        "royalty",
+        "impossible love",
+        "visual poetry"
+      ],
+      "enriched": true,
+      "status": "Released"
+    }
+  ],
+  "additionalCapturedAt": "2026-11-17T18:38:46.551Z"
+}

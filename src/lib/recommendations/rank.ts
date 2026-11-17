@@ -90,6 +90,7 @@ const TERM_STRENGTH: Record<string, number> = {
   romance: 0.6,
   love: 0.2,
   'coming of age': 0.5,
+  childhood: 0.45,
   loneliness: 0.8,
   lonely: 0.7,
   solitude: 0.6,
@@ -98,6 +99,39 @@ const TERM_STRENGTH: Record<string, number> = {
   memory: 0.7,
   memories: 0.65,
 };
+// Relevance gates run before preference and diversity boosts. These are evidence
+// heuristics, not probabilities of enjoyment or claims about a title's effect.
+export function hasMoodEvidence(m: Recommendation, i: Interpretation) {
+  if (!i.signals.length) return true;
+  if (m.coverage < 0.45 || !m.evidence.some((e) => e.strength >= 0.6)) return false;
+  const essential = i.signals.filter(
+    (s) =>
+      ['tokyo', 'summer', 'mindbend', 'comfort', 'reinvention'].includes(s.key) ||
+      s.dimension === 'experience' ||
+      (s.key === 'visual' && /cinematograph|visual|aesthetic/i.test(i.prompt)),
+  );
+  if (!essential.every((s) => m.evidence.some((e) => e.signal === s.label && e.strength >= 0.6)))
+    return false;
+  if (i.signals.some((s) => s.key === 'comfort') && contradictsComfort(m)) return false;
+  return true;
+}
+function contradictsComfort(m: Media) {
+  const distress = [
+    'murder',
+    'terror',
+    'torture',
+    'serial killer',
+    'brutal',
+    'grief',
+    'tragedy',
+    'gore',
+    'cruelty',
+  ];
+  return (
+    m.genres.some((g) => [27, 53, 10752, 10768, 80].includes(g)) ||
+    distress.some((t) => textContains(m.overview, t) || m.keywords.some((k) => textContains(k, t)))
+  );
+}
 export function evidenceFor(m: Media, i: Interpretation): Evidence[] {
   return i.signals.flatMap((signal) => {
     const matches = signal.evidence
@@ -145,6 +179,13 @@ export function score(m: Media, i: Interpretation, p?: Preferences): Recommendat
     );
   }, 0);
   let coverage = available ? earned / available : 0;
+  if (
+    i.signals.some((s) => s.key === 'nostalgia') &&
+    i.signals.some((s) => s.key === 'summer') &&
+    !i.constraints.genres.some((g) => [28, 27, 53, 80, 10759].includes(g)) &&
+    m.genres.some((g) => [28, 27, 53, 80, 10759].includes(g))
+  )
+    coverage *= 0.65;
   const wantsComfort = i.signals.some((s) => s.key === 'comfort');
   if (wantsComfort) {
     const tense = m.genres.some((g) => [27, 53, 10752, 80].includes(g));
@@ -205,14 +246,17 @@ export function score(m: Media, i: Interpretation, p?: Preferences): Recommendat
     .slice(0, 3)
     .map((e) => `${e.signal.toLowerCase()} → “${e.term}” in the ${e.source}`)
     .join('; ');
+  const unsupported = i.signals.filter(
+    (s) => !evidence.some((e) => e.signal === s.label && e.strength >= 0.5),
+  );
   const explanation = description
-    ? `Evidence for your mood: ${description}.${coverage < 0.5 ? ' Only part of your request is supported.' : ''}`
+    ? `Evidence for your mood: ${description}.${unsupported.length ? ` Not evidenced: ${unsupported.map((s) => s.label.toLowerCase()).join(', ')}. This is a partial match.` : coverage < 0.5 ? ' Only part of your request is supported.' : ''}`
     : 'Catalogue constraints match, but there is not enough mood evidence to call this a strong recommendation.';
   return {
     ...m,
     score: n,
     match:
-      coverage >= 0.7
+      coverage >= 0.7 && !unsupported.length
         ? 'Strong resonance'
         : coverage >= 0.35
           ? 'Promising connection'
@@ -237,7 +281,7 @@ export function rank(
       return true;
     })
     .map((m) => score(m, i, p))
-    .filter((m) => !i.signals.length || m.coverage >= 0.25)
+    .filter((m) => hasMoodEvidence(m, i))
     .sort((a, b) => b.score - a.score || b.votes - a.votes || a.key.localeCompare(b.key));
   const selected: Recommendation[] = [];
   while (pool.length && selected.length < limit) {

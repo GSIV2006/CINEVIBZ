@@ -164,6 +164,8 @@ export function interpret(prompt: string, overrides: Partial<Constraints> = {}):
   };
   if (c.yearFrom && overrides.yearFrom) merged.yearFrom = Math.max(c.yearFrom, overrides.yearFrom);
   if (c.yearTo && overrides.yearTo) merged.yearTo = Math.min(c.yearTo, overrides.yearTo);
+  if (c.runtimeMax && overrides.runtimeMax)
+    merged.runtimeMax = Math.min(c.runtimeMax, overrides.runtimeMax);
   if (merged.anime) {
     merged.animation = true;
     merged.genres = [...new Set([...merged.genres, 16])];

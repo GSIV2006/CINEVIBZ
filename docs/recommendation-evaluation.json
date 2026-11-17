@@ -7,7 +7,7 @@
   "metrics": {
     "constraintViolations": 0,
     "duplicateResults": 0,
-    "goldExampleHitAt5": "8/14"
+    "goldExampleHitAt5": "5/14"
   },
   "rows": [
     {
@@ -19,80 +19,14 @@
         "My Neighbor Totoro",
         "Cinema Paradiso"
       ],
-      "returned": 6,
-      "top5": [
-        {
-          "title": "Cinema Paradiso",
-          "score": 88,
-          "evidence": [
-            {
-              "signal": "Nostalgic",
-              "dimension": "emotion",
-              "term": "nostalgic",
-              "source": "keyword",
-              "strength": 1
-            }
-          ]
-        },
-        {
-          "title": "Amélie",
-          "score": 87,
-          "evidence": [
-            {
-              "signal": "Nostalgic",
-              "dimension": "emotion",
-              "term": "nostalgic",
-              "source": "keyword",
-              "strength": 1
-            }
-          ]
-        },
-        {
-          "title": "Aftersun",
-          "score": 87,
-          "evidence": [
-            {
-              "signal": "Nostalgic",
-              "dimension": "emotion",
-              "term": "reminiscing",
-              "source": "keyword",
-              "strength": 1
-            }
-          ]
-        },
-        {
-          "title": "My Neighbor Totoro",
-          "score": 79,
-          "evidence": [
-            {
-              "signal": "Nostalgic",
-              "dimension": "emotion",
-              "term": "nostalgic",
-              "source": "keyword",
-              "strength": 0.9
-            }
-          ]
-        },
-        {
-          "title": "Hunter x Hunter",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Nostalgic",
-              "dimension": "emotion",
-              "term": "coming of age",
-              "source": "keyword",
-              "strength": 0.5
-            }
-          ]
-        }
-      ],
+      "returned": 0,
+      "top5": [],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 6,
-      "languageDiversity": 4,
-      "genreDiversity": 8,
-      "goldExampleHit": true
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": false
     },
     {
       "prompt": "A movie that feels like a fever dream",
@@ -102,7 +36,7 @@
       "exampleTitles": [
         "Paprika"
       ],
-      "returned": 5,
+      "returned": 4,
       "top5": [
         {
           "title": "Inception",
@@ -155,24 +89,11 @@
               "strength": 0.9
             }
           ]
-        },
-        {
-          "title": "Your Name.",
-          "score": 32,
-          "evidence": [
-            {
-              "signal": "Surreal",
-              "dimension": "atmosphere",
-              "term": "dreams",
-              "source": "keyword",
-              "strength": 0.35
-            }
-          ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 5,
+      "metadataComplete": 4,
       "languageDiversity": 2,
       "genreDiversity": 9,
       "goldExampleHit": true
@@ -269,7 +190,7 @@
         "Grave of the Fireflies",
         "Aftersun"
       ],
-      "returned": 10,
+      "returned": 6,
       "top5": [
         {
           "title": "Arrival",
@@ -318,22 +239,15 @@
           ]
         },
         {
-          "title": "Hunter x Hunter",
-          "score": 42,
+          "title": "WALL·E",
+          "score": 43,
           "evidence": [
             {
               "signal": "Melancholic",
               "dimension": "emotion",
-              "term": "tragedy",
+              "term": "loneliness",
               "source": "keyword",
-              "strength": 0.5
-            },
-            {
-              "signal": "Love & loss",
-              "dimension": "theme",
-              "term": "tragedy",
-              "source": "keyword",
-              "strength": 0.54
+              "strength": 0.8
             }
           ]
         },
@@ -353,9 +267,9 @@
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 10,
-      "languageDiversity": 3,
-      "genreDiversity": 10,
+      "metadataComplete": 6,
+      "languageDiversity": 2,
+      "genreDiversity": 7,
       "goldExampleHit": false
     },
     {
@@ -367,27 +281,13 @@
       "exampleTitles": [
         "Kiki’s Delivery Service"
       ],
-      "returned": 1,
-      "top5": [
-        {
-          "title": "Hunter x Hunter",
-          "score": 50,
-          "evidence": [
-            {
-              "signal": "Hopeful",
-              "dimension": "emotion",
-              "term": "hopeful",
-              "source": "keyword",
-              "strength": 0.9
-            }
-          ]
-        }
-      ],
+      "returned": 0,
+      "top5": [],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 1,
-      "languageDiversity": 1,
-      "genreDiversity": 3,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
       "goldExampleHit": false
     },
     {
@@ -399,41 +299,14 @@
       "exampleTitles": [
         "Perfect Days"
       ],
-      "returned": 2,
-      "top5": [
-        {
-          "title": "WALL·E",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Meditative",
-              "dimension": "pacing",
-              "term": "reflective",
-              "source": "keyword",
-              "strength": 1
-            }
-          ]
-        },
-        {
-          "title": "Perfect Days",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Meditative",
-              "dimension": "pacing",
-              "term": "slice of life",
-              "source": "keyword",
-              "strength": 1
-            }
-          ]
-        }
-      ],
+      "returned": 0,
+      "top5": [],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 2,
-      "languageDiversity": 2,
-      "genreDiversity": 4,
-      "goldExampleHit": true
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": false
     },
     {
       "prompt": "Mysterious unsettling psychologically complex",
@@ -444,73 +317,13 @@
       "exampleTitles": [
         "Paprika"
       ],
-      "returned": 4,
-      "top5": [
-        {
-          "title": "The Truman Show",
-          "score": 78,
-          "evidence": [
-            {
-              "signal": "Unsettling",
-              "dimension": "emotion",
-              "term": "paranoia",
-              "source": "keyword",
-              "strength": 1
-            },
-            {
-              "signal": "Mysterious",
-              "dimension": "experience",
-              "term": "reality",
-              "source": "keyword",
-              "strength": 0.25
-            }
-          ]
-        },
-        {
-          "title": "WALL·E",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Unsettling",
-              "dimension": "emotion",
-              "term": "psychological",
-              "source": "keyword",
-              "strength": 0.9
-            }
-          ]
-        },
-        {
-          "title": "Parasite",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Unsettling",
-              "dimension": "emotion",
-              "term": "psychological",
-              "source": "keyword",
-              "strength": 0.9
-            }
-          ]
-        },
-        {
-          "title": "Eternal Sunshine of the Spotless Mind",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Unsettling",
-              "dimension": "emotion",
-              "term": "psychological",
-              "source": "keyword",
-              "strength": 0.9
-            }
-          ]
-        }
-      ],
+      "returned": 0,
+      "top5": [],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 4,
-      "languageDiversity": 2,
-      "genreDiversity": 7,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
       "goldExampleHit": false
     },
     {
@@ -521,7 +334,7 @@
       "exampleTitles": [
         "Paddington 2"
       ],
-      "returned": 5,
+      "returned": 4,
       "top5": [
         {
           "title": "Amélie",
@@ -574,24 +387,11 @@
               "strength": 0.675
             }
           ]
-        },
-        {
-          "title": "Lost in Translation",
-          "score": 28,
-          "evidence": [
-            {
-              "signal": "Comforting",
-              "dimension": "emotion",
-              "term": "friendship",
-              "source": "keyword",
-              "strength": 0.3
-            }
-          ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 5,
+      "metadataComplete": 4,
       "languageDiversity": 3,
       "genreDiversity": 7,
       "goldExampleHit": true
@@ -604,7 +404,7 @@
       "exampleTitles": [
         "The Truman Show"
       ],
-      "returned": 6,
+      "returned": 4,
       "top5": [
         {
           "title": "Inception",
@@ -657,26 +457,13 @@
               "strength": 0.9
             }
           ]
-        },
-        {
-          "title": "Your Name.",
-          "score": 32,
-          "evidence": [
-            {
-              "signal": "Surreal",
-              "dimension": "atmosphere",
-              "term": "dreams",
-              "source": "keyword",
-              "strength": 0.35
-            }
-          ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 6,
+      "metadataComplete": 4,
       "languageDiversity": 2,
-      "genreDiversity": 11,
+      "genreDiversity": 9,
       "goldExampleHit": false
     },
     {
@@ -785,27 +572,13 @@
         "surreal"
       ],
       "exampleTitles": [],
-      "returned": 1,
-      "top5": [
-        {
-          "title": "Hunter x Hunter",
-          "score": 25,
-          "evidence": [
-            {
-              "signal": "Surreal",
-              "dimension": "atmosphere",
-              "term": "dreams",
-              "source": "synopsis",
-              "strength": 0.26249999999999996
-            }
-          ]
-        }
-      ],
+      "returned": 0,
+      "top5": [],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 1,
-      "languageDiversity": 1,
-      "genreDiversity": 3,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
       "goldExampleHit": null
     },
     {
@@ -930,7 +703,7 @@
         "melancholy"
       ],
       "exampleTitles": [],
-      "returned": 3,
+      "returned": 2,
       "top5": [
         {
           "title": "A Separation",
@@ -957,26 +730,13 @@
               "strength": 0.6
             }
           ]
-        },
-        {
-          "title": "Your Name.",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Melancholic",
-              "dimension": "emotion",
-              "term": "tragedy",
-              "source": "keyword",
-              "strength": 0.5
-            }
-          ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 3,
+      "metadataComplete": 2,
       "languageDiversity": 2,
-      "genreDiversity": 3,
+      "genreDiversity": 1,
       "goldExampleHit": null
     },
     {
@@ -1189,7 +949,7 @@
         "surreal"
       ],
       "exampleTitles": [],
-      "returned": 6,
+      "returned": 4,
       "top5": [
         {
           "title": "Inception",
@@ -1242,26 +1002,13 @@
               "strength": 0.9
             }
           ]
-        },
-        {
-          "title": "Your Name.",
-          "score": 32,
-          "evidence": [
-            {
-              "signal": "Surreal",
-              "dimension": "atmosphere",
-              "term": "dreams",
-              "source": "keyword",
-              "strength": 0.35
-            }
-          ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 6,
+      "metadataComplete": 4,
       "languageDiversity": 2,
-      "genreDiversity": 11,
+      "genreDiversity": 9,
       "goldExampleHit": null
     },
     {
@@ -1271,7 +1018,7 @@
         "loss"
       ],
       "exampleTitles": [],
-      "returned": 7,
+      "returned": 4,
       "top5": [
         {
           "title": "Arrival",
@@ -1294,22 +1041,15 @@
           ]
         },
         {
-          "title": "Hunter x Hunter",
+          "title": "WALL·E",
           "score": 45,
           "evidence": [
             {
               "signal": "Melancholic",
               "dimension": "emotion",
-              "term": "tragedy",
+              "term": "loneliness",
               "source": "keyword",
-              "strength": 0.5
-            },
-            {
-              "signal": "Love & loss",
-              "dimension": "theme",
-              "term": "tragedy",
-              "source": "keyword",
-              "strength": 0.54
+              "strength": 0.8
             }
           ]
         },
@@ -1327,44 +1067,24 @@
           ]
         },
         {
-          "title": "WALL·E",
+          "title": "Aftersun",
           "score": 45,
           "evidence": [
             {
               "signal": "Melancholic",
               "dimension": "emotion",
-              "term": "loneliness",
+              "term": "bittersweet",
               "source": "keyword",
-              "strength": 0.8
-            }
-          ]
-        },
-        {
-          "title": "Breaking Bad",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Melancholic",
-              "dimension": "emotion",
-              "term": "tragedy",
-              "source": "keyword",
-              "strength": 0.5
-            },
-            {
-              "signal": "Love & loss",
-              "dimension": "theme",
-              "term": "tragedy",
-              "source": "keyword",
-              "strength": 0.5
+              "strength": 1
             }
           ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 7,
-      "languageDiversity": 3,
-      "genreDiversity": 8,
+      "metadataComplete": 4,
+      "languageDiversity": 2,
+      "genreDiversity": 5,
       "goldExampleHit": null
     },
     {
@@ -1378,7 +1098,7 @@
         "Interstellar",
         "Arrival"
       ],
-      "returned": 4,
+      "returned": 1,
       "top5": [
         {
           "title": "Perfect Days",
@@ -1399,67 +1119,14 @@
               "strength": 0.9
             }
           ]
-        },
-        {
-          "title": "The Truman Show",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Existential",
-              "dimension": "theme",
-              "term": "philosophical",
-              "source": "keyword",
-              "strength": 1
-            }
-          ]
-        },
-        {
-          "title": "Interstellar",
-          "score": 37,
-          "evidence": [
-            {
-              "signal": "Adventurous",
-              "dimension": "experience",
-              "term": "adventure",
-              "source": "keyword",
-              "strength": 1
-            },
-            {
-              "signal": "Outer space",
-              "dimension": "setting",
-              "term": "astronaut",
-              "source": "keyword",
-              "strength": 1
-            }
-          ]
-        },
-        {
-          "title": "Hunter x Hunter",
-          "score": 31,
-          "evidence": [
-            {
-              "signal": "Existential",
-              "dimension": "theme",
-              "term": "reality",
-              "source": "keyword",
-              "strength": 0.25
-            },
-            {
-              "signal": "Adventurous",
-              "dimension": "experience",
-              "term": "adventure",
-              "source": "keyword",
-              "strength": 0.9
-            }
-          ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 4,
-      "languageDiversity": 2,
-      "genreDiversity": 7,
-      "goldExampleHit": true
+      "metadataComplete": 1,
+      "languageDiversity": 1,
+      "genreDiversity": 1,
+      "goldExampleHit": false
     },
     {
       "prompt": "An introspective film about identity",
@@ -1468,7 +1135,7 @@
         "identity"
       ],
       "exampleTitles": [],
-      "returned": 3,
+      "returned": 2,
       "top5": [
         {
           "title": "Perfect Days",
@@ -1502,26 +1169,13 @@
               "strength": 1
             }
           ]
-        },
-        {
-          "title": "WALL·E",
-          "score": 24,
-          "evidence": [
-            {
-              "signal": "Meditative",
-              "dimension": "pacing",
-              "term": "reflective",
-              "source": "keyword",
-              "strength": 1
-            }
-          ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 3,
+      "metadataComplete": 2,
       "languageDiversity": 2,
-      "genreDiversity": 5,
+      "genreDiversity": 2,
       "goldExampleHit": null
     },
     {
@@ -1612,7 +1266,7 @@
         "whimsy"
       ],
       "exampleTitles": [],
-      "returned": 9,
+      "returned": 3,
       "top5": [
         {
           "title": "Cinema Paradiso",
@@ -1652,39 +1306,13 @@
               "strength": 1
             }
           ]
-        },
-        {
-          "title": "Arcane",
-          "score": 50,
-          "evidence": [
-            {
-              "signal": "Whimsical",
-              "dimension": "atmosphere",
-              "term": "magic",
-              "source": "keyword",
-              "strength": 0.56
-            }
-          ]
-        },
-        {
-          "title": "Spirited Away",
-          "score": 45,
-          "evidence": [
-            {
-              "signal": "Whimsical",
-              "dimension": "atmosphere",
-              "term": "magic",
-              "source": "keyword",
-              "strength": 0.5
-            }
-          ]
         }
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 9,
-      "languageDiversity": 4,
-      "genreDiversity": 8,
+      "metadataComplete": 3,
+      "languageDiversity": 3,
+      "genreDiversity": 6,
       "goldExampleHit": null
     },
     {
@@ -1772,7 +1400,7 @@
         "melancholy"
       ],
       "exampleTitles": [],
-      "returned": 12,
+      "returned": 9,
       "top5": [
         {
           "title": "Arrival",
@@ -1870,9 +1498,9 @@
       ],
       "constraintViolations": 0,
       "duplicates": 0,
-      "metadataComplete": 12,
+      "metadataComplete": 9,
       "languageDiversity": 4,
-      "genreDiversity": 12,
+      "genreDiversity": 11,
       "goldExampleHit": null
     },
     {

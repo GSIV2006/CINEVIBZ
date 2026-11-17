@@ -1,8 +1,7 @@
 import { NextResponse } from 'next/server';
 import { interpret } from '@/lib/recommendations/interpret';
 import { recommend } from '@/lib/recommendations/retrieve';
-import { searchCatalogue, findPeople, isPersonMatch } from '@/lib/catalogue';
-import { onlyCatalogueConstraints } from '@/lib/catalogue-intent';
+import { searchCatalogue } from '@/lib/catalogue';
 import { failure, preferences, filters } from '@/lib/api';
 export const maxDuration = 60;
 export async function POST(req: Request) {
@@ -38,11 +37,8 @@ export async function POST(req: Request) {
         { status: 422 },
       );
     // Resolve countries, titles and real people before considering an emotional ranking.
-    const browse = onlyCatalogueConstraints(body.prompt, i.constraints);
-    const people = browse || i.signals.length ? [] : await findPeople(body.prompt);
-    const person = people.find((x) => isPersonMatch(x, body.prompt));
-    if (person || !i.signals.length) {
-      const catalogue = await searchCatalogue(body.prompt, f, 1, person?.id);
+    if (!i.signals.length) {
+      const catalogue = await searchCatalogue(body.prompt, f);
       return NextResponse.json({
         results: [],
         catalogue,

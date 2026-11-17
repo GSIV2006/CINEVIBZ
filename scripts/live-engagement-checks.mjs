@@ -26,18 +26,32 @@ async function test(name, fn) {
   }
 }
 let home;
-await test('Five daily lanes contain real records with editorial explanations and no weekly overlap', async () => {
+await test('Daily lanes return up to five evidence-supported records without weekly overlap or filler', async () => {
   const r = await req('/api/home', { preferences: { allowMature: false } });
   assert.equal(r.status, 200);
   home = r.data;
-  assert.equal(home.daily.length, 5);
-  assert(home.daily.some((m) => m.type === 'movie'));
-  assert(home.daily.some((m) => m.type === 'tv'));
-  assert(home.daily.some((m) => m.genres.includes(99)));
-  assert(home.daily.some((m) => m.language === 'ja' && m.genres.includes(16)));
+  assert(home.daily.length > 0 && home.daily.length <= 5);
+  assert(new Set(home.daily.map((m) => m.key)).size === home.daily.length);
   assert(
-    home.daily.some((m) => m.genres.includes(16) && m.language !== 'ja') ||
-      home.daily.filter((m) => m.genres.includes(16)).length >= 2,
+    [...home.daily, ...home.weekly].every(
+      (m) => m.editorial.coverage >= 0.45 && m.editorial.evidence.some((e) => e.strength >= 0.6),
+    ),
+  );
+  assert(
+    [...home.daily, ...home.weekly].every((m) =>
+      m.editorial.evidence.every((e) => {
+        const normalize = (s) =>
+          ' ' +
+          s
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, ' ')
+            .trim() +
+          ' ';
+        return (e.source === 'keyword' ? m.keywords : [m.overview]).some((text) =>
+          normalize(text).includes(normalize(e.term)),
+        );
+      }),
+    ),
   );
   assert(home.daily.every((m) => m.editorial?.why && m.editorial?.hook && m.poster));
   assert(home.daily.every((m) => !home.weekly.some((w) => w.key === m.key)));
@@ -46,7 +60,7 @@ await test('Five daily lanes contain real records with editorial explanations an
     weekly: home.weekly.map((m) => ({ title: m.title, key: m.key, language: m.language })),
   };
 });
-await test('Weekly theme constrains its records, with varied originals and formats', async () => {
+await test('Weekly records respect theme criteria without enforcing a filler quota', async () => {
   const genres = {
     'Films that stay with you': [18],
     'The art of feeling': [18, 10749],
@@ -58,8 +72,8 @@ await test('Weekly theme constrains its records, with varied originals and forma
     assert(home.weekly.every((m) => m.language !== 'en'));
   if (home.weeklyTheme === 'Beyond the mainstream')
     assert(home.weekly.every((m) => m.votes >= 50 && m.votes <= 1500));
-  assert(new Set(home.weekly.map((m) => m.language)).size >= 3);
-  assert(new Set(home.weekly.map((m) => m.type)).size === 2);
+  assert(home.weekly.length > 0 && home.weekly.length <= 5);
+  assert(new Set(home.weekly.map((m) => m.key)).size === home.weekly.length);
   return {};
 });
 await test('Previously shown daily titles are avoided when alternate records exist', async () => {
@@ -131,14 +145,17 @@ await test('An empty draw does not substitute an unrelated title', async () => {
   assert.match(r.data.error, /Broaden/);
   return {};
 });
-await test('Daily challenge reaches the recommendation engine with supported evidence', async () => {
+await test('Daily challenge returns evidence-supported picks or an honest empty result', async () => {
   const r = await req('/api/recommend', {
     prompt: 'Dark, mysterious, neon-lit thrillers about identity.',
     preferences: { allowMature: false },
   });
   assert.equal(r.status, 200);
-  assert(r.data.results.length > 0);
-  assert(r.data.results.every((m) => m.evidence.length > 0));
+  assert(Array.isArray(r.data.results) && r.data.results.length <= 5);
+  assert(r.data.candidateCount > 0);
+  assert(
+    r.data.results.every((m) => m.coverage >= 0.45 && m.evidence.some((e) => e.strength >= 0.6)),
+  );
   return { titles: r.data.results.slice(0, 4).map((m) => m.title) };
 });
 await fs.writeFile(

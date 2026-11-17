@@ -1,0 +1,5462 @@
+{
+  "scope": "Baseline production responses and final local responses. Counts and metadata support are mechanical evidence, not human relevance ratings. Post-deploy smoke verification is reported separately.",
+  "checks": {
+    "baselineTests": 120,
+    "finalTests": 141,
+    "testFiles": 8,
+    "baselineRegressionsReproduced": 18,
+    "typecheck": "passed",
+    "build": "passed",
+    "format": "passed",
+    "catalogueLiveChecks": "15/15",
+    "engagementLiveChecks": "9/9"
+  },
+  "responsive": {
+    "homeWidths": [
+      320,
+      390,
+      430,
+      768,
+      1440
+    ],
+    "horizontalOverflow": false,
+    "unnamedHomepageButtons": 0,
+    "quizAnswerHeightAt320": 47.796875
+  },
+  "changedFiles": [
+    "docs/PRODUCTION_AUDIT.md",
+    "docs/catalogue-regressions-live.json",
+    "docs/engagement-live-checks.json",
+    "docs/production-audit-results.json",
+    "docs/recommendation-evaluation.json",
+    "scripts/live-engagement-checks.mjs",
+    "scripts/production-audit.mjs",
+    "src/app/api/recommend/route.ts",
+    "src/components/discover.tsx",
+    "src/components/store.tsx",
+    "src/lib/catalogue.ts",
+    "src/lib/home.ts",
+    "src/lib/recommendations/interpret.ts",
+    "src/lib/recommendations/rank.ts",
+    "src/lib/recommendations/retrieve.ts",
+    "src/lib/recommendations/taxonomy.ts",
+    "src/lib/types.ts",
+    "tests/catalogue-regressions.test.ts",
+    "tests/engagement.test.ts",
+    "tests/fixtures/production-audit.json",
+    "tests/production-quality.test.ts"
+  ],
+  "before": {
+    "base": "https://cinevibz.vercel.app",
+    "checkedAt": "2026-11-17T18:26:11.058Z",
+    "responses": [
+      {
+        "kind": "home",
+        "query": "general",
+        "status": 200,
+        "ms": 1746,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "movie:426",
+            "title": "Vertigo",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "editorial": {
+              "period": "daily",
+              "theme": "The midnight pick",
+              "hook": "Vertigo: English mystery, seen from a different angle.",
+              "why": "Selected for \u201cThe midnight pick\u201d from Mystery / Romance film records. The theme match is based on genre and format; a specific emotional effect is not guaranteed. A different language, genre or format helps keep the edition varied. Recent daily selections were skipped where the catalogue allowed."
+            }
+          },
+          {
+            "key": "tv:19885",
+            "title": "Sherlock",
+            "language": "en",
+            "countries": [
+              "GB"
+            ],
+            "editorial": {
+              "period": "daily",
+              "theme": "The midnight pick",
+              "hook": "Sherlock: English crime, seen from a different angle.",
+              "why": "Selected for \u201cThe midnight pick\u201d from Crime / Drama series records. The keyword explicitly includes \u201cmystery\u201d, supporting the mysterious thread. A different language, genre or format helps keep the edition varied. Recent daily selections were skipped where the catalogue allowed."
+            }
+          },
+          {
+            "key": "movie:129",
+            "title": "Spirited Away",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "editorial": {
+              "period": "daily",
+              "theme": "The comfort watch",
+              "hook": "Spirited Away: Japanese animation, seen from a different angle.",
+              "why": "Selected for \u201cThe comfort watch\u201d from Animation / Family film records. The synopsis explicitly includes \u201cfamily\u201d, supporting the comforting thread. A different language, genre or format helps keep the edition varied. Recent daily selections were skipped where the catalogue allowed."
+            }
+          },
+          {
+            "key": "tv:299555",
+            "title": "Chainsaw Man - The Compilation",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "editorial": {
+              "period": "daily",
+              "theme": "The mind-bender",
+              "hook": "Chainsaw Man - The Compilation: Japanese animation, seen from a different angle.",
+              "why": "Selected for \u201cThe mind-bender\u201d from Animation / Action & Adventure series records. The keyword explicitly includes \u201cabsurd\u201d, supporting the surreal thread. A different language, genre or format helps keep the edition varied. Recent daily selections were skipped where the catalogue allowed."
+            }
+          },
+          {
+            "key": "tv:68595",
+            "title": "Planet Earth II",
+            "language": "en",
+            "countries": [
+              "GB"
+            ],
+            "editorial": {
+              "period": "daily",
+              "theme": "Something unexpected",
+              "hook": "Planet Earth II: English documentary, seen from a different angle.",
+              "why": "Selected for \u201cSomething unexpected\u201d from Documentary / Family series records. The theme match is based on genre and format; a specific emotional effect is not guaranteed. A different language, genre or format helps keep the edition varied. Recent daily selections were skipped where the catalogue allowed."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "A movie that feels like walking through Tokyo at 2 AM.",
+        "status": 200,
+        "ms": 3592,
+        "signals": [
+          "nocturnal",
+          "tokyo",
+          "city",
+          "melancholy",
+          "meditative"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "movie:153",
+            "title": "Lost in Translation",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.575,
+            "explanation": "Evidence for your mood: tokyo \u2192 \u201ctokyo\u201d in the keyword; urban \u2192 \u201ctokyo\u201d in the keyword; melancholic \u2192 \u201cwistful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Tokyo",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Urban",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "wistful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:101664",
+            "title": "Love Strikes!",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.525,
+            "explanation": "Evidence for your mood: tokyo \u2192 \u201ctokyo\u201d in the keyword; urban \u2192 \u201ctokyo\u201d in the keyword; melancholic \u2192 \u201cbittersweet\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Tokyo",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Urban",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "bittersweet",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:976893",
+            "title": "Perfect Days",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.4583333333333333,
+            "explanation": "Evidence for your mood: tokyo \u2192 \u201ctokyo\u201d in the keyword; urban \u2192 \u201ctokyo\u201d in the keyword; melancholic \u2192 \u201csolitude\u201d in the keyword. Only part of your request is supported.",
+            "evidence": [
+              {
+                "signal": "Tokyo",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Urban",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "solitude",
+                "source": "keyword",
+                "strength": 0.6
+              },
+              {
+                "signal": "Meditative",
+                "dimension": "pacing",
+                "term": "slice of life",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:568160",
+            "title": "Weathering with You",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.3841666666666666,
+            "explanation": "Evidence for your mood: tokyo \u2192 \u201ctokyo\u201d in the keyword; urban \u2192 \u201ctokyo\u201d in the keyword; melancholic \u2192 \u201csolitude\u201d in the synopsis. Only part of your request is supported.",
+            "evidence": [
+              {
+                "signal": "Tokyo",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Urban",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9400000000000001
+              },
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "solitude",
+                "source": "synopsis",
+                "strength": 0.44999999999999996
+              },
+              {
+                "signal": "Meditative",
+                "dimension": "pacing",
+                "term": "slice of life",
+                "source": "keyword",
+                "strength": 0.99
+              }
+            ]
+          },
+          {
+            "key": "movie:8938",
+            "title": "Tokyo!",
+            "language": "ja",
+            "countries": [
+              "KR",
+              "FR",
+              "DE",
+              "JP"
+            ],
+            "coverage": 0.3391666666666666,
+            "explanation": "Evidence for your mood: tokyo \u2192 \u201ctokyo\u201d in the keyword; urban \u2192 \u201ctokyo\u201d in the keyword; melancholic \u2192 \u201csolitude\u201d in the synopsis. Only part of your request is supported.",
+            "evidence": [
+              {
+                "signal": "Tokyo",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Urban",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9400000000000001
+              },
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "solitude",
+                "source": "synopsis",
+                "strength": 0.44999999999999996
+              },
+              {
+                "signal": "Meditative",
+                "dimension": "pacing",
+                "term": "solitude",
+                "source": "synopsis",
+                "strength": 0.44999999999999996
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something beautiful but emotionally devastating.",
+        "status": 200,
+        "ms": 3207,
+        "signals": [
+          "melancholy",
+          "loss",
+          "visual"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 12,
+        "top5": [
+          {
+            "key": "tv:67070",
+            "title": "Fleabag",
+            "language": "en",
+            "countries": [
+              "GB"
+            ],
+            "coverage": 0.7758000000000002,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cloneliness\u201d in the keyword; love & loss \u2192 \u201cgrief\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "loneliness",
+                "source": "keyword",
+                "strength": 0.9400000000000001
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "grief",
+                "source": "keyword",
+                "strength": 0.7060000000000001
+              }
+            ]
+          },
+          {
+            "key": "tv:67915",
+            "title": "Guardian: The Lonely and Great God",
+            "language": "ko",
+            "countries": [
+              "KR"
+            ],
+            "coverage": 0.762,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cheartbreak\u201d in the keyword; love & loss \u2192 \u201ctragedy\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "heartbreak",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "tragedy",
+                "source": "keyword",
+                "strength": 0.54
+              }
+            ]
+          },
+          {
+            "key": "movie:7980",
+            "title": "The Lovely Bones",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.7615500000000001,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cmelancholy\u201d in the keyword; love & loss \u2192 \u201cgrief\u201d in the synopsis.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "melancholy",
+                "source": "keyword",
+                "strength": 0.9975
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "grief",
+                "source": "synopsis",
+                "strength": 0.5435000000000001
+              }
+            ]
+          },
+          {
+            "key": "tv:75214",
+            "title": "Violet Evergarden",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.75,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cmelancholy\u201d in the keyword; love & loss \u2192 \u201ctragedy\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "melancholy",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "tragedy",
+                "source": "keyword",
+                "strength": 0.5
+              }
+            ]
+          },
+          {
+            "key": "movie:1218925",
+            "title": "Chainsaw Man - The Movie: Reze Arc",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.69,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cloneliness\u201d in the keyword; love & loss \u2192 \u201ctragedy\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "loneliness",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "tragedy",
+                "source": "keyword",
+                "strength": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "An anime that makes me want to change my life.",
+        "status": 200,
+        "ms": 3505,
+        "signals": [
+          "hope",
+          "reinvention"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 12,
+        "top5": [
+          {
+            "key": "tv:75214",
+            "title": "Violet Evergarden",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword; reinvention \u2192 \u201cself-discovery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "self-discovery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:34166",
+            "title": "Kino's Journey",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.65,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201cinspirational\u201d in the keyword; reinvention \u2192 \u201cjourney\u201d in the synopsis.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "inspirational",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "journey",
+                "source": "synopsis",
+                "strength": 0.15000000000000002
+              }
+            ]
+          },
+          {
+            "key": "movie:15370",
+            "title": "The Cat Returns",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201cself-discovery\u201d in the keyword; reinvention \u2192 \u201cself-discovery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "self-discovery",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "self-discovery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:94664",
+            "title": "Mushoku Tensei: Jobless Reincarnation",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201csecond chance\u201d in the keyword; reinvention \u2192 \u201csecond chance\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "second chance",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "second chance",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:25078",
+            "title": "Cat Soup",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201cinspirational\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "inspirational",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something like childhood summer holidays.",
+        "status": 200,
+        "ms": 2193,
+        "signals": [
+          "nostalgia"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 12,
+        "top5": [
+          {
+            "key": "movie:11216",
+            "title": "Cinema Paradiso",
+            "language": "it",
+            "countries": [
+              "IT"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgic\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:194",
+            "title": "Am\u00e9lie",
+            "language": "fr",
+            "countries": [
+              "FR"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgic\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:59436",
+            "title": "Midnight in Paris",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgic\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:64010",
+            "title": "Reply 1988",
+            "language": "ko",
+            "countries": [
+              "KR"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgia\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgia",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:1232449",
+            "title": "Young Hearts",
+            "language": "nl",
+            "countries": [
+              "BE",
+              "NL"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgic\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "A film that feels like a fever dream.",
+        "status": 200,
+        "ms": 1108,
+        "signals": [
+          "surreal"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 12,
+        "top5": [
+          {
+            "key": "movie:27205",
+            "title": "Inception",
+            "language": "en",
+            "countries": [
+              "US",
+              "GB"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201cdream world\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "dream world",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:4977",
+            "title": "Paprika",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201cdream world\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "dream world",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:694",
+            "title": "The Shining",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201csurrealism\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "surrealism",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:627",
+            "title": "Trainspotting",
+            "language": "en",
+            "countries": [
+              "GB"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201csurrealism\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "surrealism",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:8871",
+            "title": "How the Grinch Stole Christmas",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201csurreal\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "surreal",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something peaceful for a rainy evening.",
+        "status": 200,
+        "ms": 345,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 0,
+        "top5": []
+      },
+      {
+        "kind": "mood",
+        "query": "A mind-bending psychological thriller.",
+        "status": 200,
+        "ms": 3819,
+        "signals": [
+          "unsettling",
+          "mystery"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 12,
+        "top5": [
+          {
+            "key": "movie:146233",
+            "title": "Prisoners",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: unsettling \u2192 \u201cpsychological\u201d in the keyword; mysterious \u2192 \u201cmystery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Unsettling",
+                "dimension": "emotion",
+                "term": "psychological",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "mystery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:346685",
+            "title": "The Girl on the Train",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: unsettling \u2192 \u201cobsession\u201d in the keyword; mysterious \u2192 \u201cinvestigation\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Unsettling",
+                "dimension": "emotion",
+                "term": "obsession",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "investigation",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:49190",
+            "title": "Antarctic Journal",
+            "language": "ko",
+            "countries": [
+              "KR"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: unsettling \u2192 \u201cpsychological\u201d in the keyword; mysterious \u2192 \u201cmystery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Unsettling",
+                "dimension": "emotion",
+                "term": "psychological",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "mystery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:210577",
+            "title": "Gone Girl",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.9142857142857143,
+            "explanation": "Evidence for your mood: unsettling \u2192 \u201cpsychological\u201d in the keyword; mysterious \u2192 \u201cinvestigation\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Unsettling",
+                "dimension": "emotion",
+                "term": "psychological",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "investigation",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:1213",
+            "title": "The Talented Mr. Ripley",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.9,
+            "explanation": "Evidence for your mood: unsettling \u2192 \u201cpsychological\u201d in the keyword; mysterious \u2192 \u201csecret\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Unsettling",
+                "dimension": "emotion",
+                "term": "psychological",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "secret",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something that feels like the end of summer.",
+        "status": 200,
+        "ms": 458,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 0,
+        "top5": []
+      },
+      {
+        "kind": "mood",
+        "query": "A mysterious film with beautiful cinematography.",
+        "status": 200,
+        "ms": 2547,
+        "signals": [
+          "mystery",
+          "visual"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 12,
+        "top5": [
+          {
+            "key": "movie:832",
+            "title": "M",
+            "language": "de",
+            "countries": [
+              "DE"
+            ],
+            "coverage": 0.9,
+            "explanation": "Evidence for your mood: mysterious \u2192 \u201cinvestigation\u201d in the keyword; visually expressive \u2192 \u201cexpressionism\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "investigation",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Visually expressive",
+                "dimension": "visual",
+                "term": "expressionism",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:3112",
+            "title": "The Night of the Hunter",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.9,
+            "explanation": "Evidence for your mood: mysterious \u2192 \u201csecret\u201d in the keyword; visually expressive \u2192 \u201cexpressionism\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "secret",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Visually expressive",
+                "dimension": "visual",
+                "term": "expressionism",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:21452",
+            "title": "Case Closed: The Fourteenth Target",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: mysterious \u2192 \u201cmystery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "mystery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:745",
+            "title": "The Sixth Sense",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: mysterious \u2192 \u201cmystery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "mystery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:1078605",
+            "title": "Weapons",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: mysterious \u2192 \u201cmystery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "mystery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something hopeful after a difficult day.",
+        "status": 200,
+        "ms": 698,
+        "signals": [
+          "hope"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 12,
+        "top5": [
+          {
+            "key": "tv:85077",
+            "title": "The Chosen",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:75214",
+            "title": "Violet Evergarden",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:1232449",
+            "title": "Young Hearts",
+            "language": "nl",
+            "countries": [
+              "BE",
+              "NL"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:299167",
+            "title": "Dutton Ranch",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:122",
+            "title": "The Lord of the Rings: The Return of the King",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.99,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201cinspirational\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "inspirational",
+                "source": "keyword",
+                "strength": 0.99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Interstellar",
+        "status": 200,
+        "ms": 2131,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 23,
+        "top5": [
+          {
+            "key": "movie:157336",
+            "title": "Interstellar",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:649745",
+            "title": "Interstellar Wandering",
+            "language": "zh",
+            "countries": [
+              "CN"
+            ]
+          },
+          {
+            "key": "movie:398188",
+            "title": "Interstellar Wars",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:1391726",
+            "title": "Interstellar Stella",
+            "language": "en",
+            "countries": [
+              "GB"
+            ]
+          },
+          {
+            "key": "movie:1450827",
+            "title": "Interstellar Political Prisoner",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Spirited Away",
+        "status": 200,
+        "ms": 498,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 9,
+        "top5": [
+          {
+            "key": "movie:129",
+            "title": "Spirited Away",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1001196",
+            "title": "Spirited Away: Live on Stage",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "tv:282990",
+            "title": "Spirited Away Flying to London",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1450777",
+            "title": "Uncovering Spirited Away",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:698296",
+            "title": "The Art of 'Spirited Away'",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Naruto",
+        "status": 200,
+        "ms": 307,
+        "signals": [],
+        "intent": "person",
+        "person": "Naruto",
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:1565155",
+            "title": "ONE Friday Fights 127: Worapon vs. Kongkula",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Attack on Titan",
+        "status": 200,
+        "ms": 994,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 15,
+        "top5": [
+          {
+            "key": "movie:295830",
+            "title": "Attack on Titan",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1033219",
+            "title": "Attack on Titan",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "tv:1429",
+            "title": "Attack on Titan",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1333100",
+            "title": "Attack on Titan: THE LAST ATTACK",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:330081",
+            "title": "Attack on Titan: Wings of Freedom",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Christopher Nolan",
+        "status": 200,
+        "ms": 397,
+        "signals": [],
+        "intent": "person",
+        "person": "Christopher Nolan",
+        "returned": 19,
+        "top5": [
+          {
+            "key": "movie:1368337",
+            "title": "The Odyssey",
+            "language": "en",
+            "countries": [
+              "GB",
+              "US"
+            ]
+          },
+          {
+            "key": "movie:155",
+            "title": "The Dark Knight",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:157336",
+            "title": "Interstellar",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:27205",
+            "title": "Inception",
+            "language": "en",
+            "countries": [
+              "US",
+              "GB"
+            ]
+          },
+          {
+            "key": "movie:872585",
+            "title": "Oppenheimer",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Leonardo DiCaprio",
+        "status": 200,
+        "ms": 378,
+        "signals": [],
+        "intent": "person",
+        "person": "Leonardo DiCaprio",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:27205",
+            "title": "Inception",
+            "language": "en",
+            "countries": [
+              "US",
+              "GB"
+            ]
+          },
+          {
+            "key": "movie:597",
+            "title": "Titanic",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:106646",
+            "title": "The Wolf of Wall Street",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:11324",
+            "title": "Shutter Island",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:1422",
+            "title": "The Departed",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Spider-Man",
+        "status": 200,
+        "ms": 310,
+        "signals": [],
+        "intent": "person",
+        "person": "spider man",
+        "returned": 0,
+        "top5": []
+      },
+      {
+        "kind": "search",
+        "query": "RRR",
+        "status": 200,
+        "ms": 928,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 14,
+        "top5": [
+          {
+            "key": "movie:579974",
+            "title": "RRR",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1400515",
+            "title": "RRR: Behind & Beyond",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1322547",
+            "title": "RRR \u00d7 TAKARAZUKA ~\u221aBheem~ / Violetopia",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1416034",
+            "title": "RRR: Roaring Rhythmic Remix",
+            "language": "id",
+            "countries": [
+              "ID"
+            ]
+          },
+          {
+            "key": "movie:21778",
+            "title": "RRRrrrr!!!",
+            "language": "fr",
+            "countries": [
+              "FR"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Kantara",
+        "status": 200,
+        "ms": 882,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 4,
+        "top5": [
+          {
+            "key": "movie:858485",
+            "title": "Kantara",
+            "language": "kn",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1083637",
+            "title": "Kantara - A Legend: Chapter 1",
+            "language": "kn",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1556820",
+            "title": "Kantara: Chapter 2",
+            "language": "kn",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1267799",
+            "title": "The Oasis of El Kantara",
+            "language": "fr",
+            "countries": [
+              "FR"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Drishyam",
+        "status": 200,
+        "ms": 321,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 10,
+        "top5": [
+          {
+            "key": "movie:352173",
+            "title": "Drishyam",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:244049",
+            "title": "Drishyam",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1252030",
+            "title": "Drishyam",
+            "language": "en",
+            "countries": [
+              "IN",
+              "US"
+            ]
+          },
+          {
+            "key": "movie:1660449",
+            "title": "Drishyam",
+            "language": "es",
+            "countries": [
+              "ES"
+            ]
+          },
+          {
+            "key": "movie:1129616",
+            "title": "Drishyam",
+            "language": "ko",
+            "countries": [
+              "KR"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Vikram",
+        "status": 200,
+        "ms": 967,
+        "signals": [],
+        "intent": "person",
+        "person": "Vikram",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:1198208",
+            "title": "Veera Dheera Sooran: Part 2",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:19978",
+            "title": "Anniyan",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:263471",
+            "title": "I",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:660046",
+            "title": "Ponniyin Selvan: Part I",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:858082",
+            "title": "Ponniyin Selvan: Part II",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "12th Fail",
+        "status": 200,
+        "ms": 301,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:1163258",
+            "title": "12th Fail",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Premalu",
+        "status": 200,
+        "ms": 385,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 2,
+        "top5": [
+          {
+            "key": "movie:1149791",
+            "title": "Premalu",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1276827",
+            "title": "Premalu 2",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Maharaja",
+        "status": 200,
+        "ms": 362,
+        "signals": [],
+        "intent": "person",
+        "person": "Maharaja",
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:1630926",
+            "title": "Sammelanam",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Ram Charan",
+        "status": 200,
+        "ms": 374,
+        "signals": [],
+        "intent": "person",
+        "person": "Ram Charan",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:579974",
+            "title": "RRR",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1057265",
+            "title": "Peddi",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:23790",
+            "title": "Magadheera",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:811944",
+            "title": "Game Changer",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1264369",
+            "title": "RC17",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Allu Arjun",
+        "status": 200,
+        "ms": 1145,
+        "signals": [],
+        "intent": "person",
+        "person": "Allu Arjun",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:857598",
+            "title": "Pushpa 2 - The Rule",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:690957",
+            "title": "Pushpa: The Rise",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:628241",
+            "title": "Ala Vaikunthapurramuloo",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1411614",
+            "title": "Raaka",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:262227",
+            "title": "Race Gurram",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Mani Ratnam",
+        "status": 200,
+        "ms": 2061,
+        "signals": [],
+        "intent": "person",
+        "person": "Mani Ratnam",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:1045021",
+            "title": "Thug Life",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:21210",
+            "title": "Dil Se..",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:29971",
+            "title": "Nayakan",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:660046",
+            "title": "Ponniyin Selvan: Part I",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:858082",
+            "title": "Ponniyin Selvan: Part II",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Peddi",
+        "status": 200,
+        "ms": 356,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 3,
+        "top5": [
+          {
+            "key": "movie:1057265",
+            "title": "Peddi",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:707781",
+            "title": "Peddinti Alludu",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1600303",
+            "title": "Mami Peddie",
+            "language": "tl",
+            "countries": [
+              "PH"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Sen to Chihiro no kamikakushi",
+        "status": 200,
+        "ms": 300,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:129",
+            "title": "Spirited Away",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Indian",
+        "status": 200,
+        "ms": 1933,
+        "signals": [],
+        "intent": "catalogue",
+        "person": null,
+        "returned": 40,
+        "top5": [
+          {
+            "key": "movie:656908",
+            "title": "Ramayana: Rise of a Legend",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1234139",
+            "title": "Jailer 2",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1310458",
+            "title": "Saayavanam",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1389379",
+            "title": "Ranabaali",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1453407",
+            "title": "Gajab Raat",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "South Indian movies",
+        "status": 200,
+        "ms": 335,
+        "signals": [],
+        "intent": "catalogue",
+        "person": null,
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:1234139",
+            "title": "Jailer 2",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1310458",
+            "title": "Saayavanam",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1389379",
+            "title": "Ranabaali",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1402181",
+            "title": "Scene",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1327835",
+            "title": "Mookuthi Amman 2",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Malayalam thrillers",
+        "status": 200,
+        "ms": 385,
+        "signals": [],
+        "intent": "catalogue",
+        "person": null,
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:1250502",
+            "title": "I'm Game",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1544847",
+            "title": "Pradhama Drishtiya Kuttakkar",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:922673",
+            "title": "The Third Murder",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1013057",
+            "title": "Bandra",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1036081",
+            "title": "Khalifa: The Ruler",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "any",
+        "status": 200,
+        "ms": 401,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:1381071",
+            "title": "Godzilla Minus Zero",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "movie",
+        "status": 200,
+        "ms": 296,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:1813355",
+            "title": "A Story of Derry",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "tv",
+        "status": 200,
+        "ms": 435,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "tv:32692",
+            "title": "Blue Bloods",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "anime",
+        "status": 200,
+        "ms": 2336,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:428707",
+            "title": "Kuroko's Basketball the Movie: Last Game",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "animation",
+        "status": 200,
+        "ms": 379,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "tv:223694",
+            "title": "Wo Shi Bu Bai Chi",
+            "language": "zh",
+            "countries": [
+              "CN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "documentary",
+        "status": 200,
+        "ms": 1818,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:432976",
+            "title": "Icarus",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      }
+    ],
+    "edition": {
+      "dayKey": "2026-11-17",
+      "weekKey": "2026-11-16",
+      "weeklyTheme": "Animation that hits differently",
+      "weekly": [
+        {
+          "id": 306762,
+          "key": "tv:306762",
+          "type": "tv",
+          "title": "Love Through a Prism",
+          "originalTitle": "\u30d7\u30ea\u30ba\u30e0\u8f2a\u821e\u66f2",
+          "overview": "In early 1900s London, a young Japanese woman enrolls in a famous art school, only to be surprised when rivalry with a gifted classmate becomes romance.",
+          "poster": "/kAiyJdB6aPxTEmnXDqf6JMjdHf9.jpg",
+          "backdrop": "/7mfU2mO1t4d43mBsm4Z3Q2grGy6.jpg",
+          "date": "2026-01-15",
+          "year": 2026,
+          "genres": [
+            16,
+            18
+          ],
+          "genreNames": [
+            "Animation",
+            "Drama"
+          ],
+          "language": "ja",
+          "countries": [
+            "JP"
+          ],
+          "rating": 9,
+          "votes": 59,
+          "popularity": 12.6663,
+          "adult": false,
+          "runtime": null,
+          "keywords": [
+            "london, england",
+            "painter",
+            "art school",
+            "romance",
+            "coming of age",
+            "art",
+            "aristocrat",
+            "exchange student",
+            "anime",
+            "1900s",
+            "inspirational",
+            "original net animation (ona)"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "TV-PG"
+          },
+          "enriched": true,
+          "status": "Ended",
+          "seasons": 1,
+          "episodes": 20,
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "hook": "Love Through a Prism: Japanese animation, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Animation / Drama series records. The keyword explicitly includes \u201ccoming of age\u201d, supporting the nostalgic thread. A different language, genre or format helps keep the edition varied. This edition stays with you through Sunday in India."
+          }
+        },
+        {
+          "id": 980431,
+          "key": "movie:980431",
+          "type": "movie",
+          "title": "Avatar Aang: The Last Airbender",
+          "originalTitle": "Avatar Aang: The Last Airbender",
+          "overview": "Avatar Aang, the world's last Airbender, learns of an ancient power that could save his culture from extinction. With the help of his friends, he embarks on a global quest to find it before it falls into the wrong hands and threatens to upend the peace they sacrificed everything to achieve.",
+          "poster": "/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg",
+          "backdrop": "/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
+          "date": "2026-07-24",
+          "year": 2026,
+          "genres": [
+            16,
+            12,
+            14,
+            28
+          ],
+          "genreNames": [
+            "Animation",
+            "Adventure",
+            "Fantasy",
+            "Action"
+          ],
+          "language": "en",
+          "countries": [
+            "US"
+          ],
+          "rating": 8.992,
+          "votes": 1453,
+          "popularity": 46.4056,
+          "adult": false,
+          "runtime": 99,
+          "keywords": [
+            "martial arts",
+            "extinction",
+            "nostalgic",
+            "quest",
+            "cultural identity",
+            "based on tv series",
+            "comforting",
+            "earnest",
+            "anime inspired"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "PG"
+          },
+          "enriched": true,
+          "status": "Released",
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "hook": "Avatar Aang: The Last Airbender: English animation, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Animation / Adventure film records. The keyword explicitly includes \u201cnostalgic\u201d, supporting the nostalgic thread. A different language, genre or format helps keep the edition varied. This edition stays with you through Sunday in India."
+          }
+        },
+        {
+          "id": 117369,
+          "key": "movie:117369",
+          "type": "movie",
+          "title": "Arjun: The Warrior Prince",
+          "originalTitle": "Arjun: The Warrior Prince",
+          "overview": "Legend knows him as an archer of unwavering focus, the soldier who fought a battle in his own heart before taking up arms against his enemy. This is the untold story of Arjun, hero of the Mahabharata. A precocious talent plunged from boyhood and innocence into a murky world of deceit and betrayal, coming of age to become the most powerful warrior of his time. From the dusty plains of Hastinapur to the icy peaks of the Himalayas, Arjun: The Warrior Prince is the story of a man discovering what it takes to be a hero.",
+          "poster": "/bbyNAeBppsHUE0ki5BgikCdb6s.jpg",
+          "backdrop": "/bldgj2IeKr7poONE7h2wHhomPBA.jpg",
+          "date": "2012-05-25",
+          "year": 2012,
+          "genres": [
+            28,
+            16
+          ],
+          "genreNames": [
+            "Action",
+            "Animation"
+          ],
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "rating": 6.1,
+          "votes": 41,
+          "popularity": 0.7395,
+          "adult": false,
+          "runtime": 96,
+          "keywords": [
+            "mythology",
+            "indian war"
+          ],
+          "certification": {
+            "country": "IN",
+            "rating": "U"
+          },
+          "enriched": true,
+          "status": "Released",
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "hook": "Arjun: The Warrior Prince: Hindi action, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Action / Animation film records. The synopsis explicitly includes \u201ccoming of age\u201d, supporting the nostalgic thread. A different language, genre or format helps keep the edition varied. This edition stays with you through Sunday in India."
+          }
+        },
+        {
+          "id": 248664,
+          "key": "tv:248664",
+          "type": "tv",
+          "title": "Samuel",
+          "originalTitle": "Samuel",
+          "overview": "Samuel is 10 years old. He's keeping a diary, and he has a problem. His problem is that Basile told the tall Julie that Samuel loved her. Which isn't true, he doesn't care about Julie. It's only that she laughed at one of his jokes once and he thought she was nice to do so.",
+          "poster": "/qW8sa5evzMOEZ5ZhFfCQGMLx6fm.jpg",
+          "backdrop": "/ApNKsvgkqMo1F5rU1M5N8IZvjW6.jpg",
+          "date": "2024-03-11",
+          "year": 2024,
+          "genres": [
+            16,
+            35,
+            18
+          ],
+          "genreNames": [
+            "Animation",
+            "Comedy",
+            "Drama"
+          ],
+          "language": "fr",
+          "countries": [
+            "FR"
+          ],
+          "rating": 9.375,
+          "votes": 44,
+          "popularity": 1.6435,
+          "adult": false,
+          "runtime": 93,
+          "keywords": [
+            "musical",
+            "slice of life",
+            "coming of age",
+            "sentimental",
+            "cheerful"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "TV-14"
+          },
+          "enriched": true,
+          "status": "Ended",
+          "seasons": 1,
+          "episodes": 21,
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "hook": "Samuel: French animation, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Animation / Comedy series records. The keyword explicitly includes \u201ccoming of age\u201d, supporting the nostalgic thread. A different language, genre or format helps keep the edition varied. This edition stays with you through Sunday in India."
+          }
+        },
+        {
+          "id": 1007757,
+          "key": "movie:1007757",
+          "type": "movie",
+          "title": "Swapped",
+          "originalTitle": "Swapped",
+          "overview": "A small woodland creature and a majestic bird, two natural sworn enemies of the Valley, magically trade places and set off on an adventure of a lifetime to switch back. Their journey soon uncovers a greater threat\u2014one that could endanger not only their species, but the entire valley they call home.",
+          "poster": "/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+          "backdrop": "/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
+          "date": "2026-05-01",
+          "year": 2026,
+          "genres": [
+            12,
+            16,
+            10751,
+            14
+          ],
+          "genreNames": [
+            "Adventure",
+            "Animation",
+            "Family",
+            "Fantasy"
+          ],
+          "language": "en",
+          "countries": [
+            "US"
+          ],
+          "rating": 8.831,
+          "votes": 2303,
+          "popularity": 27.8207,
+          "adult": false,
+          "runtime": 102,
+          "keywords": [
+            "wolf",
+            "buddy",
+            "body swap",
+            "forest fire",
+            "zealous",
+            "woodlands",
+            "forest lore",
+            "bird",
+            "3d animation",
+            "admiring",
+            "ambivalent",
+            "bewildered",
+            "enchant",
+            "animal adventure"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "PG"
+          },
+          "enriched": true,
+          "status": "Released",
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "hook": "Swapped: English adventure, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Adventure / Animation film records. The theme match is based on genre and format; a specific emotional effect is not guaranteed. A different language, genre or format helps keep the edition varied. This edition stays with you through Sunday in India."
+          }
+        }
+      ]
+    }
+  },
+  "after": {
+    "base": "http://127.0.0.1:3000",
+    "checkedAt": "2026-11-17T18:38:46.551Z",
+    "responses": [
+      {
+        "kind": "home",
+        "query": "general",
+        "status": 200,
+        "ms": 122,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 2,
+        "top5": [
+          {
+            "key": "tv:98161",
+            "title": "Home Before Dark",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "editorial": {
+              "period": "daily",
+              "theme": "The midnight pick",
+              "evidence": [
+                {
+                  "signal": "Mysterious",
+                  "dimension": "experience",
+                  "term": "mystery",
+                  "source": "keyword",
+                  "strength": 1
+                }
+              ],
+              "coverage": 1,
+              "hook": "Home Before Dark: English mystery, seen from a different angle.",
+              "why": "Selected for \u201cThe midnight pick\u201d from Mystery / Drama series records. Metadata evidence: \u201cmystery\u201d in the keyword (mysterious). The theme is an editorial interpretation of that metadata, not a promised emotional effect. Recent daily selections were skipped where the catalogue allowed."
+            }
+          },
+          {
+            "key": "movie:16859",
+            "title": "Kiki's Delivery Service",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "editorial": {
+              "period": "daily",
+              "theme": "The comfort watch",
+              "evidence": [
+                {
+                  "signal": "Comforting",
+                  "dimension": "emotion",
+                  "term": "lighthearted",
+                  "source": "keyword",
+                  "strength": 1
+                }
+              ],
+              "coverage": 1,
+              "hook": "Kiki's Delivery Service: Japanese animation, seen from a different angle.",
+              "why": "Selected for \u201cThe comfort watch\u201d from Animation / Family film records. Metadata evidence: \u201clighthearted\u201d in the keyword (comforting). The theme is an editorial interpretation of that metadata, not a promised emotional effect. Recent daily selections were skipped where the catalogue allowed."
+            }
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "A movie that feels like walking through Tokyo at 2 AM.",
+        "status": 200,
+        "ms": 213,
+        "signals": [
+          "nocturnal",
+          "tokyo",
+          "city",
+          "melancholy",
+          "meditative"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 3,
+        "top5": [
+          {
+            "key": "movie:153",
+            "title": "Lost in Translation",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.575,
+            "explanation": "Evidence for your mood: tokyo \u2192 \u201ctokyo\u201d in the keyword; urban \u2192 \u201ctokyo\u201d in the keyword; melancholic \u2192 \u201cwistful\u201d in the keyword. Not evidenced: nocturnal, meditative. This is a partial match.",
+            "evidence": [
+              {
+                "signal": "Tokyo",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Urban",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "wistful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:101664",
+            "title": "Love Strikes!",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.525,
+            "explanation": "Evidence for your mood: tokyo \u2192 \u201ctokyo\u201d in the keyword; urban \u2192 \u201ctokyo\u201d in the keyword; melancholic \u2192 \u201cbittersweet\u201d in the keyword. Not evidenced: nocturnal, meditative. This is a partial match.",
+            "evidence": [
+              {
+                "signal": "Tokyo",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Urban",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "bittersweet",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:976893",
+            "title": "Perfect Days",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.4583333333333333,
+            "explanation": "Evidence for your mood: tokyo \u2192 \u201ctokyo\u201d in the keyword; urban \u2192 \u201ctokyo\u201d in the keyword; melancholic \u2192 \u201csolitude\u201d in the keyword. Not evidenced: nocturnal. This is a partial match.",
+            "evidence": [
+              {
+                "signal": "Tokyo",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Urban",
+                "dimension": "setting",
+                "term": "tokyo",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "solitude",
+                "source": "keyword",
+                "strength": 0.6
+              },
+              {
+                "signal": "Meditative",
+                "dimension": "pacing",
+                "term": "slice of life",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something beautiful but emotionally devastating.",
+        "status": 200,
+        "ms": 196,
+        "signals": [
+          "melancholy",
+          "loss",
+          "visual"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "tv:67070",
+            "title": "Fleabag",
+            "language": "en",
+            "countries": [
+              "GB"
+            ],
+            "coverage": 0.7758000000000002,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cloneliness\u201d in the keyword; love & loss \u2192 \u201cgrief\u201d in the keyword. Not evidenced: visually expressive. This is a partial match.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "loneliness",
+                "source": "keyword",
+                "strength": 0.9400000000000001
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "grief",
+                "source": "keyword",
+                "strength": 0.7060000000000001
+              }
+            ]
+          },
+          {
+            "key": "tv:67915",
+            "title": "Guardian: The Lonely and Great God",
+            "language": "ko",
+            "countries": [
+              "KR"
+            ],
+            "coverage": 0.762,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cheartbreak\u201d in the keyword; love & loss \u2192 \u201ctragedy\u201d in the keyword. Not evidenced: visually expressive. This is a partial match.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "heartbreak",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "tragedy",
+                "source": "keyword",
+                "strength": 0.54
+              }
+            ]
+          },
+          {
+            "key": "movie:7980",
+            "title": "The Lovely Bones",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.7615500000000001,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cmelancholy\u201d in the keyword; love & loss \u2192 \u201cgrief\u201d in the synopsis. Not evidenced: visually expressive. This is a partial match.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "melancholy",
+                "source": "keyword",
+                "strength": 0.9975
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "grief",
+                "source": "synopsis",
+                "strength": 0.5435000000000001
+              }
+            ]
+          },
+          {
+            "key": "tv:75214",
+            "title": "Violet Evergarden",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.75,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cmelancholy\u201d in the keyword; love & loss \u2192 \u201ctragedy\u201d in the keyword. Not evidenced: visually expressive. This is a partial match.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "melancholy",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "tragedy",
+                "source": "keyword",
+                "strength": 0.5
+              }
+            ]
+          },
+          {
+            "key": "movie:1218925",
+            "title": "Chainsaw Man - The Movie: Reze Arc",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.69,
+            "explanation": "Evidence for your mood: melancholic \u2192 \u201cloneliness\u201d in the keyword; love & loss \u2192 \u201ctragedy\u201d in the keyword. Not evidenced: visually expressive. This is a partial match.",
+            "evidence": [
+              {
+                "signal": "Melancholic",
+                "dimension": "emotion",
+                "term": "loneliness",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Love & loss",
+                "dimension": "theme",
+                "term": "tragedy",
+                "source": "keyword",
+                "strength": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "An anime that makes me want to change my life.",
+        "status": 200,
+        "ms": 72,
+        "signals": [
+          "hope",
+          "reinvention"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "tv:75214",
+            "title": "Violet Evergarden",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword; reinvention \u2192 \u201cself-discovery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "self-discovery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:15370",
+            "title": "The Cat Returns",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201cself-discovery\u201d in the keyword; reinvention \u2192 \u201cself-discovery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "self-discovery",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "self-discovery",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:94664",
+            "title": "Mushoku Tensei: Jobless Reincarnation",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201csecond chance\u201d in the keyword; reinvention \u2192 \u201csecond chance\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "second chance",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "second chance",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "tv:217766",
+            "title": "Zom 100: Bucket List of the Dead",
+            "language": "ja",
+            "countries": [
+              "JP",
+              "US"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201cself-discovery\u201d in the keyword; reinvention \u2192 \u201cself-discovery\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "self-discovery",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "self-discovery",
+                "source": "keyword",
+                "strength": 0.9400000000000001
+              }
+            ]
+          },
+          {
+            "key": "movie:456611",
+            "title": "Lupin the 3rd: Goemon's Blood Spray",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.5,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201credemption\u201d in the keyword; reinvention \u2192 \u201credemption\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "redemption",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Reinvention",
+                "dimension": "theme",
+                "term": "redemption",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something like childhood summer holidays.",
+        "status": 200,
+        "ms": 131,
+        "signals": [
+          "nostalgia",
+          "summer"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "movie:147773",
+            "title": "The Way Way Back",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.7214285714285714,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201csummer vacation\u201d in the synopsis; summer \u2192 \u201csummer\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "summer vacation",
+                "source": "synopsis",
+                "strength": 0.675
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:271576",
+            "title": "Summer Pockets",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.7071428571428572,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgia\u201d in the synopsis; summer \u2192 \u201csummer\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgia",
+                "source": "synopsis",
+                "strength": 0.675
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:82650",
+            "title": "Diary of a Wimpy Kid: Dog Days",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.7214285714285714,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201csummer vacation\u201d in the synopsis; summer \u2192 \u201csummer\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "summer vacation",
+                "source": "synopsis",
+                "strength": 0.675
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:394117",
+            "title": "The Florida Project",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.6292857142857142,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201ccoming of age\u201d in the keyword; summer \u2192 \u201csummer\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "coming of age",
+                "source": "keyword",
+                "strength": 0.5675
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:3854",
+            "title": "The Spectacular Spider-Man",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.5641071428571429,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgic\u201d in the keyword; summer \u2192 \u201csummer\u201d in the synopsis.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "synopsis",
+                "strength": 0.675
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "A film that feels like a fever dream.",
+        "status": 200,
+        "ms": 30,
+        "signals": [
+          "surreal"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "movie:27205",
+            "title": "Inception",
+            "language": "en",
+            "countries": [
+              "US",
+              "GB"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201cdream world\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "dream world",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:4977",
+            "title": "Paprika",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201cdream world\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "dream world",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:694",
+            "title": "The Shining",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201csurrealism\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "surrealism",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:627",
+            "title": "Trainspotting",
+            "language": "en",
+            "countries": [
+              "GB"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201csurrealism\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "surrealism",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:8871",
+            "title": "How the Grinch Stole Christmas",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: surreal \u2192 \u201csurreal\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Surreal",
+                "dimension": "atmosphere",
+                "term": "surreal",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something peaceful for a rainy evening.",
+        "status": 200,
+        "ms": 75,
+        "signals": [
+          "comfort"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "tv:85077",
+            "title": "The Chosen",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: comforting \u2192 \u201ccomforting\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Comforting",
+                "dimension": "emotion",
+                "term": "comforting",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:218539",
+            "title": "My Demon",
+            "language": "ko",
+            "countries": [
+              "KR"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: comforting \u2192 \u201ccomforting\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Comforting",
+                "dimension": "emotion",
+                "term": "comforting",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:16859",
+            "title": "Kiki's Delivery Service",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: comforting \u2192 \u201clighthearted\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Comforting",
+                "dimension": "emotion",
+                "term": "lighthearted",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:166428",
+            "title": "How to Train Your Dragon: The Hidden World",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: comforting \u2192 \u201ccomforting\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Comforting",
+                "dimension": "emotion",
+                "term": "comforting",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:639",
+            "title": "When Harry Met Sally...",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.9599999999999999,
+            "explanation": "Evidence for your mood: comforting \u2192 \u201clighthearted\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Comforting",
+                "dimension": "emotion",
+                "term": "lighthearted",
+                "source": "keyword",
+                "strength": 0.96
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "A mind-bending psychological thriller.",
+        "status": 200,
+        "ms": 90,
+        "signals": [
+          "unsettling",
+          "mystery",
+          "mindbend"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 3,
+        "top5": [
+          {
+            "key": "movie:346685",
+            "title": "The Girl on the Train",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.9928571428571429,
+            "explanation": "Evidence for your mood: unsettling \u2192 \u201cobsession\u201d in the keyword; mysterious \u2192 \u201cinvestigation\u201d in the keyword; mind-bending \u2192 \u201cunreliable narrator\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Unsettling",
+                "dimension": "emotion",
+                "term": "obsession",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "investigation",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Mind-bending",
+                "dimension": "experience",
+                "term": "unreliable narrator",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:77",
+            "title": "Memento",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.9071428571428571,
+            "explanation": "Evidence for your mood: unsettling \u2192 \u201cpsychological\u201d in the keyword; mysterious \u2192 \u201cmystery\u201d in the keyword; mind-bending \u2192 \u201cnonlinear timeline\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Unsettling",
+                "dimension": "emotion",
+                "term": "psychological",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "mystery",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Mind-bending",
+                "dimension": "experience",
+                "term": "nonlinear timeline",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:745",
+            "title": "The Sixth Sense",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.9142857142857143,
+            "explanation": "Evidence for your mood: unsettling \u2192 \u201cpsychological\u201d in the keyword; mysterious \u2192 \u201cmystery\u201d in the keyword; mind-bending \u2192 \u201cplot twist\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Unsettling",
+                "dimension": "emotion",
+                "term": "psychological",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "mystery",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Mind-bending",
+                "dimension": "experience",
+                "term": "plot twist",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something that feels like the end of summer.",
+        "status": 200,
+        "ms": 86,
+        "signals": [
+          "nostalgia",
+          "summer"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "movie:147773",
+            "title": "The Way Way Back",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.7214285714285714,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201csummer vacation\u201d in the synopsis; summer \u2192 \u201csummer\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "summer vacation",
+                "source": "synopsis",
+                "strength": 0.675
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:271576",
+            "title": "Summer Pockets",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 0.7071428571428572,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgia\u201d in the synopsis; summer \u2192 \u201csummer\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgia",
+                "source": "synopsis",
+                "strength": 0.675
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:82650",
+            "title": "Diary of a Wimpy Kid: Dog Days",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.7214285714285714,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201csummer vacation\u201d in the synopsis; summer \u2192 \u201csummer\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "summer vacation",
+                "source": "synopsis",
+                "strength": 0.675
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:394117",
+            "title": "The Florida Project",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.6292857142857142,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201ccoming of age\u201d in the keyword; summer \u2192 \u201csummer\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "coming of age",
+                "source": "keyword",
+                "strength": 0.5675
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:3854",
+            "title": "The Spectacular Spider-Man",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.5641071428571429,
+            "explanation": "Evidence for your mood: nostalgic \u2192 \u201cnostalgic\u201d in the keyword; summer \u2192 \u201csummer\u201d in the synopsis.",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Summer",
+                "dimension": "setting",
+                "term": "summer",
+                "source": "synopsis",
+                "strength": 0.675
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "A mysterious film with beautiful cinematography.",
+        "status": 200,
+        "ms": 44,
+        "signals": [
+          "mystery",
+          "visual"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 2,
+        "top5": [
+          {
+            "key": "movie:832",
+            "title": "M",
+            "language": "de",
+            "countries": [
+              "DE"
+            ],
+            "coverage": 0.95,
+            "explanation": "Evidence for your mood: mysterious \u2192 \u201cinvestigation\u201d in the keyword; visually expressive \u2192 \u201cexpressionism\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "investigation",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Visually expressive",
+                "dimension": "visual",
+                "term": "expressionism",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          },
+          {
+            "key": "movie:3112",
+            "title": "The Night of the Hunter",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.9,
+            "explanation": "Evidence for your mood: mysterious \u2192 \u201csecret\u201d in the keyword; visually expressive \u2192 \u201cexpressionism\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Mysterious",
+                "dimension": "experience",
+                "term": "secret",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Visually expressive",
+                "dimension": "visual",
+                "term": "expressionism",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "mood",
+        "query": "Something hopeful after a difficult day.",
+        "status": 200,
+        "ms": 45,
+        "signals": [
+          "hope"
+        ],
+        "intent": null,
+        "person": null,
+        "returned": 5,
+        "top5": [
+          {
+            "key": "tv:85077",
+            "title": "The Chosen",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:75214",
+            "title": "Violet Evergarden",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:1232449",
+            "title": "Young Hearts",
+            "language": "nl",
+            "countries": [
+              "BE",
+              "NL"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "tv:299167",
+            "title": "Dutton Ranch",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 1,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201chopeful\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ]
+          },
+          {
+            "key": "movie:122",
+            "title": "The Lord of the Rings: The Return of the King",
+            "language": "en",
+            "countries": [
+              "US"
+            ],
+            "coverage": 0.99,
+            "explanation": "Evidence for your mood: hopeful \u2192 \u201cinspirational\u201d in the keyword.",
+            "evidence": [
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "inspirational",
+                "source": "keyword",
+                "strength": 0.99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Interstellar",
+        "status": 200,
+        "ms": 11,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 23,
+        "top5": [
+          {
+            "key": "movie:157336",
+            "title": "Interstellar",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:301959",
+            "title": "Interstellar: Nolan's Odyssey",
+            "language": "en",
+            "countries": [
+              "GB"
+            ]
+          },
+          {
+            "key": "movie:398188",
+            "title": "Interstellar Wars",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:460616",
+            "title": "Interstellar Civil War: Shadows of the Empire",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "tv:212171",
+            "title": "Interstellar Ella",
+            "language": "nl",
+            "countries": [
+              "BE"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Spirited Away",
+        "status": 200,
+        "ms": 4,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 9,
+        "top5": [
+          {
+            "key": "movie:129",
+            "title": "Spirited Away",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1001196",
+            "title": "Spirited Away: Live on Stage",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "tv:282990",
+            "title": "Spirited Away Flying to London",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1187998",
+            "title": "Crazy Kwai Boo: Sanxingdui Spirited Away",
+            "language": "zh",
+            "countries": [
+              "CN"
+            ]
+          },
+          {
+            "key": "movie:698296",
+            "title": "The Art of 'Spirited Away'",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Naruto",
+        "status": 200,
+        "ms": 6,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 30,
+        "top5": [
+          {
+            "key": "tv:46260",
+            "title": "Naruto",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1210043",
+            "title": "Naruto",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "tv:31910",
+            "title": "Naruto Shipp\u016bden",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:20982",
+            "title": "Naruto Shippuden the Movie",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:75624",
+            "title": "Naruto Shippuden the Movie: Blood Prison",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Attack on Titan",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 15,
+        "top5": [
+          {
+            "key": "tv:1429",
+            "title": "Attack on Titan",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:295830",
+            "title": "Attack on Titan",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:1033219",
+            "title": "Attack on Titan",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:379088",
+            "title": "Attack on Titan: Crimson Bow and Arrow",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:340382",
+            "title": "Attack on Titan II: End of the World",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Christopher Nolan",
+        "status": 200,
+        "ms": 6,
+        "signals": [],
+        "intent": "person",
+        "person": "Christopher Nolan",
+        "returned": 19,
+        "top5": [
+          {
+            "key": "movie:1368337",
+            "title": "The Odyssey",
+            "language": "en",
+            "countries": [
+              "GB",
+              "US"
+            ]
+          },
+          {
+            "key": "movie:155",
+            "title": "The Dark Knight",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:157336",
+            "title": "Interstellar",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:27205",
+            "title": "Inception",
+            "language": "en",
+            "countries": [
+              "US",
+              "GB"
+            ]
+          },
+          {
+            "key": "movie:872585",
+            "title": "Oppenheimer",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Leonardo DiCaprio",
+        "status": 200,
+        "ms": 6,
+        "signals": [],
+        "intent": "person",
+        "person": "Leonardo DiCaprio",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:27205",
+            "title": "Inception",
+            "language": "en",
+            "countries": [
+              "US",
+              "GB"
+            ]
+          },
+          {
+            "key": "movie:597",
+            "title": "Titanic",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:106646",
+            "title": "The Wolf of Wall Street",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:11324",
+            "title": "Shutter Island",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:1422",
+            "title": "The Departed",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Spider-Man",
+        "status": 200,
+        "ms": 6,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 38,
+        "top5": [
+          {
+            "key": "movie:557",
+            "title": "Spider-Man",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "tv:888",
+            "title": "Spider-Man",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "tv:1482",
+            "title": "Spider-Man",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "movie:225914",
+            "title": "Spider-Man",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          },
+          {
+            "key": "tv:3973",
+            "title": "Spider-Man",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "RRR",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 14,
+        "top5": [
+          {
+            "key": "movie:579974",
+            "title": "RRR",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:21778",
+            "title": "RRRrrrr!!!",
+            "language": "fr",
+            "countries": [
+              "FR"
+            ]
+          },
+          {
+            "key": "movie:1400515",
+            "title": "RRR: Behind & Beyond",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1322547",
+            "title": "RRR \u00d7 TAKARAZUKA ~\u221aBheem~ / Violetopia",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          },
+          {
+            "key": "movie:954574",
+            "title": "Rrringg!",
+            "language": "en",
+            "countries": [
+              "NL"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Kantara",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 4,
+        "top5": [
+          {
+            "key": "movie:858485",
+            "title": "Kantara",
+            "language": "kn",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1083637",
+            "title": "Kantara - A Legend: Chapter 1",
+            "language": "kn",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1556820",
+            "title": "Kantara: Chapter 2",
+            "language": "kn",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1267799",
+            "title": "The Oasis of El Kantara",
+            "language": "fr",
+            "countries": [
+              "FR"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Drishyam",
+        "status": 200,
+        "ms": 3,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 10,
+        "top5": [
+          {
+            "key": "movie:352173",
+            "title": "Drishyam",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:244049",
+            "title": "Drishyam",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1129616",
+            "title": "Drishyam",
+            "language": "ko",
+            "countries": [
+              "KR"
+            ]
+          },
+          {
+            "key": "movie:1660449",
+            "title": "Drishyam",
+            "language": "es",
+            "countries": [
+              "ES"
+            ]
+          },
+          {
+            "key": "movie:1252030",
+            "title": "Drishyam",
+            "language": "en",
+            "countries": [
+              "IN",
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Vikram",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 22,
+        "top5": [
+          {
+            "key": "movie:743563",
+            "title": "Vikram",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:66373",
+            "title": "Vikram",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:578060",
+            "title": "Vikram",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1504267",
+            "title": "Vikram",
+            "language": "kn",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:432139",
+            "title": "Vikram Vedha",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "12th Fail",
+        "status": 200,
+        "ms": 3,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:1163258",
+            "title": "12th Fail",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Premalu",
+        "status": 200,
+        "ms": 2,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 2,
+        "top5": [
+          {
+            "key": "movie:1149791",
+            "title": "Premalu",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1276827",
+            "title": "Premalu 2",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Maharaja",
+        "status": 200,
+        "ms": 6,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 24,
+        "top5": [
+          {
+            "key": "movie:1118224",
+            "title": "Maharaja",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:232808",
+            "title": "Maharaja",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:713834",
+            "title": "Maharaja",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:115430",
+            "title": "Maharaja",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1602830",
+            "title": "Maharaja Hostel",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Ram Charan",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "person",
+        "person": "Ram Charan",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:579974",
+            "title": "RRR",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1057265",
+            "title": "Peddi",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:23790",
+            "title": "Magadheera",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:811944",
+            "title": "Game Changer",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1264369",
+            "title": "RC17",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Allu Arjun",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "person",
+        "person": "Allu Arjun",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:857598",
+            "title": "Pushpa 2 - The Rule",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:690957",
+            "title": "Pushpa: The Rise",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:628241",
+            "title": "Ala Vaikunthapurramuloo",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1411614",
+            "title": "Raaka",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:262227",
+            "title": "Race Gurram",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Mani Ratnam",
+        "status": 200,
+        "ms": 6,
+        "signals": [],
+        "intent": "person",
+        "person": "Mani Ratnam",
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:1045021",
+            "title": "Thug Life",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:21210",
+            "title": "Dil Se..",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:29971",
+            "title": "Nayakan",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:660046",
+            "title": "Ponniyin Selvan: Part I",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:858082",
+            "title": "Ponniyin Selvan: Part II",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Peddi",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 3,
+        "top5": [
+          {
+            "key": "movie:1057265",
+            "title": "Peddi",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:707781",
+            "title": "Peddinti Alludu",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1600303",
+            "title": "Mami Peddie",
+            "language": "tl",
+            "countries": [
+              "PH"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Sen to Chihiro no kamikakushi",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "title",
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:129",
+            "title": "Spirited Away",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Indian",
+        "status": 200,
+        "ms": 8,
+        "signals": [],
+        "intent": "catalogue",
+        "person": null,
+        "returned": 40,
+        "top5": [
+          {
+            "key": "movie:656908",
+            "title": "Ramayana: Rise of a Legend",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1234139",
+            "title": "Jailer 2",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1310458",
+            "title": "Saayavanam",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1389379",
+            "title": "Ranabaali",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1453407",
+            "title": "Gajab Raat",
+            "language": "hi",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "South Indian movies",
+        "status": 200,
+        "ms": 6,
+        "signals": [],
+        "intent": "catalogue",
+        "person": null,
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:1234139",
+            "title": "Jailer 2",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1310458",
+            "title": "Saayavanam",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1389379",
+            "title": "Ranabaali",
+            "language": "te",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1402181",
+            "title": "Scene",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1327835",
+            "title": "Mookuthi Amman 2",
+            "language": "ta",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "search",
+        "query": "Malayalam thrillers",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": "catalogue",
+        "person": null,
+        "returned": 20,
+        "top5": [
+          {
+            "key": "movie:1250502",
+            "title": "I'm Game",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1544847",
+            "title": "Pradhama Drishtiya Kuttakkar",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:922673",
+            "title": "The Third Murder",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1013057",
+            "title": "Bandra",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          },
+          {
+            "key": "movie:1036081",
+            "title": "Khalifa: The Ruler",
+            "language": "ml",
+            "countries": [
+              "IN"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "any",
+        "status": 200,
+        "ms": 5,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "tv:4586",
+            "title": "Gilmore Girls",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "movie",
+        "status": 200,
+        "ms": 1456,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "movie:1664264",
+            "title": "A Very Arctic Christmas",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "tv",
+        "status": 200,
+        "ms": 1891,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "tv:253376",
+            "title": "The Girlfriend",
+            "language": "en",
+            "countries": [
+              "US",
+              "GB"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "anime",
+        "status": 200,
+        "ms": 1138,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "tv:31572",
+            "title": "Lupin the 3rd",
+            "language": "ja",
+            "countries": [
+              "JP"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "animation",
+        "status": 200,
+        "ms": 1152,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "tv:34868",
+            "title": "Shirt Tales",
+            "language": "en",
+            "countries": [
+              "US"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "roulette",
+        "query": "documentary",
+        "status": 200,
+        "ms": 1581,
+        "signals": [],
+        "intent": null,
+        "person": null,
+        "returned": 1,
+        "top5": [
+          {
+            "key": "tv:60760",
+            "title": "Air Disasters",
+            "language": "en",
+            "countries": []
+          }
+        ]
+      }
+    ],
+    "edition": {
+      "dayKey": "2026-11-18",
+      "weekKey": "2026-11-16",
+      "weeklyTheme": "Animation that hits differently",
+      "weekly": [
+        {
+          "id": 508442,
+          "key": "movie:508442",
+          "type": "movie",
+          "title": "Soul",
+          "originalTitle": "Soul",
+          "overview": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful audition at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
+          "poster": "/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
+          "backdrop": "/rQaHA74pevnGsxcKGaoZVGWe9TC.jpg",
+          "date": "2020-12-25",
+          "year": 2020,
+          "genres": [
+            16,
+            10751,
+            18,
+            10402,
+            14
+          ],
+          "genreNames": [
+            "Animation",
+            "Family",
+            "Drama",
+            "Music",
+            "Fantasy"
+          ],
+          "language": "en",
+          "countries": [
+            "US"
+          ],
+          "rating": 8.085,
+          "votes": 11919,
+          "popularity": 14.5584,
+          "adult": false,
+          "runtime": 101,
+          "keywords": [
+            "new york city",
+            "jazz",
+            "musician",
+            "cat",
+            "self-discovery",
+            "jazz singer or musician",
+            "teacher",
+            "nostalgic",
+            "questioning",
+            "aftercreditsstinger",
+            "duringcreditsstinger",
+            "life after death",
+            "calm",
+            "philosophical",
+            "reflective",
+            "wonder",
+            "introspective",
+            "3d animation",
+            "inspirational",
+            "sentimental",
+            "gentle",
+            "hopeful",
+            "optimistic",
+            "sincere"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "PG"
+          },
+          "enriched": true,
+          "status": "Released",
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 1
+              }
+            ],
+            "coverage": 0.95,
+            "hook": "Soul: English animation, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Animation / Family film records. Metadata evidence: \u201cnostalgic\u201d in the keyword (nostalgic). Metadata evidence: \u201chopeful\u201d in the keyword (hopeful). The theme is an editorial interpretation of that metadata, not a promised emotional effect. This edition stays with you through Sunday in India."
+          }
+        },
+        {
+          "id": 42253,
+          "key": "tv:42253",
+          "type": "tv",
+          "title": "K-ON!",
+          "originalTitle": "\u3051\u3044\u304a\u3093!",
+          "overview": "Yui Hirasawa has no clue which club to join, but she\u2019s determined to do something this year. As luck would have it, she discovers a flyer for the Light Music Club and decides this is the club for her. But there's one problem: She first must learn guitar!",
+          "poster": "/70hf2538UAf7mzzNgvqTlWq6PDf.jpg",
+          "backdrop": "/pYa81GUfKspR81chpcyVuTDqPCC.jpg",
+          "date": "2009-04-03",
+          "year": 2009,
+          "genres": [
+            16,
+            35
+          ],
+          "genreNames": [
+            "Animation",
+            "Comedy"
+          ],
+          "language": "ja",
+          "countries": [
+            "JP"
+          ],
+          "rating": 8.019,
+          "votes": 207,
+          "popularity": 22.8822,
+          "adult": false,
+          "runtime": 24,
+          "keywords": [
+            "guitar",
+            "friendship",
+            "high school",
+            "slice of life",
+            "coming of age",
+            "school",
+            "based on manga",
+            "girl band",
+            "nostalgic",
+            "school life",
+            "heart warming",
+            "seinen",
+            "calm",
+            "anime",
+            "thoughtful",
+            "school club",
+            "japanese high school",
+            "high school girl",
+            "loving",
+            "girls' school",
+            "music",
+            "iyashikei",
+            "admiring",
+            "amused",
+            "enchant",
+            "excited",
+            "hopeful",
+            "bukatsu",
+            "cgdct"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "TV-14"
+          },
+          "enriched": true,
+          "status": "Ended",
+          "seasons": 2,
+          "episodes": 36,
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 1
+              },
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "hopeful",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ],
+            "coverage": 0.95,
+            "hook": "K-ON!: Japanese animation, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Animation / Comedy series records. Metadata evidence: \u201cnostalgic\u201d in the keyword (nostalgic). Metadata evidence: \u201chopeful\u201d in the keyword (hopeful). The theme is an editorial interpretation of that metadata, not a promised emotional effect. This edition stays with you through Sunday in India."
+          }
+        },
+        {
+          "id": 82702,
+          "key": "movie:82702",
+          "type": "movie",
+          "title": "How to Train Your Dragon 2",
+          "originalTitle": "How to Train Your Dragon 2",
+          "overview": "Five years after uniting the dragons and Vikings of Berk, Hiccup and Toothless soar beyond their homeland, charting the vast unknown. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons\u2014and a mysterious dragon rider with a startling connection to Hiccup. And as the ruthless conqueror Drago Bludvist rises to seize control of both dragons and people alike, Hiccup must step into his role as a true leader and, alongside his friends and Toothless, protect Berk from a devastating war.",
+          "poster": "/d13Uj86LdbDLrfDoHR5aDOFYyJC.jpg",
+          "backdrop": "/8AAuJtCzaibYkbE0QVHc8EBsELB.jpg",
+          "date": "2014-06-05",
+          "year": 2014,
+          "genres": [
+            14,
+            28,
+            12,
+            16,
+            10751
+          ],
+          "genreNames": [
+            "Fantasy",
+            "Action",
+            "Adventure",
+            "Animation",
+            "Family"
+          ],
+          "language": "en",
+          "countries": [
+            "US"
+          ],
+          "rating": 7.683,
+          "votes": 10813,
+          "popularity": 11.9843,
+          "adult": false,
+          "runtime": 102,
+          "keywords": [
+            "rescue",
+            "husband wife relationship",
+            "sacrifice",
+            "parent child relationship",
+            "loss of loved one",
+            "villain",
+            "melancholy",
+            "vikings (norsemen)",
+            "sequel",
+            "dragon",
+            "nostalgic",
+            "warrior",
+            "mysterious",
+            "philosophical",
+            "reflective",
+            "mother son relationship",
+            "loving",
+            "3d animation",
+            "inspirational",
+            "wistful",
+            "intimate",
+            "dramatic",
+            "sentimental",
+            "intense",
+            "romantic",
+            "whimsical",
+            "adoring",
+            "amused",
+            "appreciative",
+            "awestruck",
+            "bewildered",
+            "celebratory",
+            "comforting",
+            "commanding",
+            "compassionate",
+            "enthusiastic",
+            "euphoric",
+            "excited",
+            "exhilarated",
+            "optimistic",
+            "sincere",
+            "tragic",
+            "vibrant"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "PG"
+          },
+          "collectionId": 89137,
+          "enriched": true,
+          "status": "Released",
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "inspirational",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ],
+            "coverage": 0.9,
+            "hook": "How to Train Your Dragon 2: English fantasy, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Fantasy / Action film records. Metadata evidence: \u201cnostalgic\u201d in the keyword (nostalgic). Metadata evidence: \u201cinspirational\u201d in the keyword (hopeful). The theme is an editorial interpretation of that metadata, not a promised emotional effect. This edition stays with you through Sunday in India."
+          }
+        },
+        {
+          "id": 72720,
+          "key": "movie:72720",
+          "type": "movie",
+          "title": "Hot Wheels AcceleRacers: Ignition",
+          "originalTitle": "Hot Wheels AcceleRacers: Ignition",
+          "overview": "Two rival race teams, the Teku and the Metal Maniacs, are recruited by Dr. Peter Tezla to race in the fantastic Racing Realms and retrieve the all-powerful AcceleChargers before they fall into the hands of the deadly Racing Drones. Our drivers race through the Storm and Swamp Realms.",
+          "poster": "/i0k5Biew92QcBgrAW3ho8nXzsbI.jpg",
+          "backdrop": "/hUvyLAk7IVqrbXxgxYcqvsrRjso.jpg",
+          "date": "2005-01-08",
+          "year": 2005,
+          "genres": [
+            878,
+            10751,
+            16,
+            28
+          ],
+          "genreNames": [
+            "Science Fiction",
+            "Family",
+            "Animation",
+            "Action"
+          ],
+          "language": "en",
+          "countries": [
+            "CA",
+            "US"
+          ],
+          "rating": 8.418,
+          "votes": 141,
+          "popularity": 1.3731,
+          "adult": false,
+          "runtime": 60,
+          "keywords": [
+            "alternate dimension",
+            "race",
+            "nostalgic",
+            "race car",
+            "aggressive",
+            "hot wheels",
+            "inspirational",
+            "dramatic"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "G"
+          },
+          "collectionId": 267308,
+          "enriched": true,
+          "status": "Released",
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "nostalgic",
+                "source": "keyword",
+                "strength": 0.9
+              },
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "inspirational",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ],
+            "coverage": 0.9,
+            "hook": "Hot Wheels AcceleRacers: Ignition: English science fiction, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Science Fiction / Family film records. Metadata evidence: \u201cnostalgic\u201d in the keyword (nostalgic). Metadata evidence: \u201cinspirational\u201d in the keyword (hopeful). The theme is an editorial interpretation of that metadata, not a promised emotional effect. This edition stays with you through Sunday in India."
+          }
+        },
+        {
+          "id": 306762,
+          "key": "tv:306762",
+          "type": "tv",
+          "title": "Love Through a Prism",
+          "originalTitle": "\u30d7\u30ea\u30ba\u30e0\u8f2a\u821e\u66f2",
+          "overview": "In early 1900s London, a young Japanese woman enrolls in a famous art school, only to be surprised when rivalry with a gifted classmate becomes romance.",
+          "poster": "/kAiyJdB6aPxTEmnXDqf6JMjdHf9.jpg",
+          "backdrop": "/7mfU2mO1t4d43mBsm4Z3Q2grGy6.jpg",
+          "date": "2026-01-15",
+          "year": 2026,
+          "genres": [
+            16,
+            18
+          ],
+          "genreNames": [
+            "Animation",
+            "Drama"
+          ],
+          "language": "ja",
+          "countries": [
+            "JP"
+          ],
+          "rating": 9,
+          "votes": 59,
+          "popularity": 12.6663,
+          "adult": false,
+          "runtime": null,
+          "keywords": [
+            "london, england",
+            "painter",
+            "art school",
+            "romance",
+            "coming of age",
+            "art",
+            "aristocrat",
+            "exchange student",
+            "anime",
+            "1900s",
+            "inspirational",
+            "original net animation (ona)"
+          ],
+          "certification": {
+            "country": "US",
+            "rating": "TV-PG"
+          },
+          "enriched": true,
+          "status": "Ended",
+          "seasons": 1,
+          "episodes": 20,
+          "editorial": {
+            "period": "weekly",
+            "theme": "Animation that hits differently",
+            "evidence": [
+              {
+                "signal": "Nostalgic",
+                "dimension": "emotion",
+                "term": "coming of age",
+                "source": "keyword",
+                "strength": 0.5
+              },
+              {
+                "signal": "Hopeful",
+                "dimension": "emotion",
+                "term": "inspirational",
+                "source": "keyword",
+                "strength": 0.9
+              }
+            ],
+            "coverage": 0.7,
+            "hook": "Love Through a Prism: Japanese animation, seen from a different angle.",
+            "why": "Selected for \u201cAnimation that hits differently\u201d from Animation / Drama series records. Metadata evidence: \u201cinspirational\u201d in the keyword (hopeful). The theme is an editorial interpretation of that metadata, not a promised emotional effect. This edition stays with you through Sunday in India."
+          }
+        }
+      ]
+    }
+  }
+}

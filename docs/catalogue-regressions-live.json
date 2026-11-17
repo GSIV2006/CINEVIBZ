@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-17T15:58:50.768Z",
+  "checkedAt": "2026-11-17T18:32:39.024Z",
   "passed": 15,
   "total": 15,
   "checks": [
     {
       "name": "Indian search: every result has Indian origin",
       "passed": true,
-      "ms": 37,
+      "ms": 36,
       "sample": [
         {
           "id": 656908,
@@ -85,7 +85,7 @@
     {
       "name": "Indian entered as a mood: constrained catalogue, no global fallback",
       "passed": true,
-      "ms": 16,
+      "ms": 11,
       "sample": [
         {
           "id": 656908,
@@ -137,7 +137,7 @@
     {
       "name": "Ram Charan: correct person and his actual feature-film credits first",
       "passed": true,
-      "ms": 7,
+      "ms": 553,
       "personId": 147023,
       "sample": [
         {
@@ -225,7 +225,7 @@
     {
       "name": "Ram Charan entered as a mood resolves to the same person",
       "passed": true,
-      "ms": 9,
+      "ms": 285,
       "sample": [
         {
           "id": 579974,
@@ -272,12 +272,12 @@
     {
       "name": "Actor phrase plus country and movie constraints",
       "passed": true,
-      "ms": 7
+      "ms": 14
     },
     {
       "name": "Peddi exact title is first, with its own artwork and Telugu metadata",
       "passed": true,
-      "ms": 7,
+      "ms": 11,
       "sample": [
         {
           "id": 1057265,
@@ -293,7 +293,7 @@
     {
       "name": "Peddi detail opens with cast and real metadata",
       "passed": true,
-      "ms": 16,
+      "ms": 23,
       "status": "Released",
       "rating": {
         "country": "IN",
@@ -303,12 +303,12 @@
     {
       "name": "Explicit family-only search still respects the rating filter",
       "passed": true,
-      "ms": 9
+      "ms": 6
     },
     {
       "name": "Malayalam thrillers: original language and genre both enforced",
       "passed": true,
-      "ms": 17,
+      "ms": 9,
       "sample": [
         {
           "id": 1250502,
@@ -412,7 +412,7 @@
     {
       "name": "Upcoming Indian films remain searchable",
       "passed": true,
-      "ms": 15,
+      "ms": 883,
       "sample": [
         {
           "id": 1209723,
@@ -455,17 +455,17 @@
     {
       "name": "Conflicting country requests produce an actionable error",
       "passed": true,
-      "ms": 4
+      "ms": 12
     },
     {
       "name": "Unrecognised query produces no unrelated recommendations",
       "passed": true,
-      "ms": 4
+      "ms": 14
     },
     {
       "name": "Indian comfort mood never leaks western productions",
       "passed": true,
-      "ms": 28,
+      "ms": 617,
       "sample": [
         {
           "id": 185008,
@@ -517,7 +517,7 @@
     {
       "name": "Actor pagination does not repeat the first page",
       "passed": true,
-      "ms": 9
+      "ms": 27
     }
   ]
 }

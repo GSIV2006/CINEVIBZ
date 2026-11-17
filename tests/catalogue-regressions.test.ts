@@ -179,6 +179,57 @@ function stubCatalogue(overrides: Record<string, unknown> = {}) {
   return calls;
 }
 describe('Search regressions through the provider boundary', () => {
+  it.each(['Naruto', 'Spider-Man', 'Vikram', 'Maharaja'])(
+    'prefers the exact title %s over a same-named person',
+    async (query) => {
+      vi.stubEnv('TMDB_READ_ACCESS_TOKEN', 'test-only-token');
+      const calls: string[] = [];
+      vi.stubGlobal(
+        'fetch',
+        vi.fn(async (input: string) => {
+          const path = new URL(input).pathname.replace('/3', '');
+          calls.push(path);
+          const payload =
+            path === '/search/person'
+              ? { results: [{ id: 2, name: query, known_for_department: 'Acting' }] }
+              : path === '/search/movie'
+                ? { page: 1, total_pages: 1, total_results: 1, results: [movie({ title: query })] }
+                : path === '/movie/1'
+                  ? movie({ title: query })
+                  : { page: 1, total_pages: 0, total_results: 0, results: [], cast: [] };
+          return new Response(JSON.stringify(payload));
+        }),
+      );
+      const r = await searchCatalogue(query);
+      expect(r.intent).toBe('title');
+      expect(r.results[0].title).toBe(query);
+      expect(calls).not.toContain('/person/2/combined_credits');
+    },
+  );
+  it('keeps explicitly requested actor credits when a title has the same name', async () => {
+    vi.stubEnv('TMDB_READ_ACCESS_TOKEN', 'test-only-token');
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async (input: string) => {
+        const path = new URL(input).pathname.replace('/3', '');
+        const payload =
+          path === '/search/person'
+            ? { results: [{ id: 2, name: 'Vikram', known_for_department: 'Acting' }] }
+            : path === '/person/2/combined_credits'
+              ? { cast: [{ ...movie(), media_type: 'movie' }] }
+              : path === '/movie/1'
+                ? movie()
+                : {};
+        return new Response(JSON.stringify(payload));
+      }),
+    );
+    expect((await searchCatalogue('actor Vikram')).intent).toBe('person');
+  });
+  it('uses audience evidence to break exact-title ties across movies and series', () => {
+    const film = normalize(movie({ title: 'Attack on Titan', vote_count: 20 }), 'movie');
+    const series = normalize(movie({ title: 'Attack on Titan', vote_count: 5000 }), 'tv');
+    expect(titleOrder([film, series], 'Attack on Titan')[0].type).toBe('tv');
+  });
   it('keeps an announced zero-vote, unrated title discoverable', async () => {
     stubCatalogue({ title: 'Peddi', release_date: '', vote_count: 0, status: 'In Production' });
     const r = await searchCatalogue('Peddi');

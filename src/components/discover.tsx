@@ -160,6 +160,12 @@ export function Discover() {
               </section>
               {data.results.length ? (
                 <div>
+                  {data.results.length < 5 && (
+                    <p className="interpretation-note">
+                      {data.results.length} discoveries passed the evidence checks. We kept this
+                      list short instead of filling it with weaker matches.
+                    </p>
+                  )}
                   {data.results.map((m, i) => (
                     <RecommendationCard media={m} index={i} key={m.key} />
                   ))}

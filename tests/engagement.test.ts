@@ -123,6 +123,21 @@ describe('daily attempts', () => {
   });
 });
 describe('saved daily and weekly editions', () => {
+  it('invalidates old editorial picks while preserving personal progress', () => {
+    const s = cacheEdition(restore(null), edition(), 'false');
+    const restored = restore(
+      JSON.stringify({
+        ...s,
+        editionVersion: 1,
+        watchlist: [film(10)],
+        completedDays: ['2026-11-17'],
+      }),
+    );
+    expect(restored.homeSnapshots).toEqual({});
+    expect(restored.weeklySnapshots).toEqual({});
+    expect(restored.watchlist[0].id).toBe(10);
+    expect(restored.completedDays).toEqual(['2026-11-17']);
+  });
   it('freezes the entire daily edition despite later catalogue updates', () => {
     const s = cacheEdition(restore(null), edition(), 'false');
     const changed = { ...edition(), daily: [film(99)], weeklyTheme: 'Changed' };
@@ -201,4 +216,28 @@ describe('streaks, feelings and local history', () => {
   });
   it('recovers gracefully from malformed local JSON', () =>
     expect(restore('{broken')).toEqual(restore(null)));
+  it('isolates corrupt storage fields without crashing streaks or losing valid saved titles', () => {
+    const s = restore(
+      JSON.stringify({
+        editionVersion: restore(null).editionVersion,
+        watchlist: [film(1)],
+        quiz: { broken: null },
+        completedDays: ['2026-11-17', null, 'invalid', '2026-02-30', '2026-11-17'],
+        events: [null],
+        preferences: { moods: [null], feedback: [null] },
+        activities: { '2026-11-17': 5 },
+        homeSnapshots: { '2026-11-17:false': { daily: null } },
+        weeklySnapshots: { '2026-11-16:false': { items: null } },
+      }),
+    );
+    expect(s.watchlist).toHaveLength(1);
+    expect(s.completedDays).toEqual(['2026-11-17']);
+    expect(() => longestStreak(s.completedDays)).not.toThrow();
+    expect(s.events).toEqual([]);
+    expect(s.activities).toEqual({});
+    expect(s.preferences.moods).toEqual([]);
+    expect(s.preferences.feedback).toEqual([]);
+    expect(s.homeSnapshots).toEqual({});
+    expect(s.weeklySnapshots).toEqual({});
+  });
 });

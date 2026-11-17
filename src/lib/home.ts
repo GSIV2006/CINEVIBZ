@@ -1,7 +1,7 @@
 import 'server-only';
-import { cataloguePage, enrich, unique, mapLimit } from './providers/tmdb';
+import { cataloguePage, enrich, unique, mapLimit, tmdb } from './providers/tmdb';
 import { dateKey, weekKey, seeded, hash } from './dates';
-import { safeForGeneral, score } from './recommendations/rank';
+import { safeForGeneral, score, hasMoodEvidence, complies } from './recommendations/rank';
 import { interpret } from './recommendations/interpret';
 import { tvGenre } from './catalogue-intent';
 import { LANGUAGES, type HomeData, type Media, type MediaType, type Preferences } from './types';
@@ -57,7 +57,7 @@ export const DAILY_THEMES: Theme[] = [
     name: 'The mind-bender',
     description: 'A door into stranger possibilities.',
     genres: [878, 14, 9648],
-    prompt: 'surreal mysterious stories',
+    prompt: 'mind-bending surreal stories',
   },
 ];
 export const WEEKLY_THEMES: Theme[] = [
@@ -109,12 +109,15 @@ function editorial(
 ): Media {
   const language = LANGUAGES[m.language] || m.language.toUpperCase(),
     format = m.type === 'movie' ? 'film' : 'series';
-  const evidence = score(m, interpret(t.prompt, { allowMature: true })).evidence[0];
+  const assessed = score(m, interpret(t.prompt, { allowMature: true }));
+  const evidence = assessed.evidence.filter((e) => e.strength >= 0.6);
   return {
     ...m,
     editorial: {
       period,
       theme: t.name,
+      evidence: assessed.evidence,
+      coverage: assessed.coverage,
       hook: `${m.title}: ${language} ${m.genreNames[0]?.toLowerCase() || 'storytelling'}, seen from a different angle.`,
       why: [
         `Selected for “${t.name}” from ${m.genreNames.slice(0, 2).join(' / ') || 'the catalogue'} ${format} records.`,
@@ -123,12 +126,11 @@ function editorial(
           : '',
         t.older ? `Its ${m.year} release places it at least ten years back.` : '',
         t.international ? `Its original language is ${language}.` : '',
-        evidence
-          ? `The ${evidence.source} explicitly includes “${evidence.term}”, supporting the ${evidence.signal.toLowerCase()} thread.`
-          : 'The theme match is based on genre and format; a specific emotional effect is not guaranteed.',
-        personal
-          ? 'Your saved likes also favour this language or genre.'
-          : 'A different language, genre or format helps keep the edition varied.',
+        ...evidence.map(
+          (e) => `Metadata evidence: “${e.term}” in the ${e.source} (${e.signal.toLowerCase()}).`,
+        ),
+        'The theme is an editorial interpretation of that metadata, not a promised emotional effect.',
+        personal ? 'Your saved likes also favour this language or genre.' : '',
         period === 'weekly'
           ? 'This edition stays with you through Sunday in India.'
           : repeat
@@ -150,6 +152,7 @@ export function pickEditorial(
   const interpretation = interpret(theme.prompt, { allowMature: true });
   const candidates = seeded(pool, key, (m) => m.key).filter(
     (m) =>
+      editorialEligible(m, theme, preferences) &&
       !selected.some(
         (s) => s.key === m.key || (m.collectionId && s.collectionId === m.collectionId),
       ),
@@ -181,6 +184,28 @@ export function pickEditorial(
         ),
     }))
     .sort((a, b) => b.value - a.value)[0]?.m;
+}
+export function editorialEligible(m: Media, theme: Theme, preferences?: Preferences) {
+  const i = interpret(theme.prompt, {
+    allowMature: true,
+    excludeWatched: preferences?.excludeWatched,
+  });
+  // Theme genres are alternatives; prompt genres (e.g. documentary) remain hard constraints.
+  if (!complies(m, i.constraints, preferences) || !m.enriched || !m.date || m.date > dateKey())
+    return false;
+  if (
+    theme.genres.length &&
+    !theme.genres.some((g) => m.genres.includes(m.type === 'tv' ? tvGenre(g) : g))
+  )
+    return false;
+  if (theme.lowVotes && (m.votes < 50 || m.votes > 1500)) return false;
+  if (theme.older && (!m.year || m.year > Number(dateKey().slice(0, 4)) - 10)) return false;
+  if (theme.international && (!m.language || m.language === 'en')) return false;
+  const assessed = score(m, i, preferences);
+  return (
+    hasMoodEvidence(assessed, i) &&
+    i.signals.every((s) => assessed.evidence.some((e) => e.signal === s.label && e.strength >= 0.5))
+  );
 }
 function params(theme: Theme, type: MediaType, page = 1, cutoff = dateKey()) {
   return {
@@ -229,6 +254,36 @@ export async function homeData(
     },
     { type: 'movie' as MediaType, theme: DAILY_THEMES[1], extra: { with_genres: '99' } },
   ];
+  // Retrieve by the defining evidence as well as by genre. Extra candidates still
+  // pass the same local eligibility rules; an empty lane is never filled loosely.
+  const evidenceLanes = [
+    ...lanes,
+    ...(['movie', 'tv'] as MediaType[]).map((type) => ({ type, theme: weeklyTheme, extra: {} })),
+  ];
+  const evidenceJobs = await mapLimit(evidenceLanes, 3, async (lane) => {
+    const signals = interpret(lane.theme.prompt).signals;
+    const signal = signals.find((s) => ['comfort', 'mindbend'].includes(s.key)) || signals[0];
+    const keywords = await Promise.all(
+      (signal?.keywords.slice(0, 2) || []).map(async (term) => {
+        try {
+          const data = await tmdb('/search/keyword', { query: term });
+          return data.results?.find(
+            (k: { name: string }) =>
+              k.name.toLowerCase().replace(/-/g, ' ') === term.replace(/-/g, ' '),
+          )?.id;
+        } catch {
+          return undefined;
+        }
+      }),
+    );
+    const ids = keywords.filter(Boolean).join('|');
+    return {
+      path: `/discover/${lane.type}`,
+      type: lane.type,
+      params: { ...params(lane.theme, lane.type), ...lane.extra, with_keywords: ids },
+      enabled: Boolean(ids),
+    };
+  });
   const jobs = [
     { path: '/movie/popular', type: 'movie' as MediaType, params: {} },
     { path: '/tv/popular', type: 'tv' as MediaType, params: {} },
@@ -262,7 +317,10 @@ export async function homeData(
       params: params(DAILY_THEMES[3], type, 1),
     })),
   ];
+  const ordinaryJobCount = jobs.length;
+  jobs.push(...evidenceJobs);
   const pages = await mapLimit(jobs, 4, async (j) => {
+    if ('enabled' in j && !j.enabled) return { ok: true as const, data: { results: [] } };
     try {
       return { ok: true as const, data: await cataloguePage(j.path, j.type, j.params) };
     } catch (error) {
@@ -276,9 +334,10 @@ export async function homeData(
   const map = new Map(allowed.map((m) => [m.key, m]));
   const from = (items: Media[]) =>
     items.map((m) => map.get(m.key)).filter((m): m is Media => Boolean(m));
-  const weeklyPool = from(lists.slice(3, 6).flat()).filter(
-    (m) => !weeklyTheme.international || m.language !== 'en',
-  );
+  const weeklyPool = from([
+    ...lists.slice(3, 6).flat(),
+    ...lists.slice(ordinaryJobCount + lanes.length).flat(),
+  ]).filter((m) => !weeklyTheme.international || m.language !== 'en');
   const weekly: Media[] = [];
   for (let n = 0; n < 5; n++) {
     const m = pickEditorial(weeklyPool, weeklyTheme, week, weekly);
@@ -293,12 +352,14 @@ export async function homeData(
       .map((f) => f.key),
   ]);
   for (const [index, lane] of lanes.entries()) {
-    const pool = from(index === 4 ? [...lists[6 + index], ...lists[11]] : lists[6 + index]).filter(
-      (m) => !excluded.has(m.key),
-    );
-    const fresh = pool.filter((m) => !recent.includes(m.key));
+    const pool = from([
+      ...(index === 4 ? [...lists[6 + index], ...lists[11]] : lists[6 + index]),
+      ...lists[ordinaryJobCount + index],
+    ]).filter((m) => !excluded.has(m.key));
+    const eligible = pool.filter((m) => editorialEligible(m, lane.theme, preferences));
+    const fresh = eligible.filter((m) => !recent.includes(m.key));
     const m = pickEditorial(
-      fresh.length ? fresh : pool,
+      fresh.length ? fresh : eligible,
       lane.theme,
       day + index,
       daily,
@@ -325,7 +386,7 @@ export async function homeData(
   const trending = from(lists[2])
     .filter((m) => !popular.some((p) => p.key === m.key))
     .slice(0, 8);
-  const outside = from(lists.slice(12).flat())
+  const outside = from(lists.slice(12, ordinaryJobCount).flat())
     .filter((m) => m.votes >= 50 && m.votes <= 1500 && (m.rating || 0) >= 6)
     .sort((a, b) => a.popularity - b.popularity)
     .slice(0, 6);
