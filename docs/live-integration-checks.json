@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-11-17T14:43:25.830Z",
+  "checks": [
+    {
+      "name": "Home sections populated",
+      "pass": true,
+      "counts": {
+        "daily": 4,
+        "weekly": 5,
+        "popular": 8,
+        "trending": 5,
+        "outside": 6
+      }
+    },
+    {
+      "name": "Daily and weekly stable across refreshes",
+      "pass": true
+    },
+    {
+      "name": "Popular and trending distinct",
+      "pass": true
+    },
+    {
+      "name": "Daily film collections do not repeat",
+      "pass": true
+    },
+    {
+      "name": "Exact anime title search",
+      "pass": true
+    },
+    {
+      "name": "Catalogue pagination",
+      "pass": true
+    },
+    {
+      "name": "Real detail metadata",
+      "pass": true
+    },
+    {
+      "name": "Anime roulette constraint",
+      "pass": true
+    },
+    {
+      "name": "Conflicting request rejected clearly",
+      "pass": true
+    },
+    {
+      "name": "Status endpoint never returns credentials",
+      "pass": true
+    }
+  ]
+}

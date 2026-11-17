@@ -1,0 +1,20 @@
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Credentials stay on this computer or in the hosting environment
+.env*
+!.env.example
+.npmrc
+*.pem
+*.key
+
+# Local tooling, logs and scratch work
+.DS_Store
+.vercel/
+*.log
+work/

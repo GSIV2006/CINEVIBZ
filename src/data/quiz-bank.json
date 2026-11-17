@@ -1,0 +1,3875 @@
+[
+  {
+    "id": "bank-animation-movie-150540",
+    "category": "Animation",
+    "question": "Who is credited as a director of Inside Out (2015)?",
+    "options": ["Ashutosh Gowariker", "Pete Docter", "S. S. Rajamouli", "Buchi Babu Sana"],
+    "answer": 1,
+    "explanation": "Inside Out credits Pete Docter for direction.",
+    "source": "https://www.themoviedb.org/movie/150540",
+    "verifiedAt": "2026-11-17T15:37:42.756Z",
+    "recordId": 150540
+  },
+  {
+    "id": "bank-animation-movie-354912",
+    "category": "Animation",
+    "question": "Who is credited as a director of Coco (2017)?",
+    "options": ["S. S. Rajamouli", "Buchi Babu Sana", "Lee Unkrich", "Rajkumar Hirani"],
+    "answer": 2,
+    "explanation": "Coco credits Lee Unkrich and Adrian Molina for direction.",
+    "source": "https://www.themoviedb.org/movie/354912",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 354912
+  },
+  {
+    "id": "bank-animation-movie-324857",
+    "category": "Animation",
+    "question": "Who is credited as a director of Spider-Man: Into the Spider-Verse (2018)?",
+    "options": ["Buchi Babu Sana", "Rajkumar Hirani", "Nitesh Tiwari", "Bob Persichetti"],
+    "answer": 3,
+    "explanation": "Spider-Man: Into the Spider-Verse credits Bob Persichetti and Peter Ramsey and Rodney Rothman for direction.",
+    "source": "https://www.themoviedb.org/movie/324857",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 324857
+  },
+  {
+    "id": "bank-animation-movie-862",
+    "category": "Animation",
+    "question": "Who is credited as a director of Toy Story (1995)?",
+    "options": ["John Lasseter", "Rajkumar Hirani", "Nitesh Tiwari", "Hayao Miyazaki"],
+    "answer": 0,
+    "explanation": "Toy Story credits John Lasseter for direction.",
+    "source": "https://www.themoviedb.org/movie/862",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 862
+  },
+  {
+    "id": "bank-animation-movie-12",
+    "category": "Animation",
+    "question": "Who is credited as a director of Finding Nemo (2003)?",
+    "options": ["Nitesh Tiwari", "Andrew Stanton", "Hayao Miyazaki", "Makoto Shinkai"],
+    "answer": 1,
+    "explanation": "Finding Nemo credits Andrew Stanton for direction.",
+    "source": "https://www.themoviedb.org/movie/12",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 12
+  },
+  {
+    "id": "bank-animation-movie-10681",
+    "category": "Animation",
+    "question": "Who is credited as a director of WALL·E (2008)?",
+    "options": ["Hayao Miyazaki", "Makoto Shinkai", "Andrew Stanton", "Katsuhiro Otomo"],
+    "answer": 2,
+    "explanation": "WALL·E credits Andrew Stanton for direction.",
+    "source": "https://www.themoviedb.org/movie/10681",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 10681
+  },
+  {
+    "id": "bank-animation-movie-10386",
+    "category": "Animation",
+    "question": "Who is credited as a director of The Iron Giant (1999)?",
+    "options": ["Makoto Shinkai", "Katsuhiro Otomo", "Satoshi Kon", "Brad Bird"],
+    "answer": 3,
+    "explanation": "The Iron Giant credits Brad Bird for direction.",
+    "source": "https://www.themoviedb.org/movie/10386",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 10386
+  },
+  {
+    "id": "bank-animation-movie-2062",
+    "category": "Animation",
+    "question": "Who is credited as a director of Ratatouille (2007)?",
+    "options": ["Brad Bird", "Katsuhiro Otomo", "Satoshi Kon", "Bong Joon Ho"],
+    "answer": 0,
+    "explanation": "Ratatouille credits Brad Bird for direction.",
+    "source": "https://www.themoviedb.org/movie/2062",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 2062
+  },
+  {
+    "id": "bank-anime-movie-129",
+    "category": "Anime",
+    "question": "Who is credited as a director of Spirited Away (2001)?",
+    "options": ["Ashutosh Gowariker", "Hayao Miyazaki", "S. S. Rajamouli", "Buchi Babu Sana"],
+    "answer": 1,
+    "explanation": "Spirited Away credits Hayao Miyazaki for direction.",
+    "source": "https://www.themoviedb.org/movie/129",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 129
+  },
+  {
+    "id": "bank-anime-movie-372058",
+    "category": "Anime",
+    "question": "Who is credited as a director of Your Name. (2016)?",
+    "options": ["S. S. Rajamouli", "Buchi Babu Sana", "Makoto Shinkai", "Rajkumar Hirani"],
+    "answer": 2,
+    "explanation": "Your Name. credits Makoto Shinkai for direction.",
+    "source": "https://www.themoviedb.org/movie/372058",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 372058
+  },
+  {
+    "id": "bank-anime-movie-128",
+    "category": "Anime",
+    "question": "Who is credited as a director of Princess Mononoke (1997)?",
+    "options": ["Buchi Babu Sana", "Rajkumar Hirani", "Nitesh Tiwari", "Hayao Miyazaki"],
+    "answer": 3,
+    "explanation": "Princess Mononoke credits Hayao Miyazaki for direction.",
+    "source": "https://www.themoviedb.org/movie/128",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 128
+  },
+  {
+    "id": "bank-anime-movie-149",
+    "category": "Anime",
+    "question": "Who is credited as a director of Akira (1988)?",
+    "options": ["Katsuhiro Otomo", "Rajkumar Hirani", "Nitesh Tiwari", "Hayao Miyazaki"],
+    "answer": 0,
+    "explanation": "Akira credits Katsuhiro Otomo for direction.",
+    "source": "https://www.themoviedb.org/movie/149",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 149
+  },
+  {
+    "id": "bank-anime-movie-10494",
+    "category": "Anime",
+    "question": "Who is credited as a director of Perfect Blue (1998)?",
+    "options": ["Nitesh Tiwari", "Satoshi Kon", "Hayao Miyazaki", "Makoto Shinkai"],
+    "answer": 1,
+    "explanation": "Perfect Blue credits Satoshi Kon for direction.",
+    "source": "https://www.themoviedb.org/movie/10494",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 10494
+  },
+  {
+    "id": "bank-anime-movie-8392",
+    "category": "Anime",
+    "question": "Who is credited as a director of My Neighbor Totoro (1988)?",
+    "options": ["Makoto Shinkai", "Katsuhiro Otomo", "Hayao Miyazaki", "Satoshi Kon"],
+    "answer": 2,
+    "explanation": "My Neighbor Totoro credits Hayao Miyazaki for direction.",
+    "source": "https://www.themoviedb.org/movie/8392",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 8392
+  },
+  {
+    "id": "bank-anime-movie-508883",
+    "category": "Anime",
+    "question": "Who is credited as a director of The Boy and the Heron (2023)?",
+    "options": ["Katsuhiro Otomo", "Satoshi Kon", "Bong Joon Ho", "Hayao Miyazaki"],
+    "answer": 3,
+    "explanation": "The Boy and the Heron credits Hayao Miyazaki for direction.",
+    "source": "https://www.themoviedb.org/movie/508883",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 508883
+  },
+  {
+    "id": "bank-anime-movie-4935",
+    "category": "Anime",
+    "question": "Who is credited as a director of Howl's Moving Castle (2004)?",
+    "options": ["Hayao Miyazaki", "Satoshi Kon", "Bong Joon Ho", "Roberto Benigni"],
+    "answer": 0,
+    "explanation": "Howl's Moving Castle credits Hayao Miyazaki for direction.",
+    "source": "https://www.themoviedb.org/movie/4935",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 4935
+  },
+  {
+    "id": "bank-directorsfilmmakers-movie-27205",
+    "category": "Directors & Filmmakers",
+    "question": "Who is credited as a director of Inception (2010)?",
+    "options": ["Ashutosh Gowariker", "S. S. Rajamouli", "Christopher Nolan", "Buchi Babu Sana"],
+    "answer": 2,
+    "explanation": "Inception credits Christopher Nolan for direction.",
+    "source": "https://www.themoviedb.org/movie/27205",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 27205
+  },
+  {
+    "id": "bank-directorsfilmmakers-movie-120467",
+    "category": "Directors & Filmmakers",
+    "question": "Who is credited as a director of The Grand Budapest Hotel (2014)?",
+    "options": ["S. S. Rajamouli", "Buchi Babu Sana", "Rajkumar Hirani", "Wes Anderson"],
+    "answer": 3,
+    "explanation": "The Grand Budapest Hotel credits Wes Anderson for direction.",
+    "source": "https://www.themoviedb.org/movie/120467",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 120467
+  },
+  {
+    "id": "bank-directorsfilmmakers-movie-346",
+    "category": "Directors & Filmmakers",
+    "question": "Who is credited as a director of Seven Samurai (1954)?",
+    "options": ["Akira Kurosawa", "Buchi Babu Sana", "Rajkumar Hirani", "Nitesh Tiwari"],
+    "answer": 0,
+    "explanation": "Seven Samurai credits Akira Kurosawa for direction.",
+    "source": "https://www.themoviedb.org/movie/346",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 346
+  },
+  {
+    "id": "bank-directorsfilmmakers-movie-680",
+    "category": "Directors & Filmmakers",
+    "question": "Who is credited as a director of Pulp Fiction (1994)?",
+    "options": ["Rajkumar Hirani", "Quentin Tarantino", "Nitesh Tiwari", "Hayao Miyazaki"],
+    "answer": 1,
+    "explanation": "Pulp Fiction credits Quentin Tarantino for direction.",
+    "source": "https://www.themoviedb.org/movie/680",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 680
+  },
+  {
+    "id": "bank-directorsfilmmakers-movie-238",
+    "category": "Directors & Filmmakers",
+    "question": "Who is credited as a director of The Godfather (1972)?",
+    "options": ["Nitesh Tiwari", "Hayao Miyazaki", "Francis Ford Coppola", "Makoto Shinkai"],
+    "answer": 2,
+    "explanation": "The Godfather credits Francis Ford Coppola for direction.",
+    "source": "https://www.themoviedb.org/movie/238",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 238
+  },
+  {
+    "id": "bank-directorsfilmmakers-movie-578",
+    "category": "Directors & Filmmakers",
+    "question": "Who is credited as a director of Jaws (1975)?",
+    "options": ["Hayao Miyazaki", "Makoto Shinkai", "Katsuhiro Otomo", "Steven Spielberg"],
+    "answer": 3,
+    "explanation": "Jaws credits Steven Spielberg for direction.",
+    "source": "https://www.themoviedb.org/movie/578",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 578
+  },
+  {
+    "id": "bank-directorsfilmmakers-movie-531428",
+    "category": "Directors & Filmmakers",
+    "question": "Who is credited as a director of Portrait of a Lady on Fire (2019)?",
+    "options": ["Céline Sciamma", "Makoto Shinkai", "Katsuhiro Otomo", "Satoshi Kon"],
+    "answer": 0,
+    "explanation": "Portrait of a Lady on Fire credits Céline Sciamma for direction.",
+    "source": "https://www.themoviedb.org/movie/531428",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 531428
+  },
+  {
+    "id": "bank-directorsfilmmakers-movie-419430",
+    "category": "Directors & Filmmakers",
+    "question": "Who is credited as a director of Get Out (2017)?",
+    "options": ["Katsuhiro Otomo", "Jordan Peele", "Satoshi Kon", "Bong Joon Ho"],
+    "answer": 1,
+    "explanation": "Get Out credits Jordan Peele for direction.",
+    "source": "https://www.themoviedb.org/movie/419430",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 419430
+  },
+  {
+    "id": "bank-filmhistory-movie-15",
+    "category": "Film History",
+    "question": "Which primary release year does TMDB list for Citizen Kane?",
+    "options": ["1941", "1936", "1944", "1942"],
+    "answer": 0,
+    "explanation": "Citizen Kane has a primary release date of 1941-04-17 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/movie/15",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 15
+  },
+  {
+    "id": "bank-filmhistory-movie-19",
+    "category": "Film History",
+    "question": "Which primary release year does TMDB list for Metropolis?",
+    "options": ["1922", "1927", "1930", "1928"],
+    "answer": 1,
+    "explanation": "Metropolis has a primary release date of 1927-01-10 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/movie/19",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 19
+  },
+  {
+    "id": "bank-filmhistory-movie-3082",
+    "category": "Film History",
+    "question": "Which primary release year does TMDB list for Modern Times?",
+    "options": ["1931", "1939", "1936", "1937"],
+    "answer": 2,
+    "explanation": "Modern Times has a primary release date of 1936-02-05 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/movie/3082",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 3082
+  },
+  {
+    "id": "bank-filmhistory-movie-961",
+    "category": "Film History",
+    "question": "Which primary release year does TMDB list for The General?",
+    "options": ["1921", "1929", "1927", "1926"],
+    "answer": 3,
+    "explanation": "The General has a primary release date of 1926-12-25 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/movie/961",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 961
+  },
+  {
+    "id": "bank-filmhistory-movie-962",
+    "category": "Film History",
+    "question": "Which primary release year does TMDB list for The Gold Rush?",
+    "options": ["1925", "1920", "1928", "1926"],
+    "answer": 0,
+    "explanation": "The Gold Rush has a primary release date of 1925-07-13 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/movie/962",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 962
+  },
+  {
+    "id": "bank-filmhistory-movie-389",
+    "category": "Film History",
+    "question": "Which primary release year does TMDB list for 12 Angry Men?",
+    "options": ["1952", "1957", "1960", "1958"],
+    "answer": 1,
+    "explanation": "12 Angry Men has a primary release date of 1957-04-10 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/movie/389",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 389
+  },
+  {
+    "id": "bank-filmhistory-movie-567",
+    "category": "Film History",
+    "question": "Which primary release year does TMDB list for Rear Window?",
+    "options": ["1949", "1957", "1954", "1955"],
+    "answer": 2,
+    "explanation": "Rear Window has a primary release date of 1954-08-01 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/movie/567",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 567
+  },
+  {
+    "id": "bank-filmhistory-movie-539",
+    "category": "Film History",
+    "question": "Which primary release year does TMDB list for Psycho?",
+    "options": ["1955", "1963", "1961", "1960"],
+    "answer": 3,
+    "explanation": "Psycho has a primary release date of 1960-06-22 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/movie/539",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 539
+  },
+  {
+    "id": "bank-internationalcinema-movie-496243",
+    "category": "International Cinema",
+    "question": "What is the original language of Parasite (2019)?",
+    "options": ["Korean", "Telugu", "Hindi", "Tamil"],
+    "answer": 0,
+    "explanation": "Parasite is catalogued with Korean as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/496243",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 496243
+  },
+  {
+    "id": "bank-internationalcinema-movie-194",
+    "category": "International Cinema",
+    "question": "What is the original language of Amélie (2001)?",
+    "options": ["Hindi", "French", "Tamil", "Malayalam"],
+    "answer": 1,
+    "explanation": "Amélie is catalogued with French as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/194",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 194
+  },
+  {
+    "id": "bank-internationalcinema-movie-637",
+    "category": "International Cinema",
+    "question": "What is the original language of Life Is Beautiful (1997)?",
+    "options": ["Tamil", "Malayalam", "Italian", "Kannada"],
+    "answer": 2,
+    "explanation": "Life Is Beautiful is catalogued with Italian as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/637",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 637
+  },
+  {
+    "id": "bank-internationalcinema-movie-11216",
+    "category": "International Cinema",
+    "question": "What is the original language of Cinema Paradiso (1988)?",
+    "options": ["Malayalam", "Kannada", "Japanese", "Italian"],
+    "answer": 3,
+    "explanation": "Cinema Paradiso is catalogued with Italian as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/11216",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 11216
+  },
+  {
+    "id": "bank-internationalcinema-movie-1417",
+    "category": "International Cinema",
+    "question": "What is the original language of Pan's Labyrinth (2006)?",
+    "options": ["Spanish", "Kannada", "Japanese", "English"],
+    "answer": 0,
+    "explanation": "Pan's Labyrinth is catalogued with Spanish as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/1417",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 1417
+  },
+  {
+    "id": "bank-internationalcinema-movie-598",
+    "category": "International Cinema",
+    "question": "What is the original language of City of God (2002)?",
+    "options": ["Japanese", "Portuguese", "English", "Korean"],
+    "answer": 1,
+    "explanation": "City of God is catalogued with Portuguese as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/598",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 598
+  },
+  {
+    "id": "bank-internationalcinema-movie-582",
+    "category": "International Cinema",
+    "question": "What is the original language of The Lives of Others (2006)?",
+    "options": ["English", "Korean", "German", "French"],
+    "answer": 2,
+    "explanation": "The Lives of Others is catalogued with German as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/582",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 582
+  },
+  {
+    "id": "bank-internationalcinema-movie-60243",
+    "category": "International Cinema",
+    "question": "What is the original language of A Separation (2011)?",
+    "options": ["Korean", "French", "Italian", "Persian"],
+    "answer": 3,
+    "explanation": "A Separation is catalogued with Persian as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/60243",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 60243
+  },
+  {
+    "id": "bank-movies-movie-579974",
+    "category": "Movies",
+    "question": "What is the original language of RRR (2022)?",
+    "options": ["Hindi", "Tamil", "Telugu", "Malayalam"],
+    "answer": 2,
+    "explanation": "RRR is catalogued with Telugu as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/579974",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 579974
+  },
+  {
+    "id": "bank-movies-movie-1057265",
+    "category": "Movies",
+    "question": "What is the original language of Peddi (2026)?",
+    "options": ["Tamil", "Malayalam", "Kannada", "Telugu"],
+    "answer": 3,
+    "explanation": "Peddi is catalogued with Telugu as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/1057265",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 1057265
+  },
+  {
+    "id": "bank-movies-movie-23790",
+    "category": "Movies",
+    "question": "What is the original language of Magadheera (2009)?",
+    "options": ["Telugu", "Malayalam", "Kannada", "Japanese"],
+    "answer": 0,
+    "explanation": "Magadheera is catalogued with Telugu as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/23790",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 23790
+  },
+  {
+    "id": "bank-movies-movie-19666",
+    "category": "Movies",
+    "question": "What is the original language of Lagaan: Once Upon a Time in India (2001)?",
+    "options": ["Kannada", "Hindi", "Japanese", "English"],
+    "answer": 1,
+    "explanation": "Lagaan: Once Upon a Time in India is catalogued with Hindi as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/19666",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 19666
+  },
+  {
+    "id": "bank-movies-movie-20453",
+    "category": "Movies",
+    "question": "What is the original language of 3 Idiots (2009)?",
+    "options": ["Japanese", "English", "Hindi", "Korean"],
+    "answer": 2,
+    "explanation": "3 Idiots is catalogued with Hindi as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/20453",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 20453
+  },
+  {
+    "id": "bank-movies-movie-360814",
+    "category": "Movies",
+    "question": "What is the original language of Dangal (2016)?",
+    "options": ["English", "Korean", "French", "Hindi"],
+    "answer": 3,
+    "explanation": "Dangal is catalogued with Hindi as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/360814",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 360814
+  },
+  {
+    "id": "bank-movies-movie-256040",
+    "category": "Movies",
+    "question": "What is the original language of Bāhubali: The Beginning (2015)?",
+    "options": ["Telugu", "Korean", "French", "Italian"],
+    "answer": 0,
+    "explanation": "Bāhubali: The Beginning is catalogued with Telugu as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/256040",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 256040
+  },
+  {
+    "id": "bank-movies-movie-148265",
+    "category": "Movies",
+    "question": "What is the original language of Eega (2012)?",
+    "options": ["French", "Telugu", "Italian", "Spanish"],
+    "answer": 1,
+    "explanation": "Eega is catalogued with Telugu as its original language. Dubbed versions do not change that original-language credit.",
+    "source": "https://www.themoviedb.org/movie/148265",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 148265
+  },
+  {
+    "id": "bank-soundtracksmusic-movie-157336",
+    "category": "Soundtracks & Music",
+    "question": "Who is credited for the original music of Interstellar (2014)?",
+    "options": ["A.R. Rahman", "M.M. Keeravaani", "Shantanu Moitra", "Hans Zimmer"],
+    "answer": 3,
+    "explanation": "Interstellar credits Hans Zimmer as original music composer.",
+    "source": "https://www.themoviedb.org/movie/157336",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 157336
+  },
+  {
+    "id": "bank-soundtracksmusic-movie-27205",
+    "category": "Soundtracks & Music",
+    "question": "Who is credited for the original music of Inception (2010)?",
+    "options": ["Hans Zimmer", "M.M. Keeravaani", "Shantanu Moitra", "Sanjay Wandrekar"],
+    "answer": 0,
+    "explanation": "Inception credits Hans Zimmer as original music composer.",
+    "source": "https://www.themoviedb.org/movie/27205",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 27205
+  },
+  {
+    "id": "bank-soundtracksmusic-movie-579974",
+    "category": "Soundtracks & Music",
+    "question": "Who is credited for the original music of RRR (2022)?",
+    "options": ["Sanjay Wandrekar", "M.M. Keeravaani", "Atul Raninga", "Pritam Chakraborty"],
+    "answer": 1,
+    "explanation": "RRR credits M.M. Keeravaani as original music composer.",
+    "source": "https://www.themoviedb.org/movie/579974",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 579974
+  },
+  {
+    "id": "bank-soundtracksmusic-movie-329",
+    "category": "Soundtracks & Music",
+    "question": "Who is credited for the original music of Jurassic Park (1993)?",
+    "options": ["Sanjay Wandrekar", "Atul Raninga", "John Williams", "Pritam Chakraborty"],
+    "answer": 2,
+    "explanation": "Jurassic Park credits John Williams as original music composer.",
+    "source": "https://www.themoviedb.org/movie/329",
+    "verifiedAt": "2026-11-17T15:37:42.757Z",
+    "recordId": 329
+  },
+  {
+    "id": "bank-soundtracksmusic-movie-429",
+    "category": "Soundtracks & Music",
+    "question": "Who is credited for the original music of The Good, the Bad and the Ugly (1966)?",
+    "options": ["Atul Raninga", "Pritam Chakraborty", "Joe Hisaishi", "Ennio Morricone"],
+    "answer": 3,
+    "explanation": "The Good, the Bad and the Ugly credits Ennio Morricone as original music composer.",
+    "source": "https://www.themoviedb.org/movie/429",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 429
+  },
+  {
+    "id": "bank-soundtracksmusic-movie-37799",
+    "category": "Soundtracks & Music",
+    "question": "Who is credited for the original music of The Social Network (2010)?",
+    "options": ["Atticus Ross", "Pritam Chakraborty", "Joe Hisaishi", "Yojiro Noda"],
+    "answer": 0,
+    "explanation": "The Social Network credits Atticus Ross and Trent Reznor as original music composers.",
+    "source": "https://www.themoviedb.org/movie/37799",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 37799
+  },
+  {
+    "id": "bank-soundtracksmusic-movie-194",
+    "category": "Soundtracks & Music",
+    "question": "Who is credited for the original music of Amélie (2001)?",
+    "options": ["Joe Hisaishi", "Yann Tiersen", "Yojiro Noda", "Akira Kuwahara"],
+    "answer": 1,
+    "explanation": "Amélie credits Yann Tiersen as original music composer.",
+    "source": "https://www.themoviedb.org/movie/194",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 194
+  },
+  {
+    "id": "bank-soundtracksmusic-movie-284054",
+    "category": "Soundtracks & Music",
+    "question": "Who is credited for the original music of Black Panther (2018)?",
+    "options": ["Yojiro Noda", "Akira Kuwahara", "Ludwig Göransson", "Yusuke Takeda"],
+    "answer": 2,
+    "explanation": "Black Panther credits Ludwig Göransson as original music composer.",
+    "source": "https://www.themoviedb.org/movie/284054",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 284054
+  },
+  {
+    "id": "bank-tvseries-tv-1396",
+    "category": "TV & Series",
+    "question": "In which year did Breaking Bad first air?",
+    "options": ["2003", "2011", "2009", "2008"],
+    "answer": 3,
+    "explanation": "Breaking Bad has a first-air date of 2008-01-20 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/tv/1396",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 1396
+  },
+  {
+    "id": "bank-tvseries-tv-70523",
+    "category": "TV & Series",
+    "question": "In which year did Dark first air?",
+    "options": ["2017", "2012", "2020", "2018"],
+    "answer": 0,
+    "explanation": "Dark has a first-air date of 2017-12-01 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/tv/70523",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 70523
+  },
+  {
+    "id": "bank-tvseries-tv-87108",
+    "category": "TV & Series",
+    "question": "In which year did Chernobyl first air?",
+    "options": ["2014", "2019", "2022", "2020"],
+    "answer": 1,
+    "explanation": "Chernobyl has a first-air date of 2019-05-06 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/tv/87108",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 87108
+  },
+  {
+    "id": "bank-tvseries-tv-66732",
+    "category": "TV & Series",
+    "question": "In which year did Stranger Things first air?",
+    "options": ["2011", "2019", "2016", "2017"],
+    "answer": 2,
+    "explanation": "Stranger Things has a first-air date of 2016-07-15 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/tv/66732",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 66732
+  },
+  {
+    "id": "bank-tvseries-tv-67070",
+    "category": "TV & Series",
+    "question": "In which year did Fleabag first air?",
+    "options": ["2011", "2019", "2017", "2016"],
+    "answer": 3,
+    "explanation": "Fleabag has a first-air date of 2016-07-21 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/tv/67070",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 67070
+  },
+  {
+    "id": "bank-tvseries-tv-2316",
+    "category": "TV & Series",
+    "question": "In which year did The Office first air?",
+    "options": ["2005", "2000", "2008", "2006"],
+    "answer": 0,
+    "explanation": "The Office has a first-air date of 2005-03-24 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/tv/2316",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 2316
+  },
+  {
+    "id": "bank-tvseries-tv-126308",
+    "category": "TV & Series",
+    "question": "In which year did Shōgun first air?",
+    "options": ["2019", "2024", "2027", "2025"],
+    "answer": 1,
+    "explanation": "Shōgun has a first-air date of 2024-02-27 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/tv/126308",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 126308
+  },
+  {
+    "id": "bank-tvseries-tv-60059",
+    "category": "TV & Series",
+    "question": "In which year did Better Call Saul first air?",
+    "options": ["2010", "2018", "2015", "2016"],
+    "answer": 2,
+    "explanation": "Better Call Saul has a first-air date of 2015-02-08 in the catalogue. Local release dates can differ.",
+    "source": "https://www.themoviedb.org/tv/60059",
+    "verifiedAt": "2026-11-17T15:37:42.758Z",
+    "recordId": 60059
+  },
+  {
+    "id": "extra-Movies-579974-year",
+    "category": "Movies",
+    "question": "In which year did RRR have its original release?",
+    "options": ["2022", "2018", "2020", "2025"],
+    "answer": 0,
+    "explanation": "TMDB lists 2022-03-24 as the original release date for RRR.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-Movies-579974-language",
+    "category": "Movies",
+    "question": "What is the original language listed for RRR (2022)?",
+    "options": ["Telugu", "English", "Hindi", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists Telugu as the original language of RRR.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-Movies-579974-director",
+    "category": "Movies",
+    "question": "Which of these filmmakers directed RRR (2022)?",
+    "options": ["S. S. Rajamouli", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-Movies-1057265-year",
+    "category": "Movies",
+    "question": "In which year did Peddi have its original release?",
+    "options": ["2026", "2022", "2024", "2029"],
+    "answer": 0,
+    "explanation": "TMDB lists 2026-06-03 as the original release date for Peddi.",
+    "source": "https://www.themoviedb.org/movie/1057265"
+  },
+  {
+    "id": "extra-Movies-1057265-language",
+    "category": "Movies",
+    "question": "What is the original language listed for Peddi (2026)?",
+    "options": ["Telugu", "English", "Hindi", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists Telugu as the original language of Peddi.",
+    "source": "https://www.themoviedb.org/movie/1057265"
+  },
+  {
+    "id": "extra-Movies-1057265-director",
+    "category": "Movies",
+    "question": "Which of these filmmakers directed Peddi (2026)?",
+    "options": ["Buchi Babu Sana", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Buchi Babu Sana.",
+    "source": "https://www.themoviedb.org/movie/1057265"
+  },
+  {
+    "id": "extra-Movies-23790-year",
+    "category": "Movies",
+    "question": "In which year did Magadheera have its original release?",
+    "options": ["2005", "2007", "2012", "2009"],
+    "answer": 3,
+    "explanation": "TMDB lists 2009-07-31 as the original release date for Magadheera.",
+    "source": "https://www.themoviedb.org/movie/23790"
+  },
+  {
+    "id": "extra-Movies-23790-language",
+    "category": "Movies",
+    "question": "What is the original language listed for Magadheera (2009)?",
+    "options": ["English", "Hindi", "Japanese", "Telugu"],
+    "answer": 3,
+    "explanation": "TMDB lists Telugu as the original language of Magadheera.",
+    "source": "https://www.themoviedb.org/movie/23790"
+  },
+  {
+    "id": "extra-Movies-23790-director",
+    "category": "Movies",
+    "question": "Which of these filmmakers directed Magadheera (2009)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "S. S. Rajamouli"],
+    "answer": 3,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/23790"
+  },
+  {
+    "id": "extra-Movies-19666-year",
+    "category": "Movies",
+    "question": "In which year did Lagaan: Once Upon a Time in India have its original release?",
+    "options": ["1997", "1999", "2004", "2001"],
+    "answer": 3,
+    "explanation": "TMDB lists 2001-06-15 as the original release date for Lagaan: Once Upon a Time in India.",
+    "source": "https://www.themoviedb.org/movie/19666"
+  },
+  {
+    "id": "extra-Movies-19666-language",
+    "category": "Movies",
+    "question": "What is the original language listed for Lagaan: Once Upon a Time in India (2001)?",
+    "options": ["English", "Telugu", "Japanese", "Hindi"],
+    "answer": 3,
+    "explanation": "TMDB lists Hindi as the original language of Lagaan: Once Upon a Time in India.",
+    "source": "https://www.themoviedb.org/movie/19666"
+  },
+  {
+    "id": "extra-Movies-19666-director",
+    "category": "Movies",
+    "question": "Which of these filmmakers directed Lagaan: Once Upon a Time in India (2001)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Ashutosh Gowariker"],
+    "answer": 3,
+    "explanation": "The credited director is Ashutosh Gowariker.",
+    "source": "https://www.themoviedb.org/movie/19666"
+  },
+  {
+    "id": "extra-Movies-20453-year",
+    "category": "Movies",
+    "question": "In which year did 3 Idiots have its original release?",
+    "options": ["2005", "2007", "2012", "2009"],
+    "answer": 3,
+    "explanation": "TMDB lists 2009-12-23 as the original release date for 3 Idiots.",
+    "source": "https://www.themoviedb.org/movie/20453"
+  },
+  {
+    "id": "extra-Movies-20453-language",
+    "category": "Movies",
+    "question": "What is the original language listed for 3 Idiots (2009)?",
+    "options": ["English", "Telugu", "Japanese", "Hindi"],
+    "answer": 3,
+    "explanation": "TMDB lists Hindi as the original language of 3 Idiots.",
+    "source": "https://www.themoviedb.org/movie/20453"
+  },
+  {
+    "id": "extra-Movies-20453-director",
+    "category": "Movies",
+    "question": "Which of these filmmakers directed 3 Idiots (2009)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Rajkumar Hirani"],
+    "answer": 3,
+    "explanation": "The credited director is Rajkumar Hirani.",
+    "source": "https://www.themoviedb.org/movie/20453"
+  },
+  {
+    "id": "extra-Movies-360814-year",
+    "category": "Movies",
+    "question": "In which year did Dangal have its original release?",
+    "options": ["2012", "2014", "2016", "2019"],
+    "answer": 2,
+    "explanation": "TMDB lists 2016-12-21 as the original release date for Dangal.",
+    "source": "https://www.themoviedb.org/movie/360814"
+  },
+  {
+    "id": "extra-Movies-360814-language",
+    "category": "Movies",
+    "question": "What is the original language listed for Dangal (2016)?",
+    "options": ["English", "Telugu", "Hindi", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists Hindi as the original language of Dangal.",
+    "source": "https://www.themoviedb.org/movie/360814"
+  },
+  {
+    "id": "extra-Movies-360814-director",
+    "category": "Movies",
+    "question": "Which of these filmmakers directed Dangal (2016)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Nitesh Tiwari", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Nitesh Tiwari.",
+    "source": "https://www.themoviedb.org/movie/360814"
+  },
+  {
+    "id": "extra-Movies-256040-year",
+    "category": "Movies",
+    "question": "In which year did Bāhubali: The Beginning have its original release?",
+    "options": ["2011", "2015", "2013", "2018"],
+    "answer": 1,
+    "explanation": "TMDB lists 2015-07-09 as the original release date for Bāhubali: The Beginning.",
+    "source": "https://www.themoviedb.org/movie/256040"
+  },
+  {
+    "id": "extra-Movies-256040-language",
+    "category": "Movies",
+    "question": "What is the original language listed for Bāhubali: The Beginning (2015)?",
+    "options": ["English", "Telugu", "Hindi", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists Telugu as the original language of Bāhubali: The Beginning.",
+    "source": "https://www.themoviedb.org/movie/256040"
+  },
+  {
+    "id": "extra-Movies-256040-director",
+    "category": "Movies",
+    "question": "Which of these filmmakers directed Bāhubali: The Beginning (2015)?",
+    "options": ["Adrian Molina", "S. S. Rajamouli", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/256040"
+  },
+  {
+    "id": "extra-Movies-148265-year",
+    "category": "Movies",
+    "question": "In which year did Eega have its original release?",
+    "options": ["2008", "2010", "2012", "2015"],
+    "answer": 2,
+    "explanation": "TMDB lists 2012-07-05 as the original release date for Eega.",
+    "source": "https://www.themoviedb.org/movie/148265"
+  },
+  {
+    "id": "extra-Movies-148265-language",
+    "category": "Movies",
+    "question": "What is the original language listed for Eega (2012)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists Telugu as the original language of Eega.",
+    "source": "https://www.themoviedb.org/movie/148265"
+  },
+  {
+    "id": "extra-Movies-148265-director",
+    "category": "Movies",
+    "question": "Which of these filmmakers directed Eega (2012)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "S. S. Rajamouli", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/148265"
+  },
+  {
+    "id": "extra-Anime-129-year",
+    "category": "Anime",
+    "question": "In which year did Spirited Away have its original release?",
+    "options": ["1997", "1999", "2001", "2004"],
+    "answer": 2,
+    "explanation": "TMDB lists 2001-07-20 as the original release date for Spirited Away.",
+    "source": "https://www.themoviedb.org/movie/129"
+  },
+  {
+    "id": "extra-Anime-129-language",
+    "category": "Anime",
+    "question": "What is the original language listed for Spirited Away (2001)?",
+    "options": ["English", "Hindi", "Japanese", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Japanese as the original language of Spirited Away.",
+    "source": "https://www.themoviedb.org/movie/129"
+  },
+  {
+    "id": "extra-Anime-129-director",
+    "category": "Anime",
+    "question": "Which of these filmmakers directed Spirited Away (2001)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Hayao Miyazaki", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/129"
+  },
+  {
+    "id": "extra-Anime-372058-year",
+    "category": "Anime",
+    "question": "In which year did Your Name. have its original release?",
+    "options": ["2012", "2016", "2014", "2019"],
+    "answer": 1,
+    "explanation": "TMDB lists 2016-07-01 as the original release date for Your Name..",
+    "source": "https://www.themoviedb.org/movie/372058"
+  },
+  {
+    "id": "extra-Anime-372058-language",
+    "category": "Anime",
+    "question": "What is the original language listed for Your Name. (2016)?",
+    "options": ["English", "Japanese", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Japanese as the original language of Your Name..",
+    "source": "https://www.themoviedb.org/movie/372058"
+  },
+  {
+    "id": "extra-Anime-372058-director",
+    "category": "Anime",
+    "question": "Which of these filmmakers directed Your Name. (2016)?",
+    "options": ["Adrian Molina", "Makoto Shinkai", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Makoto Shinkai.",
+    "source": "https://www.themoviedb.org/movie/372058"
+  },
+  {
+    "id": "extra-Anime-128-year",
+    "category": "Anime",
+    "question": "In which year did Princess Mononoke have its original release?",
+    "options": ["1993", "1995", "1997", "2000"],
+    "answer": 2,
+    "explanation": "TMDB lists 1997-07-12 as the original release date for Princess Mononoke.",
+    "source": "https://www.themoviedb.org/movie/128"
+  },
+  {
+    "id": "extra-Anime-128-language",
+    "category": "Anime",
+    "question": "What is the original language listed for Princess Mononoke (1997)?",
+    "options": ["English", "Hindi", "Japanese", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Japanese as the original language of Princess Mononoke.",
+    "source": "https://www.themoviedb.org/movie/128"
+  },
+  {
+    "id": "extra-Anime-128-director",
+    "category": "Anime",
+    "question": "Which of these filmmakers directed Princess Mononoke (1997)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Hayao Miyazaki", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/128"
+  },
+  {
+    "id": "extra-Anime-149-year",
+    "category": "Anime",
+    "question": "In which year did Akira have its original release?",
+    "options": ["1984", "1988", "1986", "1991"],
+    "answer": 1,
+    "explanation": "TMDB lists 1988-07-16 as the original release date for Akira.",
+    "source": "https://www.themoviedb.org/movie/149"
+  },
+  {
+    "id": "extra-Anime-149-language",
+    "category": "Anime",
+    "question": "What is the original language listed for Akira (1988)?",
+    "options": ["English", "Japanese", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Japanese as the original language of Akira.",
+    "source": "https://www.themoviedb.org/movie/149"
+  },
+  {
+    "id": "extra-Anime-149-director",
+    "category": "Anime",
+    "question": "Which of these filmmakers directed Akira (1988)?",
+    "options": ["Adrian Molina", "Katsuhiro Otomo", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Katsuhiro Otomo.",
+    "source": "https://www.themoviedb.org/movie/149"
+  },
+  {
+    "id": "extra-Anime-10494-year",
+    "category": "Anime",
+    "question": "In which year did Perfect Blue have its original release?",
+    "options": ["1994", "1996", "2001", "1998"],
+    "answer": 3,
+    "explanation": "TMDB lists 1998-02-28 as the original release date for Perfect Blue.",
+    "source": "https://www.themoviedb.org/movie/10494"
+  },
+  {
+    "id": "extra-Anime-10494-language",
+    "category": "Anime",
+    "question": "What is the original language listed for Perfect Blue (1998)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 3,
+    "explanation": "TMDB lists Japanese as the original language of Perfect Blue.",
+    "source": "https://www.themoviedb.org/movie/10494"
+  },
+  {
+    "id": "extra-Anime-10494-director",
+    "category": "Anime",
+    "question": "Which of these filmmakers directed Perfect Blue (1998)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Satoshi Kon"],
+    "answer": 3,
+    "explanation": "The credited director is Satoshi Kon.",
+    "source": "https://www.themoviedb.org/movie/10494"
+  },
+  {
+    "id": "extra-Anime-8392-year",
+    "category": "Anime",
+    "question": "In which year did My Neighbor Totoro have its original release?",
+    "options": ["1984", "1988", "1986", "1991"],
+    "answer": 1,
+    "explanation": "TMDB lists 1988-04-16 as the original release date for My Neighbor Totoro.",
+    "source": "https://www.themoviedb.org/movie/8392"
+  },
+  {
+    "id": "extra-Anime-8392-language",
+    "category": "Anime",
+    "question": "What is the original language listed for My Neighbor Totoro (1988)?",
+    "options": ["English", "Japanese", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Japanese as the original language of My Neighbor Totoro.",
+    "source": "https://www.themoviedb.org/movie/8392"
+  },
+  {
+    "id": "extra-Anime-8392-director",
+    "category": "Anime",
+    "question": "Which of these filmmakers directed My Neighbor Totoro (1988)?",
+    "options": ["Adrian Molina", "Hayao Miyazaki", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/8392"
+  },
+  {
+    "id": "extra-Anime-508883-year",
+    "category": "Anime",
+    "question": "In which year did The Boy and the Heron have its original release?",
+    "options": ["2023", "2019", "2021", "2026"],
+    "answer": 0,
+    "explanation": "TMDB lists 2023-07-14 as the original release date for The Boy and the Heron.",
+    "source": "https://www.themoviedb.org/movie/508883"
+  },
+  {
+    "id": "extra-Anime-508883-language",
+    "category": "Anime",
+    "question": "What is the original language listed for The Boy and the Heron (2023)?",
+    "options": ["Japanese", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists Japanese as the original language of The Boy and the Heron.",
+    "source": "https://www.themoviedb.org/movie/508883"
+  },
+  {
+    "id": "extra-Anime-508883-director",
+    "category": "Anime",
+    "question": "Which of these filmmakers directed The Boy and the Heron (2023)?",
+    "options": ["Hayao Miyazaki", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/508883"
+  },
+  {
+    "id": "extra-Anime-4935-year",
+    "category": "Anime",
+    "question": "In which year did Howl's Moving Castle have its original release?",
+    "options": ["2000", "2004", "2002", "2007"],
+    "answer": 1,
+    "explanation": "TMDB lists 2004-09-09 as the original release date for Howl's Moving Castle.",
+    "source": "https://www.themoviedb.org/movie/4935"
+  },
+  {
+    "id": "extra-Anime-4935-language",
+    "category": "Anime",
+    "question": "What is the original language listed for Howl's Moving Castle (2004)?",
+    "options": ["English", "Japanese", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Japanese as the original language of Howl's Moving Castle.",
+    "source": "https://www.themoviedb.org/movie/4935"
+  },
+  {
+    "id": "extra-Anime-4935-director",
+    "category": "Anime",
+    "question": "Which of these filmmakers directed Howl's Moving Castle (2004)?",
+    "options": ["Adrian Molina", "Hayao Miyazaki", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/4935"
+  },
+  {
+    "id": "extra-International Cinema-496243-year",
+    "category": "International Cinema",
+    "question": "In which year did Parasite have its original release?",
+    "options": ["2015", "2017", "2022", "2019"],
+    "answer": 3,
+    "explanation": "TMDB lists 2019-05-30 as the original release date for Parasite.",
+    "source": "https://www.themoviedb.org/movie/496243"
+  },
+  {
+    "id": "extra-International Cinema-496243-language",
+    "category": "International Cinema",
+    "question": "What is the original language listed for Parasite (2019)?",
+    "options": ["English", "Hindi", "Telugu", "Korean"],
+    "answer": 3,
+    "explanation": "TMDB lists Korean as the original language of Parasite.",
+    "source": "https://www.themoviedb.org/movie/496243"
+  },
+  {
+    "id": "extra-International Cinema-496243-director",
+    "category": "International Cinema",
+    "question": "Which of these filmmakers directed Parasite (2019)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Bong Joon Ho"],
+    "answer": 3,
+    "explanation": "The credited director is Bong Joon Ho.",
+    "source": "https://www.themoviedb.org/movie/496243"
+  },
+  {
+    "id": "extra-International Cinema-194-year",
+    "category": "International Cinema",
+    "question": "In which year did Amélie have its original release?",
+    "options": ["1997", "2001", "1999", "2004"],
+    "answer": 1,
+    "explanation": "TMDB lists 2001-04-25 as the original release date for Amélie.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-International Cinema-194-language",
+    "category": "International Cinema",
+    "question": "What is the original language listed for Amélie (2001)?",
+    "options": ["English", "French", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists French as the original language of Amélie.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-International Cinema-194-director",
+    "category": "International Cinema",
+    "question": "Which of these filmmakers directed Amélie (2001)?",
+    "options": ["Adrian Molina", "Jean-Pierre Jeunet", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Jean-Pierre Jeunet.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-International Cinema-637-year",
+    "category": "International Cinema",
+    "question": "In which year did Life Is Beautiful have its original release?",
+    "options": ["1993", "1997", "1995", "2000"],
+    "answer": 1,
+    "explanation": "TMDB lists 1997-12-20 as the original release date for Life Is Beautiful.",
+    "source": "https://www.themoviedb.org/movie/637"
+  },
+  {
+    "id": "extra-International Cinema-637-language",
+    "category": "International Cinema",
+    "question": "What is the original language listed for Life Is Beautiful (1997)?",
+    "options": ["English", "Italian", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Italian as the original language of Life Is Beautiful.",
+    "source": "https://www.themoviedb.org/movie/637"
+  },
+  {
+    "id": "extra-International Cinema-637-director",
+    "category": "International Cinema",
+    "question": "Which of these filmmakers directed Life Is Beautiful (1997)?",
+    "options": ["Adrian Molina", "Roberto Benigni", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Roberto Benigni.",
+    "source": "https://www.themoviedb.org/movie/637"
+  },
+  {
+    "id": "extra-International Cinema-11216-year",
+    "category": "International Cinema",
+    "question": "In which year did Cinema Paradiso have its original release?",
+    "options": ["1988", "1984", "1986", "1991"],
+    "answer": 0,
+    "explanation": "TMDB lists 1988-11-17 as the original release date for Cinema Paradiso.",
+    "source": "https://www.themoviedb.org/movie/11216"
+  },
+  {
+    "id": "extra-International Cinema-11216-language",
+    "category": "International Cinema",
+    "question": "What is the original language listed for Cinema Paradiso (1988)?",
+    "options": ["Italian", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists Italian as the original language of Cinema Paradiso.",
+    "source": "https://www.themoviedb.org/movie/11216"
+  },
+  {
+    "id": "extra-International Cinema-11216-director",
+    "category": "International Cinema",
+    "question": "Which of these filmmakers directed Cinema Paradiso (1988)?",
+    "options": ["Giuseppe Tornatore", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Giuseppe Tornatore.",
+    "source": "https://www.themoviedb.org/movie/11216"
+  },
+  {
+    "id": "extra-International Cinema-1417-year",
+    "category": "International Cinema",
+    "question": "In which year did Pan's Labyrinth have its original release?",
+    "options": ["2002", "2004", "2006", "2009"],
+    "answer": 2,
+    "explanation": "TMDB lists 2006-10-11 as the original release date for Pan's Labyrinth.",
+    "source": "https://www.themoviedb.org/movie/1417"
+  },
+  {
+    "id": "extra-International Cinema-1417-language",
+    "category": "International Cinema",
+    "question": "What is the original language listed for Pan's Labyrinth (2006)?",
+    "options": ["English", "Hindi", "Spanish", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Spanish as the original language of Pan's Labyrinth.",
+    "source": "https://www.themoviedb.org/movie/1417"
+  },
+  {
+    "id": "extra-International Cinema-1417-director",
+    "category": "International Cinema",
+    "question": "Which of these filmmakers directed Pan's Labyrinth (2006)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Guillermo del Toro", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Guillermo del Toro.",
+    "source": "https://www.themoviedb.org/movie/1417"
+  },
+  {
+    "id": "extra-International Cinema-598-year",
+    "category": "International Cinema",
+    "question": "In which year did City of God have its original release?",
+    "options": ["1998", "2000", "2002", "2005"],
+    "answer": 2,
+    "explanation": "TMDB lists 2002-08-30 as the original release date for City of God.",
+    "source": "https://www.themoviedb.org/movie/598"
+  },
+  {
+    "id": "extra-International Cinema-598-language",
+    "category": "International Cinema",
+    "question": "What is the original language listed for City of God (2002)?",
+    "options": ["English", "Hindi", "Portuguese", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Portuguese as the original language of City of God.",
+    "source": "https://www.themoviedb.org/movie/598"
+  },
+  {
+    "id": "extra-International Cinema-598-director",
+    "category": "International Cinema",
+    "question": "Which of these filmmakers directed City of God (2002)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Fernando Meirelles", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Fernando Meirelles.",
+    "source": "https://www.themoviedb.org/movie/598"
+  },
+  {
+    "id": "extra-International Cinema-582-year",
+    "category": "International Cinema",
+    "question": "In which year did The Lives of Others have its original release?",
+    "options": ["2002", "2004", "2006", "2009"],
+    "answer": 2,
+    "explanation": "TMDB lists 2006-03-23 as the original release date for The Lives of Others.",
+    "source": "https://www.themoviedb.org/movie/582"
+  },
+  {
+    "id": "extra-International Cinema-582-language",
+    "category": "International Cinema",
+    "question": "What is the original language listed for The Lives of Others (2006)?",
+    "options": ["English", "Hindi", "German", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists German as the original language of The Lives of Others.",
+    "source": "https://www.themoviedb.org/movie/582"
+  },
+  {
+    "id": "extra-International Cinema-582-director",
+    "category": "International Cinema",
+    "question": "Which of these filmmakers directed The Lives of Others (2006)?",
+    "options": [
+      "Adrian Molina",
+      "Akira Kurosawa",
+      "Florian Henckel von Donnersmarck",
+      "Alfred Hitchcock"
+    ],
+    "answer": 2,
+    "explanation": "The credited director is Florian Henckel von Donnersmarck.",
+    "source": "https://www.themoviedb.org/movie/582"
+  },
+  {
+    "id": "extra-International Cinema-60243-year",
+    "category": "International Cinema",
+    "question": "In which year did A Separation have its original release?",
+    "options": ["2007", "2009", "2014", "2011"],
+    "answer": 3,
+    "explanation": "TMDB lists 2011-02-15 as the original release date for A Separation.",
+    "source": "https://www.themoviedb.org/movie/60243"
+  },
+  {
+    "id": "extra-International Cinema-60243-language",
+    "category": "International Cinema",
+    "question": "What is the original language listed for A Separation (2011)?",
+    "options": ["English", "Hindi", "Telugu", "Persian"],
+    "answer": 3,
+    "explanation": "TMDB lists Persian as the original language of A Separation.",
+    "source": "https://www.themoviedb.org/movie/60243"
+  },
+  {
+    "id": "extra-International Cinema-60243-director",
+    "category": "International Cinema",
+    "question": "Which of these filmmakers directed A Separation (2011)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Asghar Farhadi"],
+    "answer": 3,
+    "explanation": "The credited director is Asghar Farhadi.",
+    "source": "https://www.themoviedb.org/movie/60243"
+  },
+  {
+    "id": "extra-TV & Series-1396-language",
+    "category": "TV & Series",
+    "question": "What is the original language listed for Breaking Bad (2008)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Breaking Bad.",
+    "source": "https://www.themoviedb.org/tv/1396"
+  },
+  {
+    "id": "extra-TV & Series-70523-language",
+    "category": "TV & Series",
+    "question": "What is the original language listed for Dark (2017)?",
+    "options": ["German", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists German as the original language of Dark.",
+    "source": "https://www.themoviedb.org/tv/70523"
+  },
+  {
+    "id": "extra-TV & Series-87108-language",
+    "category": "TV & Series",
+    "question": "What is the original language listed for Chernobyl (2019)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Chernobyl.",
+    "source": "https://www.themoviedb.org/tv/87108"
+  },
+  {
+    "id": "extra-TV & Series-66732-language",
+    "category": "TV & Series",
+    "question": "What is the original language listed for Stranger Things (2016)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Stranger Things.",
+    "source": "https://www.themoviedb.org/tv/66732"
+  },
+  {
+    "id": "extra-TV & Series-67070-language",
+    "category": "TV & Series",
+    "question": "What is the original language listed for Fleabag (2016)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Fleabag.",
+    "source": "https://www.themoviedb.org/tv/67070"
+  },
+  {
+    "id": "extra-TV & Series-2316-language",
+    "category": "TV & Series",
+    "question": "What is the original language listed for The Office (2005)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of The Office.",
+    "source": "https://www.themoviedb.org/tv/2316"
+  },
+  {
+    "id": "extra-TV & Series-126308-language",
+    "category": "TV & Series",
+    "question": "What is the original language listed for Shōgun (2024)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Shōgun.",
+    "source": "https://www.themoviedb.org/tv/126308"
+  },
+  {
+    "id": "extra-TV & Series-60059-language",
+    "category": "TV & Series",
+    "question": "What is the original language listed for Better Call Saul (2015)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Better Call Saul.",
+    "source": "https://www.themoviedb.org/tv/60059"
+  },
+  {
+    "id": "extra-Animation-150540-year",
+    "category": "Animation",
+    "question": "In which year did Inside Out have its original release?",
+    "options": ["2015", "2011", "2013", "2018"],
+    "answer": 0,
+    "explanation": "TMDB lists 2015-06-17 as the original release date for Inside Out.",
+    "source": "https://www.themoviedb.org/movie/150540"
+  },
+  {
+    "id": "extra-Animation-150540-language",
+    "category": "Animation",
+    "question": "What is the original language listed for Inside Out (2015)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Inside Out.",
+    "source": "https://www.themoviedb.org/movie/150540"
+  },
+  {
+    "id": "extra-Animation-150540-director",
+    "category": "Animation",
+    "question": "Which of these filmmakers directed Inside Out (2015)?",
+    "options": ["Pete Docter", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Pete Docter.",
+    "source": "https://www.themoviedb.org/movie/150540"
+  },
+  {
+    "id": "extra-Animation-354912-year",
+    "category": "Animation",
+    "question": "In which year did Coco have its original release?",
+    "options": ["2013", "2015", "2017", "2020"],
+    "answer": 2,
+    "explanation": "TMDB lists 2017-10-27 as the original release date for Coco.",
+    "source": "https://www.themoviedb.org/movie/354912"
+  },
+  {
+    "id": "extra-Animation-354912-language",
+    "category": "Animation",
+    "question": "What is the original language listed for Coco (2017)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Coco.",
+    "source": "https://www.themoviedb.org/movie/354912"
+  },
+  {
+    "id": "extra-Animation-354912-director",
+    "category": "Animation",
+    "question": "Which of these filmmakers directed Coco (2017)?",
+    "options": ["Akira Kurosawa", "Alfred Hitchcock", "Lee Unkrich", "Andrew Stanton"],
+    "answer": 2,
+    "explanation": "The credited directors are Lee Unkrich, Adrian Molina.",
+    "source": "https://www.themoviedb.org/movie/354912"
+  },
+  {
+    "id": "extra-Animation-324857-year",
+    "category": "Animation",
+    "question": "In which year did Spider-Man: Into the Spider-Verse have its original release?",
+    "options": ["2014", "2016", "2021", "2018"],
+    "answer": 3,
+    "explanation": "TMDB lists 2018-12-06 as the original release date for Spider-Man: Into the Spider-Verse.",
+    "source": "https://www.themoviedb.org/movie/324857"
+  },
+  {
+    "id": "extra-Animation-324857-language",
+    "category": "Animation",
+    "question": "What is the original language listed for Spider-Man: Into the Spider-Verse (2018)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Spider-Man: Into the Spider-Verse.",
+    "source": "https://www.themoviedb.org/movie/324857"
+  },
+  {
+    "id": "extra-Animation-324857-director",
+    "category": "Animation",
+    "question": "Which of these filmmakers directed Spider-Man: Into the Spider-Verse (2018)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Bob Persichetti"],
+    "answer": 3,
+    "explanation": "The credited directors are Bob Persichetti, Peter Ramsey, Rodney Rothman.",
+    "source": "https://www.themoviedb.org/movie/324857"
+  },
+  {
+    "id": "extra-Animation-862-year",
+    "category": "Animation",
+    "question": "In which year did Toy Story have its original release?",
+    "options": ["1995", "1991", "1993", "1998"],
+    "answer": 0,
+    "explanation": "TMDB lists 1995-11-22 as the original release date for Toy Story.",
+    "source": "https://www.themoviedb.org/movie/862"
+  },
+  {
+    "id": "extra-Animation-862-language",
+    "category": "Animation",
+    "question": "What is the original language listed for Toy Story (1995)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Toy Story.",
+    "source": "https://www.themoviedb.org/movie/862"
+  },
+  {
+    "id": "extra-Animation-862-director",
+    "category": "Animation",
+    "question": "Which of these filmmakers directed Toy Story (1995)?",
+    "options": ["John Lasseter", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is John Lasseter.",
+    "source": "https://www.themoviedb.org/movie/862"
+  },
+  {
+    "id": "extra-Animation-12-year",
+    "category": "Animation",
+    "question": "In which year did Finding Nemo have its original release?",
+    "options": ["2003", "1999", "2001", "2006"],
+    "answer": 0,
+    "explanation": "TMDB lists 2003-05-30 as the original release date for Finding Nemo.",
+    "source": "https://www.themoviedb.org/movie/12"
+  },
+  {
+    "id": "extra-Animation-12-language",
+    "category": "Animation",
+    "question": "What is the original language listed for Finding Nemo (2003)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Finding Nemo.",
+    "source": "https://www.themoviedb.org/movie/12"
+  },
+  {
+    "id": "extra-Animation-12-director",
+    "category": "Animation",
+    "question": "Which of these filmmakers directed Finding Nemo (2003)?",
+    "options": ["Andrew Stanton", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Andrew Stanton.",
+    "source": "https://www.themoviedb.org/movie/12"
+  },
+  {
+    "id": "extra-Animation-10681-year",
+    "category": "Animation",
+    "question": "In which year did WALL·E have its original release?",
+    "options": ["2004", "2008", "2006", "2011"],
+    "answer": 1,
+    "explanation": "TMDB lists 2008-06-26 as the original release date for WALL·E.",
+    "source": "https://www.themoviedb.org/movie/10681"
+  },
+  {
+    "id": "extra-Animation-10681-language",
+    "category": "Animation",
+    "question": "What is the original language listed for WALL·E (2008)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of WALL·E.",
+    "source": "https://www.themoviedb.org/movie/10681"
+  },
+  {
+    "id": "extra-Animation-10681-director",
+    "category": "Animation",
+    "question": "Which of these filmmakers directed WALL·E (2008)?",
+    "options": ["Adrian Molina", "Andrew Stanton", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Andrew Stanton.",
+    "source": "https://www.themoviedb.org/movie/10681"
+  },
+  {
+    "id": "extra-Animation-10386-year",
+    "category": "Animation",
+    "question": "In which year did The Iron Giant have its original release?",
+    "options": ["1999", "1995", "1997", "2002"],
+    "answer": 0,
+    "explanation": "TMDB lists 1999-08-06 as the original release date for The Iron Giant.",
+    "source": "https://www.themoviedb.org/movie/10386"
+  },
+  {
+    "id": "extra-Animation-10386-language",
+    "category": "Animation",
+    "question": "What is the original language listed for The Iron Giant (1999)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of The Iron Giant.",
+    "source": "https://www.themoviedb.org/movie/10386"
+  },
+  {
+    "id": "extra-Animation-10386-director",
+    "category": "Animation",
+    "question": "Which of these filmmakers directed The Iron Giant (1999)?",
+    "options": ["Brad Bird", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Brad Bird.",
+    "source": "https://www.themoviedb.org/movie/10386"
+  },
+  {
+    "id": "extra-Animation-2062-year",
+    "category": "Animation",
+    "question": "In which year did Ratatouille have its original release?",
+    "options": ["2007", "2003", "2005", "2010"],
+    "answer": 0,
+    "explanation": "TMDB lists 2007-06-28 as the original release date for Ratatouille.",
+    "source": "https://www.themoviedb.org/movie/2062"
+  },
+  {
+    "id": "extra-Animation-2062-language",
+    "category": "Animation",
+    "question": "What is the original language listed for Ratatouille (2007)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Ratatouille.",
+    "source": "https://www.themoviedb.org/movie/2062"
+  },
+  {
+    "id": "extra-Animation-2062-director",
+    "category": "Animation",
+    "question": "Which of these filmmakers directed Ratatouille (2007)?",
+    "options": ["Brad Bird", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Brad Bird.",
+    "source": "https://www.themoviedb.org/movie/2062"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-27205-year",
+    "category": "Directors & Filmmakers",
+    "question": "In which year did Inception have its original release?",
+    "options": ["2010", "2006", "2008", "2013"],
+    "answer": 0,
+    "explanation": "TMDB lists 2010-07-15 as the original release date for Inception.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-27205-language",
+    "category": "Directors & Filmmakers",
+    "question": "What is the original language listed for Inception (2010)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Inception.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-27205-director",
+    "category": "Directors & Filmmakers",
+    "question": "Which of these filmmakers directed Inception (2010)?",
+    "options": ["Christopher Nolan", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Christopher Nolan.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-120467-year",
+    "category": "Directors & Filmmakers",
+    "question": "In which year did The Grand Budapest Hotel have its original release?",
+    "options": ["2014", "2010", "2012", "2017"],
+    "answer": 0,
+    "explanation": "TMDB lists 2014-02-08 as the original release date for The Grand Budapest Hotel.",
+    "source": "https://www.themoviedb.org/movie/120467"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-120467-language",
+    "category": "Directors & Filmmakers",
+    "question": "What is the original language listed for The Grand Budapest Hotel (2014)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of The Grand Budapest Hotel.",
+    "source": "https://www.themoviedb.org/movie/120467"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-120467-director",
+    "category": "Directors & Filmmakers",
+    "question": "Which of these filmmakers directed The Grand Budapest Hotel (2014)?",
+    "options": ["Wes Anderson", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Wes Anderson.",
+    "source": "https://www.themoviedb.org/movie/120467"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-346-year",
+    "category": "Directors & Filmmakers",
+    "question": "In which year did Seven Samurai have its original release?",
+    "options": ["1954", "1950", "1952", "1957"],
+    "answer": 0,
+    "explanation": "TMDB lists 1954-04-26 as the original release date for Seven Samurai.",
+    "source": "https://www.themoviedb.org/movie/346"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-346-language",
+    "category": "Directors & Filmmakers",
+    "question": "What is the original language listed for Seven Samurai (1954)?",
+    "options": ["Japanese", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists Japanese as the original language of Seven Samurai.",
+    "source": "https://www.themoviedb.org/movie/346"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-346-director",
+    "category": "Directors & Filmmakers",
+    "question": "Which of these filmmakers directed Seven Samurai (1954)?",
+    "options": ["Akira Kurosawa", "Adrian Molina", "Alfred Hitchcock", "Andrew Stanton"],
+    "answer": 0,
+    "explanation": "The credited director is Akira Kurosawa.",
+    "source": "https://www.themoviedb.org/movie/346"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-680-year",
+    "category": "Directors & Filmmakers",
+    "question": "In which year did Pulp Fiction have its original release?",
+    "options": ["1994", "1990", "1992", "1997"],
+    "answer": 0,
+    "explanation": "TMDB lists 1994-09-10 as the original release date for Pulp Fiction.",
+    "source": "https://www.themoviedb.org/movie/680"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-680-language",
+    "category": "Directors & Filmmakers",
+    "question": "What is the original language listed for Pulp Fiction (1994)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Pulp Fiction.",
+    "source": "https://www.themoviedb.org/movie/680"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-680-director",
+    "category": "Directors & Filmmakers",
+    "question": "Which of these filmmakers directed Pulp Fiction (1994)?",
+    "options": ["Quentin Tarantino", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Quentin Tarantino.",
+    "source": "https://www.themoviedb.org/movie/680"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-238-year",
+    "category": "Directors & Filmmakers",
+    "question": "In which year did The Godfather have its original release?",
+    "options": ["1968", "1970", "1972", "1975"],
+    "answer": 2,
+    "explanation": "TMDB lists 1972-03-14 as the original release date for The Godfather.",
+    "source": "https://www.themoviedb.org/movie/238"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-238-language",
+    "category": "Directors & Filmmakers",
+    "question": "What is the original language listed for The Godfather (1972)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of The Godfather.",
+    "source": "https://www.themoviedb.org/movie/238"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-238-director",
+    "category": "Directors & Filmmakers",
+    "question": "Which of these filmmakers directed The Godfather (1972)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Francis Ford Coppola", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Francis Ford Coppola.",
+    "source": "https://www.themoviedb.org/movie/238"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-578-year",
+    "category": "Directors & Filmmakers",
+    "question": "In which year did Jaws have its original release?",
+    "options": ["1971", "1975", "1973", "1978"],
+    "answer": 1,
+    "explanation": "TMDB lists 1975-06-20 as the original release date for Jaws.",
+    "source": "https://www.themoviedb.org/movie/578"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-578-language",
+    "category": "Directors & Filmmakers",
+    "question": "What is the original language listed for Jaws (1975)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Jaws.",
+    "source": "https://www.themoviedb.org/movie/578"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-578-director",
+    "category": "Directors & Filmmakers",
+    "question": "Which of these filmmakers directed Jaws (1975)?",
+    "options": ["Adrian Molina", "Steven Spielberg", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Steven Spielberg.",
+    "source": "https://www.themoviedb.org/movie/578"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-531428-year",
+    "category": "Directors & Filmmakers",
+    "question": "In which year did Portrait of a Lady on Fire have its original release?",
+    "options": ["2015", "2019", "2017", "2022"],
+    "answer": 1,
+    "explanation": "TMDB lists 2019-09-06 as the original release date for Portrait of a Lady on Fire.",
+    "source": "https://www.themoviedb.org/movie/531428"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-531428-language",
+    "category": "Directors & Filmmakers",
+    "question": "What is the original language listed for Portrait of a Lady on Fire (2019)?",
+    "options": ["English", "French", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists French as the original language of Portrait of a Lady on Fire.",
+    "source": "https://www.themoviedb.org/movie/531428"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-531428-director",
+    "category": "Directors & Filmmakers",
+    "question": "Which of these filmmakers directed Portrait of a Lady on Fire (2019)?",
+    "options": ["Adrian Molina", "Céline Sciamma", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Céline Sciamma.",
+    "source": "https://www.themoviedb.org/movie/531428"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-419430-year",
+    "category": "Directors & Filmmakers",
+    "question": "In which year did Get Out have its original release?",
+    "options": ["2013", "2015", "2020", "2017"],
+    "answer": 3,
+    "explanation": "TMDB lists 2017-02-24 as the original release date for Get Out.",
+    "source": "https://www.themoviedb.org/movie/419430"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-419430-language",
+    "category": "Directors & Filmmakers",
+    "question": "What is the original language listed for Get Out (2017)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Get Out.",
+    "source": "https://www.themoviedb.org/movie/419430"
+  },
+  {
+    "id": "extra-Directors & Filmmakers-419430-director",
+    "category": "Directors & Filmmakers",
+    "question": "Which of these filmmakers directed Get Out (2017)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Jordan Peele"],
+    "answer": 3,
+    "explanation": "The credited director is Jordan Peele.",
+    "source": "https://www.themoviedb.org/movie/419430"
+  },
+  {
+    "id": "extra-Soundtracks & Music-157336-year",
+    "category": "Soundtracks & Music",
+    "question": "In which year did Interstellar have its original release?",
+    "options": ["2010", "2014", "2012", "2017"],
+    "answer": 1,
+    "explanation": "TMDB lists 2014-11-04 as the original release date for Interstellar.",
+    "source": "https://www.themoviedb.org/movie/157336"
+  },
+  {
+    "id": "extra-Soundtracks & Music-157336-language",
+    "category": "Soundtracks & Music",
+    "question": "What is the original language listed for Interstellar (2014)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Interstellar.",
+    "source": "https://www.themoviedb.org/movie/157336"
+  },
+  {
+    "id": "extra-Soundtracks & Music-157336-director",
+    "category": "Soundtracks & Music",
+    "question": "Which of these filmmakers directed Interstellar (2014)?",
+    "options": ["Adrian Molina", "Christopher Nolan", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Christopher Nolan.",
+    "source": "https://www.themoviedb.org/movie/157336"
+  },
+  {
+    "id": "extra-Soundtracks & Music-27205-year",
+    "category": "Soundtracks & Music",
+    "question": "In which year did Inception have its original release?",
+    "options": ["2006", "2010", "2008", "2013"],
+    "answer": 1,
+    "explanation": "TMDB lists 2010-07-15 as the original release date for Inception.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-Soundtracks & Music-27205-language",
+    "category": "Soundtracks & Music",
+    "question": "What is the original language listed for Inception (2010)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Inception.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-Soundtracks & Music-27205-director",
+    "category": "Soundtracks & Music",
+    "question": "Which of these filmmakers directed Inception (2010)?",
+    "options": ["Adrian Molina", "Christopher Nolan", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Christopher Nolan.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-Soundtracks & Music-579974-year",
+    "category": "Soundtracks & Music",
+    "question": "In which year did RRR have its original release?",
+    "options": ["2018", "2022", "2020", "2025"],
+    "answer": 1,
+    "explanation": "TMDB lists 2022-03-24 as the original release date for RRR.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-Soundtracks & Music-579974-language",
+    "category": "Soundtracks & Music",
+    "question": "What is the original language listed for RRR (2022)?",
+    "options": ["English", "Telugu", "Hindi", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists Telugu as the original language of RRR.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-Soundtracks & Music-579974-director",
+    "category": "Soundtracks & Music",
+    "question": "Which of these filmmakers directed RRR (2022)?",
+    "options": ["Adrian Molina", "S. S. Rajamouli", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-Soundtracks & Music-329-year",
+    "category": "Soundtracks & Music",
+    "question": "In which year did Jurassic Park have its original release?",
+    "options": ["1993", "1989", "1991", "1996"],
+    "answer": 0,
+    "explanation": "TMDB lists 1993-06-11 as the original release date for Jurassic Park.",
+    "source": "https://www.themoviedb.org/movie/329"
+  },
+  {
+    "id": "extra-Soundtracks & Music-329-language",
+    "category": "Soundtracks & Music",
+    "question": "What is the original language listed for Jurassic Park (1993)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Jurassic Park.",
+    "source": "https://www.themoviedb.org/movie/329"
+  },
+  {
+    "id": "extra-Soundtracks & Music-329-director",
+    "category": "Soundtracks & Music",
+    "question": "Which of these filmmakers directed Jurassic Park (1993)?",
+    "options": ["Steven Spielberg", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Steven Spielberg.",
+    "source": "https://www.themoviedb.org/movie/329"
+  },
+  {
+    "id": "extra-Soundtracks & Music-429-year",
+    "category": "Soundtracks & Music",
+    "question": "In which year did The Good, the Bad and the Ugly have its original release?",
+    "options": ["1962", "1966", "1964", "1969"],
+    "answer": 1,
+    "explanation": "TMDB lists 1966-12-23 as the original release date for The Good, the Bad and the Ugly.",
+    "source": "https://www.themoviedb.org/movie/429"
+  },
+  {
+    "id": "extra-Soundtracks & Music-429-language",
+    "category": "Soundtracks & Music",
+    "question": "What is the original language listed for The Good, the Bad and the Ugly (1966)?",
+    "options": ["English", "Italian", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Italian as the original language of The Good, the Bad and the Ugly.",
+    "source": "https://www.themoviedb.org/movie/429"
+  },
+  {
+    "id": "extra-Soundtracks & Music-429-director",
+    "category": "Soundtracks & Music",
+    "question": "Which of these filmmakers directed The Good, the Bad and the Ugly (1966)?",
+    "options": ["Adrian Molina", "Sergio Leone", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Sergio Leone.",
+    "source": "https://www.themoviedb.org/movie/429"
+  },
+  {
+    "id": "extra-Soundtracks & Music-37799-year",
+    "category": "Soundtracks & Music",
+    "question": "In which year did The Social Network have its original release?",
+    "options": ["2006", "2010", "2008", "2013"],
+    "answer": 1,
+    "explanation": "TMDB lists 2010-10-01 as the original release date for The Social Network.",
+    "source": "https://www.themoviedb.org/movie/37799"
+  },
+  {
+    "id": "extra-Soundtracks & Music-37799-language",
+    "category": "Soundtracks & Music",
+    "question": "What is the original language listed for The Social Network (2010)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of The Social Network.",
+    "source": "https://www.themoviedb.org/movie/37799"
+  },
+  {
+    "id": "extra-Soundtracks & Music-37799-director",
+    "category": "Soundtracks & Music",
+    "question": "Which of these filmmakers directed The Social Network (2010)?",
+    "options": ["Adrian Molina", "David Fincher", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is David Fincher.",
+    "source": "https://www.themoviedb.org/movie/37799"
+  },
+  {
+    "id": "extra-Soundtracks & Music-194-year",
+    "category": "Soundtracks & Music",
+    "question": "In which year did Amélie have its original release?",
+    "options": ["2001", "1997", "1999", "2004"],
+    "answer": 0,
+    "explanation": "TMDB lists 2001-04-25 as the original release date for Amélie.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-Soundtracks & Music-194-language",
+    "category": "Soundtracks & Music",
+    "question": "What is the original language listed for Amélie (2001)?",
+    "options": ["French", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists French as the original language of Amélie.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-Soundtracks & Music-194-director",
+    "category": "Soundtracks & Music",
+    "question": "Which of these filmmakers directed Amélie (2001)?",
+    "options": ["Jean-Pierre Jeunet", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Jean-Pierre Jeunet.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-Soundtracks & Music-284054-year",
+    "category": "Soundtracks & Music",
+    "question": "In which year did Black Panther have its original release?",
+    "options": ["2014", "2018", "2016", "2021"],
+    "answer": 1,
+    "explanation": "TMDB lists 2018-02-13 as the original release date for Black Panther.",
+    "source": "https://www.themoviedb.org/movie/284054"
+  },
+  {
+    "id": "extra-Soundtracks & Music-284054-language",
+    "category": "Soundtracks & Music",
+    "question": "What is the original language listed for Black Panther (2018)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Black Panther.",
+    "source": "https://www.themoviedb.org/movie/284054"
+  },
+  {
+    "id": "extra-Soundtracks & Music-284054-director",
+    "category": "Soundtracks & Music",
+    "question": "Which of these filmmakers directed Black Panther (2018)?",
+    "options": ["Adrian Molina", "Ryan Coogler", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Ryan Coogler.",
+    "source": "https://www.themoviedb.org/movie/284054"
+  },
+  {
+    "id": "extra-Film History-15-year",
+    "category": "Film History",
+    "question": "In which year did Citizen Kane have its original release?",
+    "options": ["1937", "1941", "1939", "1944"],
+    "answer": 1,
+    "explanation": "TMDB lists 1941-04-17 as the original release date for Citizen Kane.",
+    "source": "https://www.themoviedb.org/movie/15"
+  },
+  {
+    "id": "extra-Film History-15-language",
+    "category": "Film History",
+    "question": "What is the original language listed for Citizen Kane (1941)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Citizen Kane.",
+    "source": "https://www.themoviedb.org/movie/15"
+  },
+  {
+    "id": "extra-Film History-15-director",
+    "category": "Film History",
+    "question": "Which of these filmmakers directed Citizen Kane (1941)?",
+    "options": ["Adrian Molina", "Orson Welles", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Orson Welles.",
+    "source": "https://www.themoviedb.org/movie/15"
+  },
+  {
+    "id": "extra-Film History-19-year",
+    "category": "Film History",
+    "question": "In which year did Metropolis have its original release?",
+    "options": ["1923", "1925", "1930", "1927"],
+    "answer": 3,
+    "explanation": "TMDB lists 1927-01-10 as the original release date for Metropolis.",
+    "source": "https://www.themoviedb.org/movie/19"
+  },
+  {
+    "id": "extra-Film History-19-language",
+    "category": "Film History",
+    "question": "What is the original language listed for Metropolis (1927)?",
+    "options": ["English", "Hindi", "Telugu", "German"],
+    "answer": 3,
+    "explanation": "TMDB lists German as the original language of Metropolis.",
+    "source": "https://www.themoviedb.org/movie/19"
+  },
+  {
+    "id": "extra-Film History-19-director",
+    "category": "Film History",
+    "question": "Which of these filmmakers directed Metropolis (1927)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Fritz Lang"],
+    "answer": 3,
+    "explanation": "The credited director is Fritz Lang.",
+    "source": "https://www.themoviedb.org/movie/19"
+  },
+  {
+    "id": "extra-Film History-3082-year",
+    "category": "Film History",
+    "question": "In which year did Modern Times have its original release?",
+    "options": ["1936", "1932", "1934", "1939"],
+    "answer": 0,
+    "explanation": "TMDB lists 1936-02-05 as the original release date for Modern Times.",
+    "source": "https://www.themoviedb.org/movie/3082"
+  },
+  {
+    "id": "extra-Film History-3082-language",
+    "category": "Film History",
+    "question": "What is the original language listed for Modern Times (1936)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Modern Times.",
+    "source": "https://www.themoviedb.org/movie/3082"
+  },
+  {
+    "id": "extra-Film History-3082-director",
+    "category": "Film History",
+    "question": "Which of these filmmakers directed Modern Times (1936)?",
+    "options": ["Charlie Chaplin", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Charlie Chaplin.",
+    "source": "https://www.themoviedb.org/movie/3082"
+  },
+  {
+    "id": "extra-Film History-961-year",
+    "category": "Film History",
+    "question": "In which year did The General have its original release?",
+    "options": ["1922", "1924", "1926", "1929"],
+    "answer": 2,
+    "explanation": "TMDB lists 1926-12-25 as the original release date for The General.",
+    "source": "https://www.themoviedb.org/movie/961"
+  },
+  {
+    "id": "extra-Film History-961-language",
+    "category": "Film History",
+    "question": "What is the original language listed for The General (1926)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of The General.",
+    "source": "https://www.themoviedb.org/movie/961"
+  },
+  {
+    "id": "extra-Film History-961-director",
+    "category": "Film History",
+    "question": "Which of these filmmakers directed The General (1926)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Clyde Bruckman", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited directors are Clyde Bruckman, Buster Keaton.",
+    "source": "https://www.themoviedb.org/movie/961"
+  },
+  {
+    "id": "extra-Film History-962-year",
+    "category": "Film History",
+    "question": "In which year did The Gold Rush have its original release?",
+    "options": ["1921", "1925", "1923", "1928"],
+    "answer": 1,
+    "explanation": "TMDB lists 1925-07-13 as the original release date for The Gold Rush.",
+    "source": "https://www.themoviedb.org/movie/962"
+  },
+  {
+    "id": "extra-Film History-962-language",
+    "category": "Film History",
+    "question": "What is the original language listed for The Gold Rush (1925)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of The Gold Rush.",
+    "source": "https://www.themoviedb.org/movie/962"
+  },
+  {
+    "id": "extra-Film History-962-director",
+    "category": "Film History",
+    "question": "Which of these filmmakers directed The Gold Rush (1925)?",
+    "options": ["Adrian Molina", "Charlie Chaplin", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Charlie Chaplin.",
+    "source": "https://www.themoviedb.org/movie/962"
+  },
+  {
+    "id": "extra-Film History-389-year",
+    "category": "Film History",
+    "question": "In which year did 12 Angry Men have its original release?",
+    "options": ["1953", "1957", "1955", "1960"],
+    "answer": 1,
+    "explanation": "TMDB lists 1957-04-10 as the original release date for 12 Angry Men.",
+    "source": "https://www.themoviedb.org/movie/389"
+  },
+  {
+    "id": "extra-Film History-389-language",
+    "category": "Film History",
+    "question": "What is the original language listed for 12 Angry Men (1957)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of 12 Angry Men.",
+    "source": "https://www.themoviedb.org/movie/389"
+  },
+  {
+    "id": "extra-Film History-389-director",
+    "category": "Film History",
+    "question": "Which of these filmmakers directed 12 Angry Men (1957)?",
+    "options": ["Adrian Molina", "Sidney Lumet", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Sidney Lumet.",
+    "source": "https://www.themoviedb.org/movie/389"
+  },
+  {
+    "id": "extra-Film History-567-year",
+    "category": "Film History",
+    "question": "In which year did Rear Window have its original release?",
+    "options": ["1950", "1952", "1954", "1957"],
+    "answer": 2,
+    "explanation": "TMDB lists 1954-08-01 as the original release date for Rear Window.",
+    "source": "https://www.themoviedb.org/movie/567"
+  },
+  {
+    "id": "extra-Film History-567-language",
+    "category": "Film History",
+    "question": "What is the original language listed for Rear Window (1954)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Rear Window.",
+    "source": "https://www.themoviedb.org/movie/567"
+  },
+  {
+    "id": "extra-Film History-567-director",
+    "category": "Film History",
+    "question": "Which of these filmmakers directed Rear Window (1954)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Andrew Stanton"],
+    "answer": 2,
+    "explanation": "The credited director is Alfred Hitchcock.",
+    "source": "https://www.themoviedb.org/movie/567"
+  },
+  {
+    "id": "extra-Film History-539-year",
+    "category": "Film History",
+    "question": "In which year did Psycho have its original release?",
+    "options": ["1960", "1956", "1958", "1963"],
+    "answer": 0,
+    "explanation": "TMDB lists 1960-06-22 as the original release date for Psycho.",
+    "source": "https://www.themoviedb.org/movie/539"
+  },
+  {
+    "id": "extra-Film History-539-language",
+    "category": "Film History",
+    "question": "What is the original language listed for Psycho (1960)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Psycho.",
+    "source": "https://www.themoviedb.org/movie/539"
+  },
+  {
+    "id": "extra-Film History-539-director",
+    "category": "Film History",
+    "question": "Which of these filmmakers directed Psycho (1960)?",
+    "options": ["Alfred Hitchcock", "Adrian Molina", "Akira Kurosawa", "Andrew Stanton"],
+    "answer": 0,
+    "explanation": "The credited director is Alfred Hitchcock.",
+    "source": "https://www.themoviedb.org/movie/539"
+  },
+  {
+    "id": "extra-General Cinema-150540-year",
+    "category": "General Cinema",
+    "question": "In which year did Inside Out have its original release?",
+    "options": ["2011", "2015", "2013", "2018"],
+    "answer": 1,
+    "explanation": "TMDB lists 2015-06-17 as the original release date for Inside Out.",
+    "source": "https://www.themoviedb.org/movie/150540"
+  },
+  {
+    "id": "extra-General Cinema-150540-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Inside Out (2015)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Inside Out.",
+    "source": "https://www.themoviedb.org/movie/150540"
+  },
+  {
+    "id": "extra-General Cinema-150540-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Inside Out (2015)?",
+    "options": ["Adrian Molina", "Pete Docter", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Pete Docter.",
+    "source": "https://www.themoviedb.org/movie/150540"
+  },
+  {
+    "id": "extra-General Cinema-354912-year",
+    "category": "General Cinema",
+    "question": "In which year did Coco have its original release?",
+    "options": ["2013", "2015", "2020", "2017"],
+    "answer": 3,
+    "explanation": "TMDB lists 2017-10-27 as the original release date for Coco.",
+    "source": "https://www.themoviedb.org/movie/354912"
+  },
+  {
+    "id": "extra-General Cinema-354912-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Coco (2017)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Coco.",
+    "source": "https://www.themoviedb.org/movie/354912"
+  },
+  {
+    "id": "extra-General Cinema-354912-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Coco (2017)?",
+    "options": ["Akira Kurosawa", "Alfred Hitchcock", "Andrew Stanton", "Lee Unkrich"],
+    "answer": 3,
+    "explanation": "The credited directors are Lee Unkrich, Adrian Molina.",
+    "source": "https://www.themoviedb.org/movie/354912"
+  },
+  {
+    "id": "extra-General Cinema-324857-year",
+    "category": "General Cinema",
+    "question": "In which year did Spider-Man: Into the Spider-Verse have its original release?",
+    "options": ["2018", "2014", "2016", "2021"],
+    "answer": 0,
+    "explanation": "TMDB lists 2018-12-06 as the original release date for Spider-Man: Into the Spider-Verse.",
+    "source": "https://www.themoviedb.org/movie/324857"
+  },
+  {
+    "id": "extra-General Cinema-324857-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Spider-Man: Into the Spider-Verse (2018)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Spider-Man: Into the Spider-Verse.",
+    "source": "https://www.themoviedb.org/movie/324857"
+  },
+  {
+    "id": "extra-General Cinema-324857-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Spider-Man: Into the Spider-Verse (2018)?",
+    "options": ["Bob Persichetti", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited directors are Bob Persichetti, Peter Ramsey, Rodney Rothman.",
+    "source": "https://www.themoviedb.org/movie/324857"
+  },
+  {
+    "id": "extra-General Cinema-862-year",
+    "category": "General Cinema",
+    "question": "In which year did Toy Story have its original release?",
+    "options": ["1991", "1995", "1993", "1998"],
+    "answer": 1,
+    "explanation": "TMDB lists 1995-11-22 as the original release date for Toy Story.",
+    "source": "https://www.themoviedb.org/movie/862"
+  },
+  {
+    "id": "extra-General Cinema-862-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Toy Story (1995)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Toy Story.",
+    "source": "https://www.themoviedb.org/movie/862"
+  },
+  {
+    "id": "extra-General Cinema-862-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Toy Story (1995)?",
+    "options": ["Adrian Molina", "John Lasseter", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is John Lasseter.",
+    "source": "https://www.themoviedb.org/movie/862"
+  },
+  {
+    "id": "extra-General Cinema-12-year",
+    "category": "General Cinema",
+    "question": "In which year did Finding Nemo have its original release?",
+    "options": ["1999", "2003", "2001", "2006"],
+    "answer": 1,
+    "explanation": "TMDB lists 2003-05-30 as the original release date for Finding Nemo.",
+    "source": "https://www.themoviedb.org/movie/12"
+  },
+  {
+    "id": "extra-General Cinema-12-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Finding Nemo (2003)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Finding Nemo.",
+    "source": "https://www.themoviedb.org/movie/12"
+  },
+  {
+    "id": "extra-General Cinema-12-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Finding Nemo (2003)?",
+    "options": ["Adrian Molina", "Andrew Stanton", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Andrew Stanton.",
+    "source": "https://www.themoviedb.org/movie/12"
+  },
+  {
+    "id": "extra-General Cinema-10681-year",
+    "category": "General Cinema",
+    "question": "In which year did WALL·E have its original release?",
+    "options": ["2004", "2006", "2008", "2011"],
+    "answer": 2,
+    "explanation": "TMDB lists 2008-06-26 as the original release date for WALL·E.",
+    "source": "https://www.themoviedb.org/movie/10681"
+  },
+  {
+    "id": "extra-General Cinema-10681-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for WALL·E (2008)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of WALL·E.",
+    "source": "https://www.themoviedb.org/movie/10681"
+  },
+  {
+    "id": "extra-General Cinema-10681-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed WALL·E (2008)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Andrew Stanton", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Andrew Stanton.",
+    "source": "https://www.themoviedb.org/movie/10681"
+  },
+  {
+    "id": "extra-General Cinema-10386-year",
+    "category": "General Cinema",
+    "question": "In which year did The Iron Giant have its original release?",
+    "options": ["1995", "1999", "1997", "2002"],
+    "answer": 1,
+    "explanation": "TMDB lists 1999-08-06 as the original release date for The Iron Giant.",
+    "source": "https://www.themoviedb.org/movie/10386"
+  },
+  {
+    "id": "extra-General Cinema-10386-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Iron Giant (1999)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of The Iron Giant.",
+    "source": "https://www.themoviedb.org/movie/10386"
+  },
+  {
+    "id": "extra-General Cinema-10386-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The Iron Giant (1999)?",
+    "options": ["Adrian Molina", "Brad Bird", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Brad Bird.",
+    "source": "https://www.themoviedb.org/movie/10386"
+  },
+  {
+    "id": "extra-General Cinema-2062-year",
+    "category": "General Cinema",
+    "question": "In which year did Ratatouille have its original release?",
+    "options": ["2003", "2007", "2005", "2010"],
+    "answer": 1,
+    "explanation": "TMDB lists 2007-06-28 as the original release date for Ratatouille.",
+    "source": "https://www.themoviedb.org/movie/2062"
+  },
+  {
+    "id": "extra-General Cinema-2062-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Ratatouille (2007)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Ratatouille.",
+    "source": "https://www.themoviedb.org/movie/2062"
+  },
+  {
+    "id": "extra-General Cinema-2062-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Ratatouille (2007)?",
+    "options": ["Adrian Molina", "Brad Bird", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Brad Bird.",
+    "source": "https://www.themoviedb.org/movie/2062"
+  },
+  {
+    "id": "extra-General Cinema-129-year",
+    "category": "General Cinema",
+    "question": "In which year did Spirited Away have its original release?",
+    "options": ["1997", "1999", "2004", "2001"],
+    "answer": 3,
+    "explanation": "TMDB lists 2001-07-20 as the original release date for Spirited Away.",
+    "source": "https://www.themoviedb.org/movie/129"
+  },
+  {
+    "id": "extra-General Cinema-129-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Spirited Away (2001)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 3,
+    "explanation": "TMDB lists Japanese as the original language of Spirited Away.",
+    "source": "https://www.themoviedb.org/movie/129"
+  },
+  {
+    "id": "extra-General Cinema-129-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Spirited Away (2001)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Hayao Miyazaki"],
+    "answer": 3,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/129"
+  },
+  {
+    "id": "extra-General Cinema-372058-year",
+    "category": "General Cinema",
+    "question": "In which year did Your Name. have its original release?",
+    "options": ["2012", "2014", "2016", "2019"],
+    "answer": 2,
+    "explanation": "TMDB lists 2016-07-01 as the original release date for Your Name..",
+    "source": "https://www.themoviedb.org/movie/372058"
+  },
+  {
+    "id": "extra-General Cinema-372058-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Your Name. (2016)?",
+    "options": ["English", "Hindi", "Japanese", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Japanese as the original language of Your Name..",
+    "source": "https://www.themoviedb.org/movie/372058"
+  },
+  {
+    "id": "extra-General Cinema-372058-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Your Name. (2016)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Makoto Shinkai", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Makoto Shinkai.",
+    "source": "https://www.themoviedb.org/movie/372058"
+  },
+  {
+    "id": "extra-General Cinema-128-year",
+    "category": "General Cinema",
+    "question": "In which year did Princess Mononoke have its original release?",
+    "options": ["1993", "1995", "2000", "1997"],
+    "answer": 3,
+    "explanation": "TMDB lists 1997-07-12 as the original release date for Princess Mononoke.",
+    "source": "https://www.themoviedb.org/movie/128"
+  },
+  {
+    "id": "extra-General Cinema-128-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Princess Mononoke (1997)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 3,
+    "explanation": "TMDB lists Japanese as the original language of Princess Mononoke.",
+    "source": "https://www.themoviedb.org/movie/128"
+  },
+  {
+    "id": "extra-General Cinema-128-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Princess Mononoke (1997)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Hayao Miyazaki"],
+    "answer": 3,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/128"
+  },
+  {
+    "id": "extra-General Cinema-149-year",
+    "category": "General Cinema",
+    "question": "In which year did Akira have its original release?",
+    "options": ["1984", "1986", "1988", "1991"],
+    "answer": 2,
+    "explanation": "TMDB lists 1988-07-16 as the original release date for Akira.",
+    "source": "https://www.themoviedb.org/movie/149"
+  },
+  {
+    "id": "extra-General Cinema-149-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Akira (1988)?",
+    "options": ["English", "Hindi", "Japanese", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Japanese as the original language of Akira.",
+    "source": "https://www.themoviedb.org/movie/149"
+  },
+  {
+    "id": "extra-General Cinema-149-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Akira (1988)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Katsuhiro Otomo", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Katsuhiro Otomo.",
+    "source": "https://www.themoviedb.org/movie/149"
+  },
+  {
+    "id": "extra-General Cinema-10494-year",
+    "category": "General Cinema",
+    "question": "In which year did Perfect Blue have its original release?",
+    "options": ["1998", "1994", "1996", "2001"],
+    "answer": 0,
+    "explanation": "TMDB lists 1998-02-28 as the original release date for Perfect Blue.",
+    "source": "https://www.themoviedb.org/movie/10494"
+  },
+  {
+    "id": "extra-General Cinema-10494-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Perfect Blue (1998)?",
+    "options": ["Japanese", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists Japanese as the original language of Perfect Blue.",
+    "source": "https://www.themoviedb.org/movie/10494"
+  },
+  {
+    "id": "extra-General Cinema-10494-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Perfect Blue (1998)?",
+    "options": ["Satoshi Kon", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Satoshi Kon.",
+    "source": "https://www.themoviedb.org/movie/10494"
+  },
+  {
+    "id": "extra-General Cinema-8392-year",
+    "category": "General Cinema",
+    "question": "In which year did My Neighbor Totoro have its original release?",
+    "options": ["1984", "1986", "1988", "1991"],
+    "answer": 2,
+    "explanation": "TMDB lists 1988-04-16 as the original release date for My Neighbor Totoro.",
+    "source": "https://www.themoviedb.org/movie/8392"
+  },
+  {
+    "id": "extra-General Cinema-8392-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for My Neighbor Totoro (1988)?",
+    "options": ["English", "Hindi", "Japanese", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Japanese as the original language of My Neighbor Totoro.",
+    "source": "https://www.themoviedb.org/movie/8392"
+  },
+  {
+    "id": "extra-General Cinema-8392-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed My Neighbor Totoro (1988)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Hayao Miyazaki", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/8392"
+  },
+  {
+    "id": "extra-General Cinema-508883-year",
+    "category": "General Cinema",
+    "question": "In which year did The Boy and the Heron have its original release?",
+    "options": ["2019", "2023", "2021", "2026"],
+    "answer": 1,
+    "explanation": "TMDB lists 2023-07-14 as the original release date for The Boy and the Heron.",
+    "source": "https://www.themoviedb.org/movie/508883"
+  },
+  {
+    "id": "extra-General Cinema-508883-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Boy and the Heron (2023)?",
+    "options": ["English", "Japanese", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Japanese as the original language of The Boy and the Heron.",
+    "source": "https://www.themoviedb.org/movie/508883"
+  },
+  {
+    "id": "extra-General Cinema-508883-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The Boy and the Heron (2023)?",
+    "options": ["Adrian Molina", "Hayao Miyazaki", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/508883"
+  },
+  {
+    "id": "extra-General Cinema-4935-year",
+    "category": "General Cinema",
+    "question": "In which year did Howl's Moving Castle have its original release?",
+    "options": ["2000", "2002", "2004", "2007"],
+    "answer": 2,
+    "explanation": "TMDB lists 2004-09-09 as the original release date for Howl's Moving Castle.",
+    "source": "https://www.themoviedb.org/movie/4935"
+  },
+  {
+    "id": "extra-General Cinema-4935-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Howl's Moving Castle (2004)?",
+    "options": ["English", "Hindi", "Japanese", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Japanese as the original language of Howl's Moving Castle.",
+    "source": "https://www.themoviedb.org/movie/4935"
+  },
+  {
+    "id": "extra-General Cinema-4935-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Howl's Moving Castle (2004)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Hayao Miyazaki", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Hayao Miyazaki.",
+    "source": "https://www.themoviedb.org/movie/4935"
+  },
+  {
+    "id": "extra-General Cinema-27205-year",
+    "category": "General Cinema",
+    "question": "In which year did Inception have its original release?",
+    "options": ["2010", "2006", "2008", "2013"],
+    "answer": 0,
+    "explanation": "TMDB lists 2010-07-15 as the original release date for Inception.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-General Cinema-27205-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Inception (2010)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Inception.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-General Cinema-27205-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Inception (2010)?",
+    "options": ["Christopher Nolan", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Christopher Nolan.",
+    "source": "https://www.themoviedb.org/movie/27205"
+  },
+  {
+    "id": "extra-General Cinema-120467-year",
+    "category": "General Cinema",
+    "question": "In which year did The Grand Budapest Hotel have its original release?",
+    "options": ["2014", "2010", "2012", "2017"],
+    "answer": 0,
+    "explanation": "TMDB lists 2014-02-08 as the original release date for The Grand Budapest Hotel.",
+    "source": "https://www.themoviedb.org/movie/120467"
+  },
+  {
+    "id": "extra-General Cinema-120467-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Grand Budapest Hotel (2014)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of The Grand Budapest Hotel.",
+    "source": "https://www.themoviedb.org/movie/120467"
+  },
+  {
+    "id": "extra-General Cinema-120467-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The Grand Budapest Hotel (2014)?",
+    "options": ["Wes Anderson", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Wes Anderson.",
+    "source": "https://www.themoviedb.org/movie/120467"
+  },
+  {
+    "id": "extra-General Cinema-346-year",
+    "category": "General Cinema",
+    "question": "In which year did Seven Samurai have its original release?",
+    "options": ["1954", "1950", "1952", "1957"],
+    "answer": 0,
+    "explanation": "TMDB lists 1954-04-26 as the original release date for Seven Samurai.",
+    "source": "https://www.themoviedb.org/movie/346"
+  },
+  {
+    "id": "extra-General Cinema-346-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Seven Samurai (1954)?",
+    "options": ["Japanese", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists Japanese as the original language of Seven Samurai.",
+    "source": "https://www.themoviedb.org/movie/346"
+  },
+  {
+    "id": "extra-General Cinema-346-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Seven Samurai (1954)?",
+    "options": ["Akira Kurosawa", "Adrian Molina", "Alfred Hitchcock", "Andrew Stanton"],
+    "answer": 0,
+    "explanation": "The credited director is Akira Kurosawa.",
+    "source": "https://www.themoviedb.org/movie/346"
+  },
+  {
+    "id": "extra-General Cinema-680-year",
+    "category": "General Cinema",
+    "question": "In which year did Pulp Fiction have its original release?",
+    "options": ["1994", "1990", "1992", "1997"],
+    "answer": 0,
+    "explanation": "TMDB lists 1994-09-10 as the original release date for Pulp Fiction.",
+    "source": "https://www.themoviedb.org/movie/680"
+  },
+  {
+    "id": "extra-General Cinema-680-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Pulp Fiction (1994)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Pulp Fiction.",
+    "source": "https://www.themoviedb.org/movie/680"
+  },
+  {
+    "id": "extra-General Cinema-680-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Pulp Fiction (1994)?",
+    "options": ["Quentin Tarantino", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Quentin Tarantino.",
+    "source": "https://www.themoviedb.org/movie/680"
+  },
+  {
+    "id": "extra-General Cinema-238-year",
+    "category": "General Cinema",
+    "question": "In which year did The Godfather have its original release?",
+    "options": ["1968", "1970", "1972", "1975"],
+    "answer": 2,
+    "explanation": "TMDB lists 1972-03-14 as the original release date for The Godfather.",
+    "source": "https://www.themoviedb.org/movie/238"
+  },
+  {
+    "id": "extra-General Cinema-238-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Godfather (1972)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of The Godfather.",
+    "source": "https://www.themoviedb.org/movie/238"
+  },
+  {
+    "id": "extra-General Cinema-238-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The Godfather (1972)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Francis Ford Coppola", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Francis Ford Coppola.",
+    "source": "https://www.themoviedb.org/movie/238"
+  },
+  {
+    "id": "extra-General Cinema-578-year",
+    "category": "General Cinema",
+    "question": "In which year did Jaws have its original release?",
+    "options": ["1971", "1975", "1973", "1978"],
+    "answer": 1,
+    "explanation": "TMDB lists 1975-06-20 as the original release date for Jaws.",
+    "source": "https://www.themoviedb.org/movie/578"
+  },
+  {
+    "id": "extra-General Cinema-578-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Jaws (1975)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Jaws.",
+    "source": "https://www.themoviedb.org/movie/578"
+  },
+  {
+    "id": "extra-General Cinema-578-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Jaws (1975)?",
+    "options": ["Adrian Molina", "Steven Spielberg", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Steven Spielberg.",
+    "source": "https://www.themoviedb.org/movie/578"
+  },
+  {
+    "id": "extra-General Cinema-531428-year",
+    "category": "General Cinema",
+    "question": "In which year did Portrait of a Lady on Fire have its original release?",
+    "options": ["2015", "2019", "2017", "2022"],
+    "answer": 1,
+    "explanation": "TMDB lists 2019-09-06 as the original release date for Portrait of a Lady on Fire.",
+    "source": "https://www.themoviedb.org/movie/531428"
+  },
+  {
+    "id": "extra-General Cinema-531428-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Portrait of a Lady on Fire (2019)?",
+    "options": ["English", "French", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists French as the original language of Portrait of a Lady on Fire.",
+    "source": "https://www.themoviedb.org/movie/531428"
+  },
+  {
+    "id": "extra-General Cinema-531428-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Portrait of a Lady on Fire (2019)?",
+    "options": ["Adrian Molina", "Céline Sciamma", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Céline Sciamma.",
+    "source": "https://www.themoviedb.org/movie/531428"
+  },
+  {
+    "id": "extra-General Cinema-419430-year",
+    "category": "General Cinema",
+    "question": "In which year did Get Out have its original release?",
+    "options": ["2013", "2015", "2020", "2017"],
+    "answer": 3,
+    "explanation": "TMDB lists 2017-02-24 as the original release date for Get Out.",
+    "source": "https://www.themoviedb.org/movie/419430"
+  },
+  {
+    "id": "extra-General Cinema-419430-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Get Out (2017)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Get Out.",
+    "source": "https://www.themoviedb.org/movie/419430"
+  },
+  {
+    "id": "extra-General Cinema-419430-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Get Out (2017)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Jordan Peele"],
+    "answer": 3,
+    "explanation": "The credited director is Jordan Peele.",
+    "source": "https://www.themoviedb.org/movie/419430"
+  },
+  {
+    "id": "extra-General Cinema-15-year",
+    "category": "General Cinema",
+    "question": "In which year did Citizen Kane have its original release?",
+    "options": ["1937", "1939", "1944", "1941"],
+    "answer": 3,
+    "explanation": "TMDB lists 1941-04-17 as the original release date for Citizen Kane.",
+    "source": "https://www.themoviedb.org/movie/15"
+  },
+  {
+    "id": "extra-General Cinema-15-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Citizen Kane (1941)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Citizen Kane.",
+    "source": "https://www.themoviedb.org/movie/15"
+  },
+  {
+    "id": "extra-General Cinema-15-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Citizen Kane (1941)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Orson Welles"],
+    "answer": 3,
+    "explanation": "The credited director is Orson Welles.",
+    "source": "https://www.themoviedb.org/movie/15"
+  },
+  {
+    "id": "extra-General Cinema-19-year",
+    "category": "General Cinema",
+    "question": "In which year did Metropolis have its original release?",
+    "options": ["1923", "1927", "1925", "1930"],
+    "answer": 1,
+    "explanation": "TMDB lists 1927-01-10 as the original release date for Metropolis.",
+    "source": "https://www.themoviedb.org/movie/19"
+  },
+  {
+    "id": "extra-General Cinema-19-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Metropolis (1927)?",
+    "options": ["English", "German", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists German as the original language of Metropolis.",
+    "source": "https://www.themoviedb.org/movie/19"
+  },
+  {
+    "id": "extra-General Cinema-19-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Metropolis (1927)?",
+    "options": ["Adrian Molina", "Fritz Lang", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Fritz Lang.",
+    "source": "https://www.themoviedb.org/movie/19"
+  },
+  {
+    "id": "extra-General Cinema-3082-year",
+    "category": "General Cinema",
+    "question": "In which year did Modern Times have its original release?",
+    "options": ["1932", "1934", "1936", "1939"],
+    "answer": 2,
+    "explanation": "TMDB lists 1936-02-05 as the original release date for Modern Times.",
+    "source": "https://www.themoviedb.org/movie/3082"
+  },
+  {
+    "id": "extra-General Cinema-3082-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Modern Times (1936)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Modern Times.",
+    "source": "https://www.themoviedb.org/movie/3082"
+  },
+  {
+    "id": "extra-General Cinema-3082-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Modern Times (1936)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Charlie Chaplin", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Charlie Chaplin.",
+    "source": "https://www.themoviedb.org/movie/3082"
+  },
+  {
+    "id": "extra-General Cinema-961-year",
+    "category": "General Cinema",
+    "question": "In which year did The General have its original release?",
+    "options": ["1926", "1922", "1924", "1929"],
+    "answer": 0,
+    "explanation": "TMDB lists 1926-12-25 as the original release date for The General.",
+    "source": "https://www.themoviedb.org/movie/961"
+  },
+  {
+    "id": "extra-General Cinema-961-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The General (1926)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of The General.",
+    "source": "https://www.themoviedb.org/movie/961"
+  },
+  {
+    "id": "extra-General Cinema-961-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The General (1926)?",
+    "options": ["Clyde Bruckman", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited directors are Clyde Bruckman, Buster Keaton.",
+    "source": "https://www.themoviedb.org/movie/961"
+  },
+  {
+    "id": "extra-General Cinema-962-year",
+    "category": "General Cinema",
+    "question": "In which year did The Gold Rush have its original release?",
+    "options": ["1921", "1923", "1928", "1925"],
+    "answer": 3,
+    "explanation": "TMDB lists 1925-07-13 as the original release date for The Gold Rush.",
+    "source": "https://www.themoviedb.org/movie/962"
+  },
+  {
+    "id": "extra-General Cinema-962-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Gold Rush (1925)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of The Gold Rush.",
+    "source": "https://www.themoviedb.org/movie/962"
+  },
+  {
+    "id": "extra-General Cinema-962-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The Gold Rush (1925)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Charlie Chaplin"],
+    "answer": 3,
+    "explanation": "The credited director is Charlie Chaplin.",
+    "source": "https://www.themoviedb.org/movie/962"
+  },
+  {
+    "id": "extra-General Cinema-389-year",
+    "category": "General Cinema",
+    "question": "In which year did 12 Angry Men have its original release?",
+    "options": ["1953", "1955", "1960", "1957"],
+    "answer": 3,
+    "explanation": "TMDB lists 1957-04-10 as the original release date for 12 Angry Men.",
+    "source": "https://www.themoviedb.org/movie/389"
+  },
+  {
+    "id": "extra-General Cinema-389-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for 12 Angry Men (1957)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of 12 Angry Men.",
+    "source": "https://www.themoviedb.org/movie/389"
+  },
+  {
+    "id": "extra-General Cinema-389-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed 12 Angry Men (1957)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Sidney Lumet"],
+    "answer": 3,
+    "explanation": "The credited director is Sidney Lumet.",
+    "source": "https://www.themoviedb.org/movie/389"
+  },
+  {
+    "id": "extra-General Cinema-567-year",
+    "category": "General Cinema",
+    "question": "In which year did Rear Window have its original release?",
+    "options": ["1954", "1950", "1952", "1957"],
+    "answer": 0,
+    "explanation": "TMDB lists 1954-08-01 as the original release date for Rear Window.",
+    "source": "https://www.themoviedb.org/movie/567"
+  },
+  {
+    "id": "extra-General Cinema-567-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Rear Window (1954)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Rear Window.",
+    "source": "https://www.themoviedb.org/movie/567"
+  },
+  {
+    "id": "extra-General Cinema-567-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Rear Window (1954)?",
+    "options": ["Alfred Hitchcock", "Adrian Molina", "Akira Kurosawa", "Andrew Stanton"],
+    "answer": 0,
+    "explanation": "The credited director is Alfred Hitchcock.",
+    "source": "https://www.themoviedb.org/movie/567"
+  },
+  {
+    "id": "extra-General Cinema-539-year",
+    "category": "General Cinema",
+    "question": "In which year did Psycho have its original release?",
+    "options": ["1956", "1958", "1960", "1963"],
+    "answer": 2,
+    "explanation": "TMDB lists 1960-06-22 as the original release date for Psycho.",
+    "source": "https://www.themoviedb.org/movie/539"
+  },
+  {
+    "id": "extra-General Cinema-539-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Psycho (1960)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Psycho.",
+    "source": "https://www.themoviedb.org/movie/539"
+  },
+  {
+    "id": "extra-General Cinema-539-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Psycho (1960)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Andrew Stanton"],
+    "answer": 2,
+    "explanation": "The credited director is Alfred Hitchcock.",
+    "source": "https://www.themoviedb.org/movie/539"
+  },
+  {
+    "id": "extra-General Cinema-496243-year",
+    "category": "General Cinema",
+    "question": "In which year did Parasite have its original release?",
+    "options": ["2015", "2019", "2017", "2022"],
+    "answer": 1,
+    "explanation": "TMDB lists 2019-05-30 as the original release date for Parasite.",
+    "source": "https://www.themoviedb.org/movie/496243"
+  },
+  {
+    "id": "extra-General Cinema-496243-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Parasite (2019)?",
+    "options": ["English", "Korean", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Korean as the original language of Parasite.",
+    "source": "https://www.themoviedb.org/movie/496243"
+  },
+  {
+    "id": "extra-General Cinema-496243-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Parasite (2019)?",
+    "options": ["Adrian Molina", "Bong Joon Ho", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Bong Joon Ho.",
+    "source": "https://www.themoviedb.org/movie/496243"
+  },
+  {
+    "id": "extra-General Cinema-194-year",
+    "category": "General Cinema",
+    "question": "In which year did Amélie have its original release?",
+    "options": ["1997", "1999", "2004", "2001"],
+    "answer": 3,
+    "explanation": "TMDB lists 2001-04-25 as the original release date for Amélie.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-General Cinema-194-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Amélie (2001)?",
+    "options": ["English", "Hindi", "Telugu", "French"],
+    "answer": 3,
+    "explanation": "TMDB lists French as the original language of Amélie.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-General Cinema-194-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Amélie (2001)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Jean-Pierre Jeunet"],
+    "answer": 3,
+    "explanation": "The credited director is Jean-Pierre Jeunet.",
+    "source": "https://www.themoviedb.org/movie/194"
+  },
+  {
+    "id": "extra-General Cinema-637-year",
+    "category": "General Cinema",
+    "question": "In which year did Life Is Beautiful have its original release?",
+    "options": ["1993", "1995", "2000", "1997"],
+    "answer": 3,
+    "explanation": "TMDB lists 1997-12-20 as the original release date for Life Is Beautiful.",
+    "source": "https://www.themoviedb.org/movie/637"
+  },
+  {
+    "id": "extra-General Cinema-637-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Life Is Beautiful (1997)?",
+    "options": ["English", "Hindi", "Telugu", "Italian"],
+    "answer": 3,
+    "explanation": "TMDB lists Italian as the original language of Life Is Beautiful.",
+    "source": "https://www.themoviedb.org/movie/637"
+  },
+  {
+    "id": "extra-General Cinema-637-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Life Is Beautiful (1997)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Roberto Benigni"],
+    "answer": 3,
+    "explanation": "The credited director is Roberto Benigni.",
+    "source": "https://www.themoviedb.org/movie/637"
+  },
+  {
+    "id": "extra-General Cinema-11216-year",
+    "category": "General Cinema",
+    "question": "In which year did Cinema Paradiso have its original release?",
+    "options": ["1984", "1986", "1988", "1991"],
+    "answer": 2,
+    "explanation": "TMDB lists 1988-11-17 as the original release date for Cinema Paradiso.",
+    "source": "https://www.themoviedb.org/movie/11216"
+  },
+  {
+    "id": "extra-General Cinema-11216-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Cinema Paradiso (1988)?",
+    "options": ["English", "Hindi", "Italian", "Telugu"],
+    "answer": 2,
+    "explanation": "TMDB lists Italian as the original language of Cinema Paradiso.",
+    "source": "https://www.themoviedb.org/movie/11216"
+  },
+  {
+    "id": "extra-General Cinema-11216-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Cinema Paradiso (1988)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Giuseppe Tornatore", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Giuseppe Tornatore.",
+    "source": "https://www.themoviedb.org/movie/11216"
+  },
+  {
+    "id": "extra-General Cinema-1417-year",
+    "category": "General Cinema",
+    "question": "In which year did Pan's Labyrinth have its original release?",
+    "options": ["2006", "2002", "2004", "2009"],
+    "answer": 0,
+    "explanation": "TMDB lists 2006-10-11 as the original release date for Pan's Labyrinth.",
+    "source": "https://www.themoviedb.org/movie/1417"
+  },
+  {
+    "id": "extra-General Cinema-1417-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Pan's Labyrinth (2006)?",
+    "options": ["Spanish", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists Spanish as the original language of Pan's Labyrinth.",
+    "source": "https://www.themoviedb.org/movie/1417"
+  },
+  {
+    "id": "extra-General Cinema-1417-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Pan's Labyrinth (2006)?",
+    "options": ["Guillermo del Toro", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Guillermo del Toro.",
+    "source": "https://www.themoviedb.org/movie/1417"
+  },
+  {
+    "id": "extra-General Cinema-598-year",
+    "category": "General Cinema",
+    "question": "In which year did City of God have its original release?",
+    "options": ["2002", "1998", "2000", "2005"],
+    "answer": 0,
+    "explanation": "TMDB lists 2002-08-30 as the original release date for City of God.",
+    "source": "https://www.themoviedb.org/movie/598"
+  },
+  {
+    "id": "extra-General Cinema-598-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for City of God (2002)?",
+    "options": ["Portuguese", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists Portuguese as the original language of City of God.",
+    "source": "https://www.themoviedb.org/movie/598"
+  },
+  {
+    "id": "extra-General Cinema-598-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed City of God (2002)?",
+    "options": ["Fernando Meirelles", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Fernando Meirelles.",
+    "source": "https://www.themoviedb.org/movie/598"
+  },
+  {
+    "id": "extra-General Cinema-582-year",
+    "category": "General Cinema",
+    "question": "In which year did The Lives of Others have its original release?",
+    "options": ["2006", "2002", "2004", "2009"],
+    "answer": 0,
+    "explanation": "TMDB lists 2006-03-23 as the original release date for The Lives of Others.",
+    "source": "https://www.themoviedb.org/movie/582"
+  },
+  {
+    "id": "extra-General Cinema-582-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Lives of Others (2006)?",
+    "options": ["German", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists German as the original language of The Lives of Others.",
+    "source": "https://www.themoviedb.org/movie/582"
+  },
+  {
+    "id": "extra-General Cinema-582-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The Lives of Others (2006)?",
+    "options": [
+      "Florian Henckel von Donnersmarck",
+      "Adrian Molina",
+      "Akira Kurosawa",
+      "Alfred Hitchcock"
+    ],
+    "answer": 0,
+    "explanation": "The credited director is Florian Henckel von Donnersmarck.",
+    "source": "https://www.themoviedb.org/movie/582"
+  },
+  {
+    "id": "extra-General Cinema-60243-year",
+    "category": "General Cinema",
+    "question": "In which year did A Separation have its original release?",
+    "options": ["2007", "2011", "2009", "2014"],
+    "answer": 1,
+    "explanation": "TMDB lists 2011-02-15 as the original release date for A Separation.",
+    "source": "https://www.themoviedb.org/movie/60243"
+  },
+  {
+    "id": "extra-General Cinema-60243-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for A Separation (2011)?",
+    "options": ["English", "Persian", "Hindi", "Telugu"],
+    "answer": 1,
+    "explanation": "TMDB lists Persian as the original language of A Separation.",
+    "source": "https://www.themoviedb.org/movie/60243"
+  },
+  {
+    "id": "extra-General Cinema-60243-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed A Separation (2011)?",
+    "options": ["Adrian Molina", "Asghar Farhadi", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is Asghar Farhadi.",
+    "source": "https://www.themoviedb.org/movie/60243"
+  },
+  {
+    "id": "extra-General Cinema-579974-year",
+    "category": "General Cinema",
+    "question": "In which year did RRR have its original release?",
+    "options": ["2022", "2018", "2020", "2025"],
+    "answer": 0,
+    "explanation": "TMDB lists 2022-03-24 as the original release date for RRR.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-General Cinema-579974-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for RRR (2022)?",
+    "options": ["Telugu", "English", "Hindi", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists Telugu as the original language of RRR.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-General Cinema-579974-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed RRR (2022)?",
+    "options": ["S. S. Rajamouli", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/579974"
+  },
+  {
+    "id": "extra-General Cinema-1057265-year",
+    "category": "General Cinema",
+    "question": "In which year did Peddi have its original release?",
+    "options": ["2026", "2022", "2024", "2029"],
+    "answer": 0,
+    "explanation": "TMDB lists 2026-06-03 as the original release date for Peddi.",
+    "source": "https://www.themoviedb.org/movie/1057265"
+  },
+  {
+    "id": "extra-General Cinema-1057265-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Peddi (2026)?",
+    "options": ["Telugu", "English", "Hindi", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists Telugu as the original language of Peddi.",
+    "source": "https://www.themoviedb.org/movie/1057265"
+  },
+  {
+    "id": "extra-General Cinema-1057265-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Peddi (2026)?",
+    "options": ["Buchi Babu Sana", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Buchi Babu Sana.",
+    "source": "https://www.themoviedb.org/movie/1057265"
+  },
+  {
+    "id": "extra-General Cinema-23790-year",
+    "category": "General Cinema",
+    "question": "In which year did Magadheera have its original release?",
+    "options": ["2005", "2007", "2012", "2009"],
+    "answer": 3,
+    "explanation": "TMDB lists 2009-07-31 as the original release date for Magadheera.",
+    "source": "https://www.themoviedb.org/movie/23790"
+  },
+  {
+    "id": "extra-General Cinema-23790-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Magadheera (2009)?",
+    "options": ["English", "Hindi", "Japanese", "Telugu"],
+    "answer": 3,
+    "explanation": "TMDB lists Telugu as the original language of Magadheera.",
+    "source": "https://www.themoviedb.org/movie/23790"
+  },
+  {
+    "id": "extra-General Cinema-23790-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Magadheera (2009)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "S. S. Rajamouli"],
+    "answer": 3,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/23790"
+  },
+  {
+    "id": "extra-General Cinema-19666-year",
+    "category": "General Cinema",
+    "question": "In which year did Lagaan: Once Upon a Time in India have its original release?",
+    "options": ["1997", "1999", "2004", "2001"],
+    "answer": 3,
+    "explanation": "TMDB lists 2001-06-15 as the original release date for Lagaan: Once Upon a Time in India.",
+    "source": "https://www.themoviedb.org/movie/19666"
+  },
+  {
+    "id": "extra-General Cinema-19666-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Lagaan: Once Upon a Time in India (2001)?",
+    "options": ["English", "Telugu", "Japanese", "Hindi"],
+    "answer": 3,
+    "explanation": "TMDB lists Hindi as the original language of Lagaan: Once Upon a Time in India.",
+    "source": "https://www.themoviedb.org/movie/19666"
+  },
+  {
+    "id": "extra-General Cinema-19666-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Lagaan: Once Upon a Time in India (2001)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Ashutosh Gowariker"],
+    "answer": 3,
+    "explanation": "The credited director is Ashutosh Gowariker.",
+    "source": "https://www.themoviedb.org/movie/19666"
+  },
+  {
+    "id": "extra-General Cinema-20453-year",
+    "category": "General Cinema",
+    "question": "In which year did 3 Idiots have its original release?",
+    "options": ["2005", "2007", "2012", "2009"],
+    "answer": 3,
+    "explanation": "TMDB lists 2009-12-23 as the original release date for 3 Idiots.",
+    "source": "https://www.themoviedb.org/movie/20453"
+  },
+  {
+    "id": "extra-General Cinema-20453-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for 3 Idiots (2009)?",
+    "options": ["English", "Telugu", "Japanese", "Hindi"],
+    "answer": 3,
+    "explanation": "TMDB lists Hindi as the original language of 3 Idiots.",
+    "source": "https://www.themoviedb.org/movie/20453"
+  },
+  {
+    "id": "extra-General Cinema-20453-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed 3 Idiots (2009)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Rajkumar Hirani"],
+    "answer": 3,
+    "explanation": "The credited director is Rajkumar Hirani.",
+    "source": "https://www.themoviedb.org/movie/20453"
+  },
+  {
+    "id": "extra-General Cinema-360814-year",
+    "category": "General Cinema",
+    "question": "In which year did Dangal have its original release?",
+    "options": ["2012", "2014", "2016", "2019"],
+    "answer": 2,
+    "explanation": "TMDB lists 2016-12-21 as the original release date for Dangal.",
+    "source": "https://www.themoviedb.org/movie/360814"
+  },
+  {
+    "id": "extra-General Cinema-360814-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Dangal (2016)?",
+    "options": ["English", "Telugu", "Hindi", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists Hindi as the original language of Dangal.",
+    "source": "https://www.themoviedb.org/movie/360814"
+  },
+  {
+    "id": "extra-General Cinema-360814-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Dangal (2016)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Nitesh Tiwari", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is Nitesh Tiwari.",
+    "source": "https://www.themoviedb.org/movie/360814"
+  },
+  {
+    "id": "extra-General Cinema-256040-year",
+    "category": "General Cinema",
+    "question": "In which year did Bāhubali: The Beginning have its original release?",
+    "options": ["2011", "2015", "2013", "2018"],
+    "answer": 1,
+    "explanation": "TMDB lists 2015-07-09 as the original release date for Bāhubali: The Beginning.",
+    "source": "https://www.themoviedb.org/movie/256040"
+  },
+  {
+    "id": "extra-General Cinema-256040-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Bāhubali: The Beginning (2015)?",
+    "options": ["English", "Telugu", "Hindi", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists Telugu as the original language of Bāhubali: The Beginning.",
+    "source": "https://www.themoviedb.org/movie/256040"
+  },
+  {
+    "id": "extra-General Cinema-256040-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Bāhubali: The Beginning (2015)?",
+    "options": ["Adrian Molina", "S. S. Rajamouli", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 1,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/256040"
+  },
+  {
+    "id": "extra-General Cinema-148265-year",
+    "category": "General Cinema",
+    "question": "In which year did Eega have its original release?",
+    "options": ["2008", "2010", "2012", "2015"],
+    "answer": 2,
+    "explanation": "TMDB lists 2012-07-05 as the original release date for Eega.",
+    "source": "https://www.themoviedb.org/movie/148265"
+  },
+  {
+    "id": "extra-General Cinema-148265-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Eega (2012)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists Telugu as the original language of Eega.",
+    "source": "https://www.themoviedb.org/movie/148265"
+  },
+  {
+    "id": "extra-General Cinema-148265-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Eega (2012)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "S. S. Rajamouli", "Alfred Hitchcock"],
+    "answer": 2,
+    "explanation": "The credited director is S. S. Rajamouli.",
+    "source": "https://www.themoviedb.org/movie/148265"
+  },
+  {
+    "id": "extra-General Cinema-157336-year",
+    "category": "General Cinema",
+    "question": "In which year did Interstellar have its original release?",
+    "options": ["2014", "2010", "2012", "2017"],
+    "answer": 0,
+    "explanation": "TMDB lists 2014-11-04 as the original release date for Interstellar.",
+    "source": "https://www.themoviedb.org/movie/157336"
+  },
+  {
+    "id": "extra-General Cinema-157336-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Interstellar (2014)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Interstellar.",
+    "source": "https://www.themoviedb.org/movie/157336"
+  },
+  {
+    "id": "extra-General Cinema-157336-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Interstellar (2014)?",
+    "options": ["Christopher Nolan", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Christopher Nolan.",
+    "source": "https://www.themoviedb.org/movie/157336"
+  },
+  {
+    "id": "extra-General Cinema-329-year",
+    "category": "General Cinema",
+    "question": "In which year did Jurassic Park have its original release?",
+    "options": ["1989", "1991", "1996", "1993"],
+    "answer": 3,
+    "explanation": "TMDB lists 1993-06-11 as the original release date for Jurassic Park.",
+    "source": "https://www.themoviedb.org/movie/329"
+  },
+  {
+    "id": "extra-General Cinema-329-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Jurassic Park (1993)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of Jurassic Park.",
+    "source": "https://www.themoviedb.org/movie/329"
+  },
+  {
+    "id": "extra-General Cinema-329-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Jurassic Park (1993)?",
+    "options": ["Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock", "Steven Spielberg"],
+    "answer": 3,
+    "explanation": "The credited director is Steven Spielberg.",
+    "source": "https://www.themoviedb.org/movie/329"
+  },
+  {
+    "id": "extra-General Cinema-429-year",
+    "category": "General Cinema",
+    "question": "In which year did The Good, the Bad and the Ugly have its original release?",
+    "options": ["1966", "1962", "1964", "1969"],
+    "answer": 0,
+    "explanation": "TMDB lists 1966-12-23 as the original release date for The Good, the Bad and the Ugly.",
+    "source": "https://www.themoviedb.org/movie/429"
+  },
+  {
+    "id": "extra-General Cinema-429-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Good, the Bad and the Ugly (1966)?",
+    "options": ["Italian", "English", "Hindi", "Telugu"],
+    "answer": 0,
+    "explanation": "TMDB lists Italian as the original language of The Good, the Bad and the Ugly.",
+    "source": "https://www.themoviedb.org/movie/429"
+  },
+  {
+    "id": "extra-General Cinema-429-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The Good, the Bad and the Ugly (1966)?",
+    "options": ["Sergio Leone", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Sergio Leone.",
+    "source": "https://www.themoviedb.org/movie/429"
+  },
+  {
+    "id": "extra-General Cinema-37799-year",
+    "category": "General Cinema",
+    "question": "In which year did The Social Network have its original release?",
+    "options": ["2010", "2006", "2008", "2013"],
+    "answer": 0,
+    "explanation": "TMDB lists 2010-10-01 as the original release date for The Social Network.",
+    "source": "https://www.themoviedb.org/movie/37799"
+  },
+  {
+    "id": "extra-General Cinema-37799-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Social Network (2010)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of The Social Network.",
+    "source": "https://www.themoviedb.org/movie/37799"
+  },
+  {
+    "id": "extra-General Cinema-37799-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed The Social Network (2010)?",
+    "options": ["David Fincher", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is David Fincher.",
+    "source": "https://www.themoviedb.org/movie/37799"
+  },
+  {
+    "id": "extra-General Cinema-284054-year",
+    "category": "General Cinema",
+    "question": "In which year did Black Panther have its original release?",
+    "options": ["2018", "2014", "2016", "2021"],
+    "answer": 0,
+    "explanation": "TMDB lists 2018-02-13 as the original release date for Black Panther.",
+    "source": "https://www.themoviedb.org/movie/284054"
+  },
+  {
+    "id": "extra-General Cinema-284054-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Black Panther (2018)?",
+    "options": ["English", "Hindi", "Telugu", "Japanese"],
+    "answer": 0,
+    "explanation": "TMDB lists English as the original language of Black Panther.",
+    "source": "https://www.themoviedb.org/movie/284054"
+  },
+  {
+    "id": "extra-General Cinema-284054-director",
+    "category": "General Cinema",
+    "question": "Which of these filmmakers directed Black Panther (2018)?",
+    "options": ["Ryan Coogler", "Adrian Molina", "Akira Kurosawa", "Alfred Hitchcock"],
+    "answer": 0,
+    "explanation": "The credited director is Ryan Coogler.",
+    "source": "https://www.themoviedb.org/movie/284054"
+  },
+  {
+    "id": "extra-General Cinema-1396-year",
+    "category": "General Cinema",
+    "question": "In which year did Breaking Bad first air?",
+    "options": ["2004", "2006", "2008", "2011"],
+    "answer": 2,
+    "explanation": "TMDB lists 2008-01-20 as the first-air date for Breaking Bad.",
+    "source": "https://www.themoviedb.org/tv/1396"
+  },
+  {
+    "id": "extra-General Cinema-1396-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Breaking Bad (2008)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Breaking Bad.",
+    "source": "https://www.themoviedb.org/tv/1396"
+  },
+  {
+    "id": "extra-General Cinema-70523-year",
+    "category": "General Cinema",
+    "question": "In which year did Dark first air?",
+    "options": ["2013", "2015", "2020", "2017"],
+    "answer": 3,
+    "explanation": "TMDB lists 2017-12-01 as the first-air date for Dark.",
+    "source": "https://www.themoviedb.org/tv/70523"
+  },
+  {
+    "id": "extra-General Cinema-70523-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Dark (2017)?",
+    "options": ["English", "Hindi", "Telugu", "German"],
+    "answer": 3,
+    "explanation": "TMDB lists German as the original language of Dark.",
+    "source": "https://www.themoviedb.org/tv/70523"
+  },
+  {
+    "id": "extra-General Cinema-87108-year",
+    "category": "General Cinema",
+    "question": "In which year did Chernobyl first air?",
+    "options": ["2015", "2019", "2017", "2022"],
+    "answer": 1,
+    "explanation": "TMDB lists 2019-05-06 as the first-air date for Chernobyl.",
+    "source": "https://www.themoviedb.org/tv/87108"
+  },
+  {
+    "id": "extra-General Cinema-87108-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Chernobyl (2019)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Chernobyl.",
+    "source": "https://www.themoviedb.org/tv/87108"
+  },
+  {
+    "id": "extra-General Cinema-66732-year",
+    "category": "General Cinema",
+    "question": "In which year did Stranger Things first air?",
+    "options": ["2012", "2014", "2016", "2019"],
+    "answer": 2,
+    "explanation": "TMDB lists 2016-07-15 as the first-air date for Stranger Things.",
+    "source": "https://www.themoviedb.org/tv/66732"
+  },
+  {
+    "id": "extra-General Cinema-66732-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Stranger Things (2016)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Stranger Things.",
+    "source": "https://www.themoviedb.org/tv/66732"
+  },
+  {
+    "id": "extra-General Cinema-67070-year",
+    "category": "General Cinema",
+    "question": "In which year did Fleabag first air?",
+    "options": ["2012", "2014", "2016", "2019"],
+    "answer": 2,
+    "explanation": "TMDB lists 2016-07-21 as the first-air date for Fleabag.",
+    "source": "https://www.themoviedb.org/tv/67070"
+  },
+  {
+    "id": "extra-General Cinema-67070-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Fleabag (2016)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Fleabag.",
+    "source": "https://www.themoviedb.org/tv/67070"
+  },
+  {
+    "id": "extra-General Cinema-2316-year",
+    "category": "General Cinema",
+    "question": "In which year did The Office first air?",
+    "options": ["2001", "2003", "2008", "2005"],
+    "answer": 3,
+    "explanation": "TMDB lists 2005-03-24 as the first-air date for The Office.",
+    "source": "https://www.themoviedb.org/tv/2316"
+  },
+  {
+    "id": "extra-General Cinema-2316-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for The Office (2005)?",
+    "options": ["Hindi", "Telugu", "Japanese", "English"],
+    "answer": 3,
+    "explanation": "TMDB lists English as the original language of The Office.",
+    "source": "https://www.themoviedb.org/tv/2316"
+  },
+  {
+    "id": "extra-General Cinema-126308-year",
+    "category": "General Cinema",
+    "question": "In which year did Shōgun first air?",
+    "options": ["2020", "2022", "2024", "2027"],
+    "answer": 2,
+    "explanation": "TMDB lists 2024-02-27 as the first-air date for Shōgun.",
+    "source": "https://www.themoviedb.org/tv/126308"
+  },
+  {
+    "id": "extra-General Cinema-126308-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Shōgun (2024)?",
+    "options": ["Hindi", "Telugu", "English", "Japanese"],
+    "answer": 2,
+    "explanation": "TMDB lists English as the original language of Shōgun.",
+    "source": "https://www.themoviedb.org/tv/126308"
+  },
+  {
+    "id": "extra-General Cinema-60059-year",
+    "category": "General Cinema",
+    "question": "In which year did Better Call Saul first air?",
+    "options": ["2011", "2015", "2013", "2018"],
+    "answer": 1,
+    "explanation": "TMDB lists 2015-02-08 as the first-air date for Better Call Saul.",
+    "source": "https://www.themoviedb.org/tv/60059"
+  },
+  {
+    "id": "extra-General Cinema-60059-language",
+    "category": "General Cinema",
+    "question": "What is the original language listed for Better Call Saul (2015)?",
+    "options": ["Hindi", "English", "Telugu", "Japanese"],
+    "answer": 1,
+    "explanation": "TMDB lists English as the original language of Better Call Saul.",
+    "source": "https://www.themoviedb.org/tv/60059"
+  }
+]

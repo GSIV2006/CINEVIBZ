@@ -1,0 +1,790 @@
+{
+  "verifiedAt": "2026-11-17T15:37:42.759Z",
+  "method": "Each fact and distractor name checked against live TMDB title details and credits. No runtime AI generation.",
+  "records": [
+    {
+      "id": 150540,
+      "type": "movie",
+      "title": "Inside Out",
+      "date": "2015-06-17",
+      "language": "en",
+      "directors": [
+        "Pete Docter"
+      ],
+      "composers": [
+        "Michael Giacchino"
+      ]
+    },
+    {
+      "id": 354912,
+      "type": "movie",
+      "title": "Coco",
+      "date": "2017-10-27",
+      "language": "en",
+      "directors": [
+        "Lee Unkrich",
+        "Adrian Molina"
+      ],
+      "composers": [
+        "Michael Giacchino"
+      ]
+    },
+    {
+      "id": 324857,
+      "type": "movie",
+      "title": "Spider-Man: Into the Spider-Verse",
+      "date": "2018-12-06",
+      "language": "en",
+      "directors": [
+        "Bob Persichetti",
+        "Peter Ramsey",
+        "Rodney Rothman"
+      ],
+      "composers": [
+        "Daniel Pemberton"
+      ]
+    },
+    {
+      "id": 862,
+      "type": "movie",
+      "title": "Toy Story",
+      "date": "1995-11-22",
+      "language": "en",
+      "directors": [
+        "John Lasseter"
+      ],
+      "composers": [
+        "Randy Newman"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "movie",
+      "title": "Finding Nemo",
+      "date": "2003-05-30",
+      "language": "en",
+      "directors": [
+        "Andrew Stanton"
+      ],
+      "composers": [
+        "Thomas Newman"
+      ]
+    },
+    {
+      "id": 10681,
+      "type": "movie",
+      "title": "WALL·E",
+      "date": "2008-06-26",
+      "language": "en",
+      "directors": [
+        "Andrew Stanton"
+      ],
+      "composers": [
+        "Thomas Newman"
+      ]
+    },
+    {
+      "id": 10386,
+      "type": "movie",
+      "title": "The Iron Giant",
+      "date": "1999-08-06",
+      "language": "en",
+      "directors": [
+        "Brad Bird"
+      ],
+      "composers": [
+        "Michael Kamen"
+      ]
+    },
+    {
+      "id": 2062,
+      "type": "movie",
+      "title": "Ratatouille",
+      "date": "2007-06-28",
+      "language": "en",
+      "directors": [
+        "Brad Bird"
+      ],
+      "composers": [
+        "Michael Giacchino"
+      ]
+    },
+    {
+      "id": 129,
+      "type": "movie",
+      "title": "Spirited Away",
+      "date": "2001-07-20",
+      "language": "ja",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "composers": [
+        "Joe Hisaishi"
+      ]
+    },
+    {
+      "id": 372058,
+      "type": "movie",
+      "title": "Your Name.",
+      "date": "2016-07-01",
+      "language": "ja",
+      "directors": [
+        "Makoto Shinkai"
+      ],
+      "composers": [
+        "Yojiro Noda",
+        "Akira Kuwahara",
+        "Yusuke Takeda",
+        "Satoshi Yamaguchi"
+      ]
+    },
+    {
+      "id": 128,
+      "type": "movie",
+      "title": "Princess Mononoke",
+      "date": "1997-07-12",
+      "language": "ja",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "composers": [
+        "Joe Hisaishi"
+      ]
+    },
+    {
+      "id": 149,
+      "type": "movie",
+      "title": "Akira",
+      "date": "1988-07-16",
+      "language": "ja",
+      "directors": [
+        "Katsuhiro Otomo"
+      ],
+      "composers": [
+        "Shoji Yamashiro"
+      ]
+    },
+    {
+      "id": 10494,
+      "type": "movie",
+      "title": "Perfect Blue",
+      "date": "1998-02-28",
+      "language": "ja",
+      "directors": [
+        "Satoshi Kon"
+      ],
+      "composers": [
+        "Masahiro Ikumi"
+      ]
+    },
+    {
+      "id": 8392,
+      "type": "movie",
+      "title": "My Neighbor Totoro",
+      "date": "1988-04-16",
+      "language": "ja",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "composers": [
+        "Joe Hisaishi"
+      ]
+    },
+    {
+      "id": 508883,
+      "type": "movie",
+      "title": "The Boy and the Heron",
+      "date": "2023-07-14",
+      "language": "ja",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "composers": [
+        "Joe Hisaishi"
+      ]
+    },
+    {
+      "id": 4935,
+      "type": "movie",
+      "title": "Howl's Moving Castle",
+      "date": "2004-09-09",
+      "language": "ja",
+      "directors": [
+        "Hayao Miyazaki"
+      ],
+      "composers": [
+        "Joe Hisaishi"
+      ]
+    },
+    {
+      "id": 27205,
+      "type": "movie",
+      "title": "Inception",
+      "date": "2010-07-15",
+      "language": "en",
+      "directors": [
+        "Christopher Nolan"
+      ],
+      "composers": [
+        "Hans Zimmer"
+      ]
+    },
+    {
+      "id": 120467,
+      "type": "movie",
+      "title": "The Grand Budapest Hotel",
+      "date": "2014-02-08",
+      "language": "en",
+      "directors": [
+        "Wes Anderson"
+      ],
+      "composers": [
+        "Alexandre Desplat"
+      ]
+    },
+    {
+      "id": 346,
+      "type": "movie",
+      "title": "Seven Samurai",
+      "date": "1954-04-26",
+      "language": "ja",
+      "directors": [
+        "Akira Kurosawa"
+      ],
+      "composers": [
+        "Fumio Hayasaka"
+      ]
+    },
+    {
+      "id": 680,
+      "type": "movie",
+      "title": "Pulp Fiction",
+      "date": "1994-09-10",
+      "language": "en",
+      "directors": [
+        "Quentin Tarantino"
+      ],
+      "composers": []
+    },
+    {
+      "id": 238,
+      "type": "movie",
+      "title": "The Godfather",
+      "date": "1972-03-14",
+      "language": "en",
+      "directors": [
+        "Francis Ford Coppola"
+      ],
+      "composers": [
+        "Nino Rota"
+      ]
+    },
+    {
+      "id": 578,
+      "type": "movie",
+      "title": "Jaws",
+      "date": "1975-06-20",
+      "language": "en",
+      "directors": [
+        "Steven Spielberg"
+      ],
+      "composers": [
+        "John Williams"
+      ]
+    },
+    {
+      "id": 531428,
+      "type": "movie",
+      "title": "Portrait of a Lady on Fire",
+      "date": "2019-09-06",
+      "language": "fr",
+      "directors": [
+        "Céline Sciamma"
+      ],
+      "composers": [
+        "Para One",
+        "Arthur Simonini"
+      ]
+    },
+    {
+      "id": 419430,
+      "type": "movie",
+      "title": "Get Out",
+      "date": "2017-02-24",
+      "language": "en",
+      "directors": [
+        "Jordan Peele"
+      ],
+      "composers": [
+        "Michael Abels"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "movie",
+      "title": "Citizen Kane",
+      "date": "1941-04-17",
+      "language": "en",
+      "directors": [
+        "Orson Welles"
+      ],
+      "composers": [
+        "Bernard Herrmann"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "movie",
+      "title": "Metropolis",
+      "date": "1927-01-10",
+      "language": "de",
+      "directors": [
+        "Fritz Lang"
+      ],
+      "composers": [
+        "Gottfried Huppertz",
+        "Otto Harzner"
+      ]
+    },
+    {
+      "id": 3082,
+      "type": "movie",
+      "title": "Modern Times",
+      "date": "1936-02-05",
+      "language": "en",
+      "directors": [
+        "Charlie Chaplin"
+      ],
+      "composers": [
+        "Charlie Chaplin"
+      ]
+    },
+    {
+      "id": 961,
+      "type": "movie",
+      "title": "The General",
+      "date": "1926-12-25",
+      "language": "en",
+      "directors": [
+        "Clyde Bruckman",
+        "Buster Keaton"
+      ],
+      "composers": []
+    },
+    {
+      "id": 962,
+      "type": "movie",
+      "title": "The Gold Rush",
+      "date": "1925-07-13",
+      "language": "en",
+      "directors": [
+        "Charlie Chaplin"
+      ],
+      "composers": []
+    },
+    {
+      "id": 389,
+      "type": "movie",
+      "title": "12 Angry Men",
+      "date": "1957-04-10",
+      "language": "en",
+      "directors": [
+        "Sidney Lumet"
+      ],
+      "composers": [
+        "Kenyon Hopkins"
+      ]
+    },
+    {
+      "id": 567,
+      "type": "movie",
+      "title": "Rear Window",
+      "date": "1954-08-01",
+      "language": "en",
+      "directors": [
+        "Alfred Hitchcock"
+      ],
+      "composers": [
+        "Franz Waxman"
+      ]
+    },
+    {
+      "id": 539,
+      "type": "movie",
+      "title": "Psycho",
+      "date": "1960-06-22",
+      "language": "en",
+      "directors": [
+        "Alfred Hitchcock"
+      ],
+      "composers": [
+        "Bernard Herrmann"
+      ]
+    },
+    {
+      "id": 496243,
+      "type": "movie",
+      "title": "Parasite",
+      "date": "2019-05-30",
+      "language": "ko",
+      "directors": [
+        "Bong Joon Ho"
+      ],
+      "composers": [
+        "Jung Jae-il"
+      ]
+    },
+    {
+      "id": 194,
+      "type": "movie",
+      "title": "Amélie",
+      "date": "2001-04-25",
+      "language": "fr",
+      "directors": [
+        "Jean-Pierre Jeunet"
+      ],
+      "composers": [
+        "Yann Tiersen"
+      ]
+    },
+    {
+      "id": 637,
+      "type": "movie",
+      "title": "Life Is Beautiful",
+      "date": "1997-12-20",
+      "language": "it",
+      "directors": [
+        "Roberto Benigni"
+      ],
+      "composers": [
+        "Nicola Piovani"
+      ]
+    },
+    {
+      "id": 11216,
+      "type": "movie",
+      "title": "Cinema Paradiso",
+      "date": "1988-11-17",
+      "language": "it",
+      "directors": [
+        "Giuseppe Tornatore"
+      ],
+      "composers": [
+        "Ennio Morricone"
+      ]
+    },
+    {
+      "id": 1417,
+      "type": "movie",
+      "title": "Pan's Labyrinth",
+      "date": "2006-10-11",
+      "language": "es",
+      "directors": [
+        "Guillermo del Toro"
+      ],
+      "composers": [
+        "Javier Navarrete"
+      ]
+    },
+    {
+      "id": 598,
+      "type": "movie",
+      "title": "City of God",
+      "date": "2002-08-30",
+      "language": "pt",
+      "directors": [
+        "Fernando Meirelles"
+      ],
+      "composers": [
+        "Ed Cortês",
+        "Antonio Pinto"
+      ]
+    },
+    {
+      "id": 582,
+      "type": "movie",
+      "title": "The Lives of Others",
+      "date": "2006-03-23",
+      "language": "de",
+      "directors": [
+        "Florian Henckel von Donnersmarck"
+      ],
+      "composers": [
+        "Gabriel Yared",
+        "Stéphane Moucha"
+      ]
+    },
+    {
+      "id": 60243,
+      "type": "movie",
+      "title": "A Separation",
+      "date": "2011-02-15",
+      "language": "fa",
+      "directors": [
+        "Asghar Farhadi"
+      ],
+      "composers": [
+        "Sattar Oraki"
+      ]
+    },
+    {
+      "id": 579974,
+      "type": "movie",
+      "title": "RRR",
+      "date": "2022-03-24",
+      "language": "te",
+      "directors": [
+        "S. S. Rajamouli"
+      ],
+      "composers": [
+        "M.M. Keeravaani"
+      ]
+    },
+    {
+      "id": 1057265,
+      "type": "movie",
+      "title": "Peddi",
+      "date": "2026-06-03",
+      "language": "te",
+      "directors": [
+        "Buchi Babu Sana"
+      ],
+      "composers": [
+        "A.R. Rahman"
+      ]
+    },
+    {
+      "id": 23790,
+      "type": "movie",
+      "title": "Magadheera",
+      "date": "2009-07-31",
+      "language": "te",
+      "directors": [
+        "S. S. Rajamouli"
+      ],
+      "composers": [
+        "M.M. Keeravaani"
+      ]
+    },
+    {
+      "id": 19666,
+      "type": "movie",
+      "title": "Lagaan: Once Upon a Time in India",
+      "date": "2001-06-15",
+      "language": "hi",
+      "directors": [
+        "Ashutosh Gowariker"
+      ],
+      "composers": [
+        "A.R. Rahman"
+      ]
+    },
+    {
+      "id": 20453,
+      "type": "movie",
+      "title": "3 Idiots",
+      "date": "2009-12-23",
+      "language": "hi",
+      "directors": [
+        "Rajkumar Hirani"
+      ],
+      "composers": [
+        "Shantanu Moitra",
+        "Sanjay Wandrekar",
+        "Atul Raninga"
+      ]
+    },
+    {
+      "id": 360814,
+      "type": "movie",
+      "title": "Dangal",
+      "date": "2016-12-21",
+      "language": "hi",
+      "directors": [
+        "Nitesh Tiwari"
+      ],
+      "composers": [
+        "Pritam Chakraborty"
+      ]
+    },
+    {
+      "id": 256040,
+      "type": "movie",
+      "title": "Bāhubali: The Beginning",
+      "date": "2015-07-09",
+      "language": "te",
+      "directors": [
+        "S. S. Rajamouli"
+      ],
+      "composers": [
+        "M.M. Keeravaani"
+      ]
+    },
+    {
+      "id": 148265,
+      "type": "movie",
+      "title": "Eega",
+      "date": "2012-07-05",
+      "language": "te",
+      "directors": [
+        "S. S. Rajamouli"
+      ],
+      "composers": [
+        "M.M. Keeravaani"
+      ]
+    },
+    {
+      "id": 157336,
+      "type": "movie",
+      "title": "Interstellar",
+      "date": "2014-11-04",
+      "language": "en",
+      "directors": [
+        "Christopher Nolan"
+      ],
+      "composers": [
+        "Hans Zimmer"
+      ]
+    },
+    {
+      "id": 329,
+      "type": "movie",
+      "title": "Jurassic Park",
+      "date": "1993-06-11",
+      "language": "en",
+      "directors": [
+        "Steven Spielberg"
+      ],
+      "composers": [
+        "John Williams"
+      ]
+    },
+    {
+      "id": 429,
+      "type": "movie",
+      "title": "The Good, the Bad and the Ugly",
+      "date": "1966-12-23",
+      "language": "it",
+      "directors": [
+        "Sergio Leone"
+      ],
+      "composers": [
+        "Ennio Morricone"
+      ]
+    },
+    {
+      "id": 37799,
+      "type": "movie",
+      "title": "The Social Network",
+      "date": "2010-10-01",
+      "language": "en",
+      "directors": [
+        "David Fincher"
+      ],
+      "composers": [
+        "Atticus Ross",
+        "Trent Reznor"
+      ]
+    },
+    {
+      "id": 284054,
+      "type": "movie",
+      "title": "Black Panther",
+      "date": "2018-02-13",
+      "language": "en",
+      "directors": [
+        "Ryan Coogler"
+      ],
+      "composers": [
+        "Ludwig Göransson"
+      ]
+    },
+    {
+      "id": 1396,
+      "type": "tv",
+      "title": "Breaking Bad",
+      "date": "2008-01-20",
+      "language": "en",
+      "directors": [],
+      "composers": [
+        "Dave Porter"
+      ]
+    },
+    {
+      "id": 70523,
+      "type": "tv",
+      "title": "Dark",
+      "date": "2017-12-01",
+      "language": "de",
+      "directors": [],
+      "composers": [
+        "Ben Frost"
+      ]
+    },
+    {
+      "id": 87108,
+      "type": "tv",
+      "title": "Chernobyl",
+      "date": "2019-05-06",
+      "language": "en",
+      "directors": [],
+      "composers": [
+        "Hildur Guðnadóttir"
+      ]
+    },
+    {
+      "id": 66732,
+      "type": "tv",
+      "title": "Stranger Things",
+      "date": "2016-07-15",
+      "language": "en",
+      "directors": [],
+      "composers": [
+        "Michael Stein",
+        "Kyle Dixon"
+      ]
+    },
+    {
+      "id": 67070,
+      "type": "tv",
+      "title": "Fleabag",
+      "date": "2016-07-21",
+      "language": "en",
+      "directors": [],
+      "composers": []
+    },
+    {
+      "id": 2316,
+      "type": "tv",
+      "title": "The Office",
+      "date": "2005-03-24",
+      "language": "en",
+      "directors": [],
+      "composers": []
+    },
+    {
+      "id": 126308,
+      "type": "tv",
+      "title": "Shōgun",
+      "date": "2024-02-27",
+      "language": "en",
+      "directors": [],
+      "composers": [
+        "Atticus Ross",
+        "Leopold Ross",
+        "Nick Chuba"
+      ]
+    },
+    {
+      "id": 60059,
+      "type": "tv",
+      "title": "Better Call Saul",
+      "date": "2015-02-08",
+      "language": "en",
+      "directors": [],
+      "composers": [
+        "Dave Porter"
+      ]
+    }
+  ]
+}

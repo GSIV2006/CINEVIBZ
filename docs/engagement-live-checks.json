@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-11-17T15:54:36.882Z",
+  "passed": 9,
+  "total": 9,
+  "checks": [
+    {
+      "name": "Five daily lanes contain real records with editorial explanations and no weekly overlap",
+      "passed": true,
+      "daily": [
+        {
+          "title": "Vertigo",
+          "key": "movie:426",
+          "genres": [
+            9648,
+            10749,
+            53
+          ]
+        },
+        {
+          "title": "Sherlock",
+          "key": "tv:19885",
+          "genres": [
+            80,
+            18,
+            9648
+          ]
+        },
+        {
+          "title": "Spirited Away",
+          "key": "movie:129",
+          "genres": [
+            16,
+            10751,
+            14
+          ]
+        },
+        {
+          "title": "Chainsaw Man - The Compilation",
+          "key": "tv:299555",
+          "genres": [
+            16,
+            10759,
+            10765
+          ]
+        },
+        {
+          "title": "Planet Earth II",
+          "key": "tv:68595",
+          "genres": [
+            99,
+            10751
+          ]
+        }
+      ],
+      "weekly": [
+        {
+          "title": "Love Through a Prism",
+          "key": "tv:306762",
+          "language": "ja"
+        },
+        {
+          "title": "Avatar Aang: The Last Airbender",
+          "key": "movie:980431",
+          "language": "en"
+        },
+        {
+          "title": "Arjun: The Warrior Prince",
+          "key": "movie:117369",
+          "language": "hi"
+        },
+        {
+          "title": "Samuel",
+          "key": "tv:248664",
+          "language": "fr"
+        },
+        {
+          "title": "Swapped",
+          "key": "movie:1007757",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "name": "Weekly animation theme actually restricts every title to animation, with varied originals and formats",
+      "passed": true
+    },
+    {
+      "name": "Previously shown daily titles are avoided when alternate records exist",
+      "passed": true,
+      "next": [
+        "Runner",
+        "Vincenzo",
+        "Light of the World",
+        "Fullmetal Alchemist: Brotherhood",
+        "Our Planet"
+      ]
+    },
+    {
+      "name": "Disliked titles are excluded from personalized daily picks",
+      "passed": true
+    },
+    {
+      "name": "Three anime spins respect Japanese animation and exclude earlier session picks",
+      "passed": true,
+      "keys": [
+        "tv:60833",
+        "movie:428707",
+        "movie:776305"
+      ]
+    },
+    {
+      "name": "Documentary roulette uses genuine documentary records",
+      "passed": true,
+      "title": "Money Shot: The Pornhub Story",
+      "key": "movie:1087040"
+    },
+    {
+      "name": "Reversed release period produces a useful error",
+      "passed": true
+    },
+    {
+      "name": "An empty draw does not substitute an unrelated title",
+      "passed": true
+    },
+    {
+      "name": "Daily challenge reaches the recommendation engine with supported evidence",
+      "passed": true,
+      "titles": [
+        "Source Code",
+        "Old",
+        "The Dark Knight",
+        "The Final Cut"
+      ]
+    }
+  ]
+}

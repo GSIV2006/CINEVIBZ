@@ -1,0 +1,410 @@
+{
+  "checkedAt": "2026-11-17T14:50:38.120Z",
+  "results": [
+    {
+      "prompt": "Wandering through Tokyo at 2 AM, lonely and introspective",
+      "status": 200,
+      "candidates": 280,
+      "top": [
+        {
+          "title": "Perfect Days",
+          "score": 41,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "solitude",
+              "source": "keyword",
+              "strength": 0.6
+            },
+            {
+              "signal": "Tokyo",
+              "dimension": "setting",
+              "term": "tokyo",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Urban",
+              "dimension": "setting",
+              "term": "tokyo",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Meditative",
+              "dimension": "pacing",
+              "term": "slice of life",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Weathering with You",
+          "score": 35,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "solitude",
+              "source": "synopsis",
+              "strength": 0.44999999999999996
+            },
+            {
+              "signal": "Tokyo",
+              "dimension": "setting",
+              "term": "tokyo",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Urban",
+              "dimension": "setting",
+              "term": "tokyo",
+              "source": "keyword",
+              "strength": 0.9400000000000001
+            },
+            {
+              "signal": "Meditative",
+              "dimension": "pacing",
+              "term": "slice of life",
+              "source": "keyword",
+              "strength": 0.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "Something beautiful but emotionally devastating",
+      "status": 200,
+      "candidates": 249,
+      "top": [
+        {
+          "title": "The Lovely Bones",
+          "score": 67,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "melancholy",
+              "source": "keyword",
+              "strength": 0.9975
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "grief",
+              "source": "synopsis",
+              "strength": 0.5435000000000001
+            }
+          ]
+        },
+        {
+          "title": "Guardian: The Lonely and Great God",
+          "score": 67,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "heartbreak",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.54
+            }
+          ]
+        },
+        {
+          "title": "Violet Evergarden",
+          "score": 66,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "melancholy",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.5
+            }
+          ]
+        },
+        {
+          "title": "Remember Me",
+          "score": 52,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "melancholy",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "death",
+              "source": "synopsis",
+              "strength": 0.15000000000000002
+            }
+          ]
+        },
+        {
+          "title": "The Lord of the Rings: The Return of the King",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "An anime that makes me want to change my life",
+      "status": 200,
+      "candidates": 108,
+      "top": [
+        {
+          "title": "Violet Evergarden",
+          "score": 93,
+          "evidence": [
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Reinvention",
+              "dimension": "theme",
+              "term": "self-discovery",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "The Cat Returns",
+          "score": 50,
+          "evidence": [
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "self-discovery",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Reinvention",
+              "dimension": "theme",
+              "term": "self-discovery",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Doraemon",
+          "score": 50,
+          "evidence": [
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Fullmetal Alchemist: Brotherhood",
+          "score": 50,
+          "evidence": [
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Hunter x Hunter",
+          "score": 50,
+          "evidence": [
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "A cozy film for a rainy Sunday",
+      "status": 200,
+      "candidates": 78,
+      "top": [
+        {
+          "title": "Monsters, Inc.",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "lighthearted",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "How to Train Your Dragon",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "comforting",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Kiki's Delivery Service",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "lighthearted",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Just Go with It",
+          "score": 84,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "lighthearted",
+              "source": "keyword",
+              "strength": 0.96
+            }
+          ]
+        },
+        {
+          "title": "The Good Dinosaur",
+          "score": 84,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "lighthearted",
+              "source": "keyword",
+              "strength": 0.96
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "Surreal movies, no horror",
+      "status": 200,
+      "candidates": 79,
+      "top": [
+        {
+          "title": "Inception",
+          "score": 88,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dream world",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "How the Grinch Stole Christmas",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "surreal",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Sucker Punch",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "surreal",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Spirited Away",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "parallel world",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Beauty and the Beast",
+          "score": 78,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "surrealism",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

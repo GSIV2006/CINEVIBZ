@@ -1,0 +1,523 @@
+{
+  "checkedAt": "2026-11-17T15:58:50.768Z",
+  "passed": 15,
+  "total": 15,
+  "checks": [
+    {
+      "name": "Indian search: every result has Indian origin",
+      "passed": true,
+      "ms": 37,
+      "sample": [
+        {
+          "id": 656908,
+          "title": "Ramayana: Rise of a Legend",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-11-05"
+        },
+        {
+          "id": 1234139,
+          "title": "Jailer 2",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-14"
+        },
+        {
+          "id": 1310458,
+          "title": "Saayavanam",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2025-12-19"
+        },
+        {
+          "id": 1389379,
+          "title": "Ranabaali",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-15"
+        },
+        {
+          "id": 1453407,
+          "title": "Gajab Raat",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-23"
+        },
+        {
+          "id": 1389172,
+          "title": "Reporting Live",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-09"
+        },
+        {
+          "id": 1402181,
+          "title": "Scene",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-11-05"
+        },
+        {
+          "id": 1327835,
+          "title": "Mookuthi Amman 2",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "name": "Indian entered as a mood: constrained catalogue, no global fallback",
+      "passed": true,
+      "ms": 16,
+      "sample": [
+        {
+          "id": 656908,
+          "title": "Ramayana: Rise of a Legend",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-11-05"
+        },
+        {
+          "id": 1234139,
+          "title": "Jailer 2",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-14"
+        },
+        {
+          "id": 1310458,
+          "title": "Saayavanam",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2025-12-19"
+        },
+        {
+          "id": 1389379,
+          "title": "Ranabaali",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-15"
+        },
+        {
+          "id": 1453407,
+          "title": "Gajab Raat",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "name": "Ram Charan: correct person and his actual feature-film credits first",
+      "passed": true,
+      "ms": 7,
+      "personId": 147023,
+      "sample": [
+        {
+          "id": 579974,
+          "title": "RRR",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Alluri Sitarama Raju",
+          "date": "2022-03-24"
+        },
+        {
+          "id": 1057265,
+          "title": "Peddi",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Peddi Pehelwan",
+          "date": "2026-06-03"
+        },
+        {
+          "id": 23790,
+          "title": "Magadheera",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Kala Bhairava / Harsha",
+          "date": "2009-07-31"
+        },
+        {
+          "id": 811944,
+          "title": "Game Changer",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as H. Ram Nandan / Appanna",
+          "date": "2025-01-09"
+        },
+        {
+          "id": 1264369,
+          "title": "RC17",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Cast: Ram Charan",
+          "date": ""
+        },
+        {
+          "id": 364080,
+          "title": "Bruce Lee: The Fighter",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Bruce Lee / Karthik",
+          "date": "2015-10-16"
+        },
+        {
+          "id": 566402,
+          "title": "Vinaya Vidheya Rama",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Konidela Rama",
+          "date": "2019-01-11"
+        },
+        {
+          "id": 215248,
+          "title": "Yevadu",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Sathya/Ram/Charan",
+          "date": "2014-01-12"
+        }
+      ]
+    },
+    {
+      "name": "Ram Charan entered as a mood resolves to the same person",
+      "passed": true,
+      "ms": 9,
+      "sample": [
+        {
+          "id": 579974,
+          "title": "RRR",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Alluri Sitarama Raju",
+          "date": "2022-03-24"
+        },
+        {
+          "id": 1057265,
+          "title": "Peddi",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Peddi Pehelwan",
+          "date": "2026-06-03"
+        },
+        {
+          "id": 23790,
+          "title": "Magadheera",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as Kala Bhairava / Harsha",
+          "date": "2009-07-31"
+        },
+        {
+          "id": 811944,
+          "title": "Game Changer",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "credit": "Ram Charan as H. Ram Nandan / Appanna",
+          "date": "2025-01-09"
+        }
+      ]
+    },
+    {
+      "name": "Actor phrase plus country and movie constraints",
+      "passed": true,
+      "ms": 7
+    },
+    {
+      "name": "Peddi exact title is first, with its own artwork and Telugu metadata",
+      "passed": true,
+      "ms": 7,
+      "sample": [
+        {
+          "id": 1057265,
+          "title": "Peddi",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "name": "Peddi detail opens with cast and real metadata",
+      "passed": true,
+      "ms": 16,
+      "status": "Released",
+      "rating": {
+        "country": "IN",
+        "rating": "U/A 16+"
+      }
+    },
+    {
+      "name": "Explicit family-only search still respects the rating filter",
+      "passed": true,
+      "ms": 9
+    },
+    {
+      "name": "Malayalam thrillers: original language and genre both enforced",
+      "passed": true,
+      "ms": 17,
+      "sample": [
+        {
+          "id": 1250502,
+          "title": "I'm Game",
+          "language": "ml",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-09-03"
+        },
+        {
+          "id": 1544847,
+          "title": "Pradhama Drishtiya Kuttakkar",
+          "language": "ml",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-09-11"
+        },
+        {
+          "id": 922673,
+          "title": "The Third Murder",
+          "language": "ml",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-02"
+        },
+        {
+          "id": 1013057,
+          "title": "Bandra",
+          "language": "ml",
+          "countries": [
+            "IN"
+          ],
+          "date": "2023-11-10"
+        },
+        {
+          "id": 1036081,
+          "title": "Khalifa: The Ruler",
+          "language": "ml",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "name": "South Indian movies: regional languages and country both enforced",
+      "passed": true,
+      "ms": 8,
+      "sample": [
+        {
+          "id": 1234139,
+          "title": "Jailer 2",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-14"
+        },
+        {
+          "id": 1310458,
+          "title": "Saayavanam",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2025-12-19"
+        },
+        {
+          "id": 1389379,
+          "title": "Ranabaali",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-15"
+        },
+        {
+          "id": 1402181,
+          "title": "Scene",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-11-05"
+        },
+        {
+          "id": 1327835,
+          "title": "Mookuthi Amman 2",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "name": "Upcoming Indian films remain searchable",
+      "passed": true,
+      "ms": 15,
+      "sample": [
+        {
+          "id": 1209723,
+          "title": "Yeh Prem Mol Liya",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-11-27"
+        },
+        {
+          "id": 1383500,
+          "title": "Ramayana: Part Two",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2028-10-17"
+        },
+        {
+          "id": 1384528,
+          "title": "O.M: Operation Mole",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-11-19"
+        },
+        {
+          "id": 1145110,
+          "title": "King",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-12-24"
+        }
+      ]
+    },
+    {
+      "name": "Conflicting country requests produce an actionable error",
+      "passed": true,
+      "ms": 4
+    },
+    {
+      "name": "Unrecognised query produces no unrelated recommendations",
+      "passed": true,
+      "ms": 4
+    },
+    {
+      "name": "Indian comfort mood never leaks western productions",
+      "passed": true,
+      "ms": 28,
+      "sample": [
+        {
+          "id": 185008,
+          "title": "Yeh Jawaani Hai Deewani",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "2013-05-31"
+        },
+        {
+          "id": 19404,
+          "title": "Dilwale Dulhania Le Jayenge",
+          "language": "hi",
+          "countries": [
+            "IN"
+          ],
+          "date": "1995-10-20"
+        },
+        {
+          "id": 193197,
+          "title": "Seethamma Vakitlo Sirimalle Chettu",
+          "language": "te",
+          "countries": [
+            "IN"
+          ],
+          "date": "2013-01-11"
+        },
+        {
+          "id": 81168,
+          "title": "Thanmathra",
+          "language": "ml",
+          "countries": [
+            "IN"
+          ],
+          "date": "2005-12-16"
+        },
+        {
+          "id": 1515692,
+          "title": "Baththa",
+          "language": "ta",
+          "countries": [
+            "IN"
+          ],
+          "date": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "name": "Actor pagination does not repeat the first page",
+      "passed": true,
+      "ms": 9
+    }
+  ]
+}

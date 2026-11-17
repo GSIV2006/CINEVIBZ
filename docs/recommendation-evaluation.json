@@ -1,0 +1,1946 @@
+{
+  "fixtureSource": "https://api.themoviedb.org/3",
+  "fixtureCapturedAt": "2026-11-17T14:36:26.310Z",
+  "promptCount": 38,
+  "fixtureTitles": 28,
+  "method": "Offline regression against 28 real TMDB title fixtures; not an evaluation of entire-catalogue retrieval or human satisfaction. Gold examples are illustrative rather than exhaustive. Mature titles allowed in this evaluation to isolate mood ranking.",
+  "metrics": {
+    "constraintViolations": 0,
+    "duplicateResults": 0,
+    "goldExampleHitAt5": "8/14"
+  },
+  "rows": [
+    {
+      "prompt": "Nostalgic childhood summer holidays",
+      "expectedSignals": [
+        "nostalgia"
+      ],
+      "exampleTitles": [
+        "My Neighbor Totoro",
+        "Cinema Paradiso"
+      ],
+      "returned": 6,
+      "top5": [
+        {
+          "title": "Cinema Paradiso",
+          "score": 88,
+          "evidence": [
+            {
+              "signal": "Nostalgic",
+              "dimension": "emotion",
+              "term": "nostalgic",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Amélie",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Nostalgic",
+              "dimension": "emotion",
+              "term": "nostalgic",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Aftersun",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Nostalgic",
+              "dimension": "emotion",
+              "term": "reminiscing",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "My Neighbor Totoro",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Nostalgic",
+              "dimension": "emotion",
+              "term": "nostalgic",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Hunter x Hunter",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Nostalgic",
+              "dimension": "emotion",
+              "term": "coming of age",
+              "source": "keyword",
+              "strength": 0.5
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 6,
+      "languageDiversity": 4,
+      "genreDiversity": 8,
+      "goldExampleHit": true
+    },
+    {
+      "prompt": "A movie that feels like a fever dream",
+      "expectedSignals": [
+        "surreal"
+      ],
+      "exampleTitles": [
+        "Paprika"
+      ],
+      "returned": 5,
+      "top5": [
+        {
+          "title": "Inception",
+          "score": 88,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dream world",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Paprika",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dream world",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "score": 85,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "absurd",
+              "source": "keyword",
+              "strength": 0.97
+            }
+          ]
+        },
+        {
+          "title": "Spirited Away",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "parallel world",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Your Name.",
+          "score": 32,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dreams",
+              "source": "keyword",
+              "strength": 0.35
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 5,
+      "languageDiversity": 2,
+      "genreDiversity": 9,
+      "goldExampleHit": true
+    },
+    {
+      "prompt": "Wandering through Tokyo at 2 AM",
+      "expectedSignals": [
+        "tokyo",
+        "city",
+        "nocturnal"
+      ],
+      "exampleTitles": [
+        "Lost in Translation"
+      ],
+      "returned": 2,
+      "top5": [
+        {
+          "title": "Lost in Translation",
+          "score": 51,
+          "evidence": [
+            {
+              "signal": "Tokyo",
+              "dimension": "setting",
+              "term": "tokyo",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Urban",
+              "dimension": "setting",
+              "term": "tokyo",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Perfect Days",
+          "score": 41,
+          "evidence": [
+            {
+              "signal": "Tokyo",
+              "dimension": "setting",
+              "term": "tokyo",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Urban",
+              "dimension": "setting",
+              "term": "tokyo",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "solitude",
+              "source": "keyword",
+              "strength": 0.6
+            },
+            {
+              "signal": "Meditative",
+              "dimension": "pacing",
+              "term": "slice of life",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 2,
+      "languageDiversity": 2,
+      "genreDiversity": 3,
+      "goldExampleHit": true
+    },
+    {
+      "prompt": "Something beautiful but emotionally devastating",
+      "expectedSignals": [
+        "visual",
+        "melancholy",
+        "loss"
+      ],
+      "exampleTitles": [
+        "Grave of the Fireflies",
+        "Aftersun"
+      ],
+      "returned": 10,
+      "top5": [
+        {
+          "title": "Arrival",
+          "score": 60,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "loss",
+              "source": "keyword",
+              "strength": 0.28
+            }
+          ]
+        },
+        {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "melancholy",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "A Separation",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Hunter x Hunter",
+          "score": 42,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.5
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.54
+            }
+          ]
+        },
+        {
+          "title": "Lost in Translation",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 10,
+      "languageDiversity": 3,
+      "genreDiversity": 10,
+      "goldExampleHit": false
+    },
+    {
+      "prompt": "An anime that makes me want to change my life",
+      "expectedSignals": [
+        "hope",
+        "reinvention"
+      ],
+      "exampleTitles": [
+        "Kiki’s Delivery Service"
+      ],
+      "returned": 1,
+      "top5": [
+        {
+          "title": "Hunter x Hunter",
+          "score": 50,
+          "evidence": [
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 1,
+      "languageDiversity": 1,
+      "genreDiversity": 3,
+      "goldExampleHit": false
+    },
+    {
+      "prompt": "A slow atmospheric film with beautiful cinematography",
+      "expectedSignals": [
+        "meditative",
+        "visual"
+      ],
+      "exampleTitles": [
+        "Perfect Days"
+      ],
+      "returned": 2,
+      "top5": [
+        {
+          "title": "WALL·E",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Meditative",
+              "dimension": "pacing",
+              "term": "reflective",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Perfect Days",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Meditative",
+              "dimension": "pacing",
+              "term": "slice of life",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 2,
+      "languageDiversity": 2,
+      "genreDiversity": 4,
+      "goldExampleHit": true
+    },
+    {
+      "prompt": "Mysterious unsettling psychologically complex",
+      "expectedSignals": [
+        "mystery",
+        "unsettling"
+      ],
+      "exampleTitles": [
+        "Paprika"
+      ],
+      "returned": 4,
+      "top5": [
+        {
+          "title": "The Truman Show",
+          "score": 78,
+          "evidence": [
+            {
+              "signal": "Unsettling",
+              "dimension": "emotion",
+              "term": "paranoia",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Mysterious",
+              "dimension": "experience",
+              "term": "reality",
+              "source": "keyword",
+              "strength": 0.25
+            }
+          ]
+        },
+        {
+          "title": "WALL·E",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Unsettling",
+              "dimension": "emotion",
+              "term": "psychological",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Parasite",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Unsettling",
+              "dimension": "emotion",
+              "term": "psychological",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Unsettling",
+              "dimension": "emotion",
+              "term": "psychological",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 4,
+      "languageDiversity": 2,
+      "genreDiversity": 7,
+      "goldExampleHit": false
+    },
+    {
+      "prompt": "A cozy film for a rainy Sunday",
+      "expectedSignals": [
+        "comfort"
+      ],
+      "exampleTitles": [
+        "Paddington 2"
+      ],
+      "returned": 5,
+      "top5": [
+        {
+          "title": "Amélie",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "comforting",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Kiki's Delivery Service",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "lighthearted",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Perfect Days",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "lighthearted",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Paddington 2",
+          "score": 60,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "happily settled",
+              "source": "synopsis",
+              "strength": 0.675
+            }
+          ]
+        },
+        {
+          "title": "Lost in Translation",
+          "score": 28,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "friendship",
+              "source": "keyword",
+              "strength": 0.3
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 5,
+      "languageDiversity": 3,
+      "genreDiversity": 7,
+      "goldExampleHit": true
+    },
+    {
+      "prompt": "Surreal but not horror",
+      "expectedSignals": [
+        "surreal"
+      ],
+      "exampleTitles": [
+        "The Truman Show"
+      ],
+      "returned": 6,
+      "top5": [
+        {
+          "title": "Inception",
+          "score": 88,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dream world",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Paprika",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dream world",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "score": 85,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "absurd",
+              "source": "keyword",
+              "strength": 0.97
+            }
+          ]
+        },
+        {
+          "title": "Spirited Away",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "parallel world",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Your Name.",
+          "score": 32,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dreams",
+              "source": "keyword",
+              "strength": 0.35
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 6,
+      "languageDiversity": 2,
+      "genreDiversity": 11,
+      "goldExampleHit": false
+    },
+    {
+      "prompt": "Wholesome Japanese animation",
+      "expectedSignals": [
+        "comfort"
+      ],
+      "exampleTitles": [
+        "My Neighbor Totoro"
+      ],
+      "returned": 1,
+      "top5": [
+        {
+          "title": "Kiki's Delivery Service",
+          "score": 92,
+          "evidence": [
+            {
+              "signal": "Comforting",
+              "dimension": "emotion",
+              "term": "lighthearted",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 1,
+      "languageDiversity": 1,
+      "genreDiversity": 3,
+      "goldExampleHit": false
+    },
+    {
+      "prompt": "Melancholic French movies",
+      "expectedSignals": [
+        "melancholy"
+      ],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Korean thriller movies after 2010",
+      "expectedSignals": [],
+      "exampleTitles": [
+        "Parasite"
+      ],
+      "returned": 1,
+      "top5": [
+        {
+          "title": "Parasite",
+          "score": 8,
+          "evidence": []
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 1,
+      "languageDiversity": 1,
+      "genreDiversity": 3,
+      "goldExampleHit": true
+    },
+    {
+      "prompt": "Hopeful Hindi films",
+      "expectedSignals": [
+        "hope"
+      ],
+      "exampleTitles": [
+        "The Lunchbox"
+      ],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": false
+    },
+    {
+      "prompt": "Tamil films about grief",
+      "expectedSignals": [
+        "melancholy",
+        "loss"
+      ],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Dreamlike series",
+      "expectedSignals": [
+        "surreal"
+      ],
+      "exampleTitles": [],
+      "returned": 1,
+      "top5": [
+        {
+          "title": "Hunter x Hunter",
+          "score": 25,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dreams",
+              "source": "synopsis",
+              "strength": 0.26249999999999996
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 1,
+      "languageDiversity": 1,
+      "genreDiversity": 3,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Nostalgic movies from the 1990s",
+      "expectedSignals": [
+        "nostalgia"
+      ],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Existential films before 2000",
+      "expectedSignals": [
+        "identity"
+      ],
+      "exampleTitles": [
+        "The Truman Show"
+      ],
+      "returned": 1,
+      "top5": [
+        {
+          "title": "The Truman Show",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Existential",
+              "dimension": "theme",
+              "term": "philosophical",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 1,
+      "languageDiversity": 1,
+      "genreDiversity": 2,
+      "goldExampleHit": true
+    },
+    {
+      "prompt": "Movies from 2001 to 2010 about memories",
+      "expectedSignals": [
+        "memory"
+      ],
+      "exampleTitles": [],
+      "returned": 3,
+      "top5": [
+        {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Memory & time",
+              "dimension": "theme",
+              "term": "amnesia",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Amélie",
+          "score": 62,
+          "evidence": [
+            {
+              "signal": "Memory & time",
+              "dimension": "theme",
+              "term": "memory",
+              "source": "keyword",
+              "strength": 0.7
+            }
+          ]
+        },
+        {
+          "title": "Inception",
+          "score": 62,
+          "evidence": [
+            {
+              "signal": "Memory & time",
+              "dimension": "theme",
+              "term": "memory",
+              "source": "keyword",
+              "strength": 0.7
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 3,
+      "languageDiversity": 2,
+      "genreDiversity": 6,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Comforting movies under 100 minutes",
+      "expectedSignals": [
+        "comfort"
+      ],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "A lonely movie, no English",
+      "expectedSignals": [
+        "melancholy"
+      ],
+      "exampleTitles": [],
+      "returned": 3,
+      "top5": [
+        {
+          "title": "A Separation",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Perfect Days",
+          "score": 53,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "solitude",
+              "source": "keyword",
+              "strength": 0.6
+            }
+          ]
+        },
+        {
+          "title": "Your Name.",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.5
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 3,
+      "languageDiversity": 2,
+      "genreDiversity": 3,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Anime only, no live action",
+      "expectedSignals": [],
+      "exampleTitles": [],
+      "returned": 6,
+      "top5": [
+        {
+          "title": "Spirited Away",
+          "score": 8,
+          "evidence": []
+        },
+        {
+          "title": "My Neighbor Totoro",
+          "score": 7,
+          "evidence": []
+        },
+        {
+          "title": "Your Name.",
+          "score": 8,
+          "evidence": []
+        },
+        {
+          "title": "Grave of the Fireflies",
+          "score": 8,
+          "evidence": []
+        },
+        {
+          "title": "Kiki's Delivery Service",
+          "score": 7,
+          "evidence": []
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 6,
+      "languageDiversity": 1,
+      "genreDiversity": 8,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Meditative documentaries in nature",
+      "expectedSignals": [
+        "meditative",
+        "nature"
+      ],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Chaotic movies without horror",
+      "expectedSignals": [
+        "chaos"
+      ],
+      "exampleTitles": [],
+      "returned": 4,
+      "top5": [
+        {
+          "title": "Inception",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Chaotic",
+              "dimension": "atmosphere",
+              "term": "heist",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "The Truman Show",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Chaotic",
+              "dimension": "atmosphere",
+              "term": "escape",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "The Secret Life of Walter Mitty",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Chaotic",
+              "dimension": "atmosphere",
+              "term": "frantic",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "The Grand Budapest Hotel",
+          "score": 60,
+          "evidence": [
+            {
+              "signal": "Chaotic",
+              "dimension": "atmosphere",
+              "term": "battle",
+              "source": "synopsis",
+              "strength": 0.675
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 4,
+      "languageDiversity": 1,
+      "genreDiversity": 7,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Romantic but not sad",
+      "expectedSignals": [
+        "romantic"
+      ],
+      "exampleTitles": [],
+      "returned": 12,
+      "top5": [
+        {
+          "title": "Amélie",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Romantic",
+              "dimension": "emotion",
+              "term": "relationship",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Interstellar",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Romantic",
+              "dimension": "emotion",
+              "term": "relationship",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Spirited Away",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Romantic",
+              "dimension": "emotion",
+              "term": "relationship",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Cinema Paradiso",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Romantic",
+              "dimension": "emotion",
+              "term": "relationship",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "My Neighbor Totoro",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Romantic",
+              "dimension": "emotion",
+              "term": "relationship",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 12,
+      "languageDiversity": 4,
+      "genreDiversity": 9,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Something dreamy, any genre",
+      "expectedSignals": [
+        "surreal"
+      ],
+      "exampleTitles": [],
+      "returned": 6,
+      "top5": [
+        {
+          "title": "Inception",
+          "score": 88,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dream world",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Paprika",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dream world",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "score": 85,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "absurd",
+              "source": "keyword",
+              "strength": 0.97
+            }
+          ]
+        },
+        {
+          "title": "Spirited Away",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "parallel world",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Your Name.",
+          "score": 32,
+          "evidence": [
+            {
+              "signal": "Surreal",
+              "dimension": "atmosphere",
+              "term": "dreams",
+              "source": "keyword",
+              "strength": 0.35
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 6,
+      "languageDiversity": 2,
+      "genreDiversity": 11,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "A devastating experience, no romance",
+      "expectedSignals": [
+        "melancholy",
+        "loss"
+      ],
+      "exampleTitles": [],
+      "returned": 7,
+      "top5": [
+        {
+          "title": "Arrival",
+          "score": 67,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "loss",
+              "source": "keyword",
+              "strength": 0.28
+            }
+          ]
+        },
+        {
+          "title": "Hunter x Hunter",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.5
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.54
+            }
+          ]
+        },
+        {
+          "title": "A Separation",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "WALL·E",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "loneliness",
+              "source": "keyword",
+              "strength": 0.8
+            }
+          ]
+        },
+        {
+          "title": "Breaking Bad",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.5
+            },
+            {
+              "signal": "Love & loss",
+              "dimension": "theme",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.5
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 7,
+      "languageDiversity": 3,
+      "genreDiversity": 8,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Thought-provoking outer space journey",
+      "expectedSignals": [
+        "identity",
+        "space",
+        "adventure"
+      ],
+      "exampleTitles": [
+        "Interstellar",
+        "Arrival"
+      ],
+      "returned": 4,
+      "top5": [
+        {
+          "title": "Perfect Days",
+          "score": 64,
+          "evidence": [
+            {
+              "signal": "Existential",
+              "dimension": "theme",
+              "term": "human nature",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Adventurous",
+              "dimension": "experience",
+              "term": "quest",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "The Truman Show",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Existential",
+              "dimension": "theme",
+              "term": "philosophical",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Interstellar",
+          "score": 37,
+          "evidence": [
+            {
+              "signal": "Adventurous",
+              "dimension": "experience",
+              "term": "adventure",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Outer space",
+              "dimension": "setting",
+              "term": "astronaut",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Hunter x Hunter",
+          "score": 31,
+          "evidence": [
+            {
+              "signal": "Existential",
+              "dimension": "theme",
+              "term": "reality",
+              "source": "keyword",
+              "strength": 0.25
+            },
+            {
+              "signal": "Adventurous",
+              "dimension": "experience",
+              "term": "adventure",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 4,
+      "languageDiversity": 2,
+      "genreDiversity": 7,
+      "goldExampleHit": true
+    },
+    {
+      "prompt": "An introspective film about identity",
+      "expectedSignals": [
+        "meditative",
+        "identity"
+      ],
+      "exampleTitles": [],
+      "returned": 3,
+      "top5": [
+        {
+          "title": "Perfect Days",
+          "score": 81,
+          "evidence": [
+            {
+              "signal": "Existential",
+              "dimension": "theme",
+              "term": "human nature",
+              "source": "keyword",
+              "strength": 0.9
+            },
+            {
+              "signal": "Meditative",
+              "dimension": "pacing",
+              "term": "slice of life",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "The Truman Show",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Existential",
+              "dimension": "theme",
+              "term": "philosophical",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "WALL·E",
+          "score": 24,
+          "evidence": [
+            {
+              "signal": "Meditative",
+              "dimension": "pacing",
+              "term": "reflective",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 3,
+      "languageDiversity": 2,
+      "genreDiversity": 5,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "A gritty dystopian city",
+      "expectedSignals": [
+        "gritty",
+        "city"
+      ],
+      "exampleTitles": [],
+      "returned": 6,
+      "top5": [
+        {
+          "title": "Interstellar",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Gritty",
+              "dimension": "atmosphere",
+              "term": "dystopia",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Hunter x Hunter",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Gritty",
+              "dimension": "atmosphere",
+              "term": "crime",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Parasite",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Gritty",
+              "dimension": "atmosphere",
+              "term": "violence",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Breaking Bad",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Gritty",
+              "dimension": "atmosphere",
+              "term": "crime",
+              "source": "synopsis",
+              "strength": 0.675
+            }
+          ]
+        },
+        {
+          "title": "The Truman Show",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Gritty",
+              "dimension": "atmosphere",
+              "term": "dystopia",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 6,
+      "languageDiversity": 3,
+      "genreDiversity": 10,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Whimsical escapism and magic",
+      "expectedSignals": [
+        "whimsy"
+      ],
+      "exampleTitles": [],
+      "returned": 9,
+      "top5": [
+        {
+          "title": "Cinema Paradiso",
+          "score": 88,
+          "evidence": [
+            {
+              "signal": "Whimsical",
+              "dimension": "atmosphere",
+              "term": "magic realism",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Amélie",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Whimsical",
+              "dimension": "atmosphere",
+              "term": "magic realism",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "My Neighbor Totoro",
+          "score": 87,
+          "evidence": [
+            {
+              "signal": "Whimsical",
+              "dimension": "atmosphere",
+              "term": "whimsical",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Arcane",
+          "score": 50,
+          "evidence": [
+            {
+              "signal": "Whimsical",
+              "dimension": "atmosphere",
+              "term": "magic",
+              "source": "keyword",
+              "strength": 0.56
+            }
+          ]
+        },
+        {
+          "title": "Spirited Away",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Whimsical",
+              "dimension": "atmosphere",
+              "term": "magic",
+              "source": "keyword",
+              "strength": 0.5
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 9,
+      "languageDiversity": 4,
+      "genreDiversity": 8,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Movies after 2020 before 2010",
+      "expectedSignals": [],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Horror movies, no horror",
+      "expectedSignals": [],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Japanese anime, no Japanese",
+      "expectedSignals": [],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Surprise me with something",
+      "expectedSignals": [],
+      "exampleTitles": [],
+      "returned": 12,
+      "top5": [
+        {
+          "title": "Interstellar",
+          "score": 3,
+          "evidence": []
+        },
+        {
+          "title": "Hunter x Hunter",
+          "score": 3,
+          "evidence": []
+        },
+        {
+          "title": "Parasite",
+          "score": 3,
+          "evidence": []
+        },
+        {
+          "title": "Cinema Paradiso",
+          "score": 3,
+          "evidence": []
+        },
+        {
+          "title": "Game of Thrones",
+          "score": 3,
+          "evidence": []
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 12,
+      "languageDiversity": 7,
+      "genreDiversity": 13,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Hopeful but melancholic",
+      "expectedSignals": [
+        "hope",
+        "melancholy"
+      ],
+      "exampleTitles": [],
+      "returned": 12,
+      "top5": [
+        {
+          "title": "Arrival",
+          "score": 83,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Lost in Translation",
+          "score": 83,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "wistful",
+              "source": "keyword",
+              "strength": 1
+            },
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "WALL·E",
+          "score": 79,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "loneliness",
+              "source": "keyword",
+              "strength": 0.8
+            },
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        },
+        {
+          "title": "Hunter x Hunter",
+          "score": 62,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "tragedy",
+              "source": "keyword",
+              "strength": 0.5
+            },
+            {
+              "signal": "Hopeful",
+              "dimension": "emotion",
+              "term": "hopeful",
+              "source": "keyword",
+              "strength": 0.9
+            }
+          ]
+        },
+        {
+          "title": "Eternal Sunshine of the Spotless Mind",
+          "score": 45,
+          "evidence": [
+            {
+              "signal": "Melancholic",
+              "dimension": "emotion",
+              "term": "melancholy",
+              "source": "keyword",
+              "strength": 1
+            }
+          ]
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 12,
+      "languageDiversity": 4,
+      "genreDiversity": 12,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Movies or series about memory",
+      "expectedSignals": [
+        "memory"
+      ],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Spanish movies released in 2006",
+      "expectedSignals": [],
+      "exampleTitles": [],
+      "returned": 0,
+      "top5": [],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 0,
+      "languageDiversity": 0,
+      "genreDiversity": 0,
+      "goldExampleHit": null
+    },
+    {
+      "prompt": "Animated films about friendship, no English or Hindi",
+      "expectedSignals": [],
+      "exampleTitles": [],
+      "returned": 6,
+      "top5": [
+        {
+          "title": "Spirited Away",
+          "score": 8,
+          "evidence": []
+        },
+        {
+          "title": "My Neighbor Totoro",
+          "score": 7,
+          "evidence": []
+        },
+        {
+          "title": "Your Name.",
+          "score": 8,
+          "evidence": []
+        },
+        {
+          "title": "Grave of the Fireflies",
+          "score": 8,
+          "evidence": []
+        },
+        {
+          "title": "Kiki's Delivery Service",
+          "score": 7,
+          "evidence": []
+        }
+      ],
+      "constraintViolations": 0,
+      "duplicates": 0,
+      "metadataComplete": 6,
+      "languageDiversity": 1,
+      "genreDiversity": 8,
+      "goldExampleHit": null
+    }
+  ]
+}

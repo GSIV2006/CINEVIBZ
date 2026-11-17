@@ -1,0 +1,8 @@
+.next
+node_modules
+.env*
+package-lock.json
+public/tmdb.svg
+tests/fixtures
+docs/*.json
+next-env.d.ts
