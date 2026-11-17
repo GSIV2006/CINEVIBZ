@@ -1,0 +1,150 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1440"
+  height="660"
+  viewBox="0 0 1440 660"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">CineVibz — Find your next feeling.</title>
+  <desc id="desc">
+    An original cinema magazine cover: oversized cream lettering, a violet and cyan optical record,
+    an orange admission ticket and a film-strip footer.
+  </desc>
+  <defs>
+    <pattern id="grain" width="23" height="29" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="5" r=".7" fill="#F5EBD8" opacity=".12" />
+      <circle cx="16" cy="21" r=".6" fill="#F5EBD8" opacity=".08" />
+      <path d="M10 13h1m10-9h1" stroke="#F5EBD8" opacity=".09" />
+    </pattern>
+    <clipPath id="frame"><rect width="1440" height="660" rx="8" /></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="#17121F" d="M0 0h1440v660H0z" />
+    <path fill="#251832" d="M935 0h505v605H935z" />
+    <path fill="url(#grain)" d="M0 0h1440v660H0z" />
+    <path d="M55 78h1330" stroke="#F5EBD8" stroke-opacity=".3" />
+    <circle cx="64" cy="43" r="6" fill="#30D5E8" />
+    <text x="84" y="48" fill="#F5EBD8" font-family="monospace" font-size="14" letter-spacing="2">
+      AN INDEPENDENT CINEMA DETOUR
+    </text>
+    <text
+      x="1385"
+      y="48"
+      text-anchor="end"
+      fill="#F5EBD8"
+      font-family="monospace"
+      font-size="14"
+      letter-spacing="2"
+    >
+      NO. 01 / FOLLOW THE FEELING
+    </text>
+    <g transform="translate(1132 414) rotate(-19)">
+      <ellipse rx="234" ry="180" fill="#873BFF" />
+      <g fill="none" stroke="#17121F" stroke-width="3">
+        <ellipse rx="217" ry="166" />
+        <ellipse rx="199" ry="152" />
+        <ellipse rx="181" ry="138" />
+        <ellipse rx="163" ry="124" />
+        <ellipse rx="145" ry="110" />
+        <ellipse rx="127" ry="96" />
+        <ellipse rx="109" ry="82" />
+        <ellipse rx="91" ry="68" />
+      </g>
+      <ellipse rx="73" ry="54" fill="#30D5E8" />
+      <ellipse rx="24" ry="18" fill="#17121F" />
+      <path d="M-234 0H234M0-180V180" stroke="#F5EBD8" stroke-opacity=".25" />
+    </g>
+    <text
+      x="54"
+      y="286"
+      fill="#F5EBD8"
+      font-family="Arial Black,Arial,Helvetica,sans-serif"
+      font-size="242"
+      font-weight="900"
+      letter-spacing="-16"
+      textLength="1115"
+      lengthAdjust="spacingAndGlyphs"
+    >
+      CineVibz
+    </text>
+    <g transform="translate(1296 197)" stroke="#30D5E8" stroke-width="10">
+      <path d="M-52 0H52M0-52V52M-37-37l74 74M-37 37l74-74" />
+    </g>
+    <text
+      x="66"
+      y="399"
+      fill="#F5EBD8"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="74"
+      font-weight="700"
+      letter-spacing="-3"
+    >
+      Find your
+    </text>
+    <text
+      x="61"
+      y="491"
+      fill="#FF5C9A"
+      font-family="Georgia,Times New Roman,serif"
+      font-size="94"
+      font-style="italic"
+      letter-spacing="-4"
+    >
+      next feeling.
+    </text>
+    <text x="66" y="552" fill="#F5EBD8" font-family="monospace" font-size="16" letter-spacing="1.2">
+      REAL TITLES. STRANGE DETOURS. GOOD REASONS.
+    </text>
+    <g transform="translate(1035 475) rotate(-11)">
+      <path d="M0 0h306v92H0z" fill="#17121F" transform="translate(6 7)" />
+      <path d="M0 0h306v92H0z" fill="#FF8B45" />
+      <path d="M229 8v76" stroke="#17121F" stroke-dasharray="4 5" />
+      <text
+        x="17"
+        y="34"
+        fill="#17121F"
+        font-family="monospace"
+        font-size="15"
+        font-weight="700"
+        letter-spacing="2"
+      >
+        ADMIT ONE
+      </text>
+      <text
+        x="17"
+        y="68"
+        fill="#17121F"
+        font-family="Arial,Helvetica,sans-serif"
+        font-size="27"
+        font-weight="800"
+        letter-spacing="-1"
+      >
+        EXIT REALITY ↗
+      </text>
+      <text
+        x="268"
+        y="58"
+        text-anchor="middle"
+        fill="#17121F"
+        font-family="Georgia,serif"
+        font-size="42"
+        font-style="italic"
+      >
+        01
+      </text>
+    </g>
+    <path fill="#F5EBD8" d="M0 605h1440v55H0z" />
+    <g fill="#17121F" font-family="monospace" font-size="13" font-weight="700" letter-spacing="1.5">
+      <text x="65" y="639">FEEL SOMETHING</text>
+      <text x="403" y="639">FOLLOW A HUNCH</text>
+      <text x="758" y="639">FIND A FILM</text>
+      <text x="1095" y="639">TAKE A DETOUR ↗</text>
+    </g>
+    <g fill="#873BFF">
+      <circle cx="348" cy="632" r="5" />
+      <circle cx="701" cy="632" r="5" />
+      <circle cx="1038" cy="632" r="5" />
+    </g>
+  </g>
+</svg>

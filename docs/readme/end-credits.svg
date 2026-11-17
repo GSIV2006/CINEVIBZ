@@ -1,0 +1,50 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1440"
+  height="230"
+  viewBox="0 0 1440 230"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">The credits roll. The curiosity stays.</title>
+  <desc id="desc">
+    A cream end-title card with orange and violet film frames. CineVibz — Find your next feeling.
+  </desc>
+  <rect width="1440" height="230" rx="8" fill="#F5EBD8" />
+  <g transform="translate(1210 115) rotate(12)">
+    <rect x="-125" y="-145" width="210" height="290" rx="4" fill="#873BFF" />
+    <rect x="-110" y="-130" width="180" height="260" fill="none" stroke="#17121F" />
+    <rect x="-90" y="-100" width="140" height="88" fill="#17121F" />
+    <rect x="-90" y="12" width="140" height="88" fill="#FF8B45" />
+    <g fill="#F5EBD8">
+      <path
+        d="M-119-100h6v18h-6zm0 28h6v18h-6zm0 28h6v18h-6zm0 56h6v18h-6zm0 28h6v18h-6zm0 28h6v18h-6zM68-100h6v18h-6zm0 28h6v18h-6zm0 28h6v18h-6zm0 56h6v18h-6zm0 28h6v18h-6zm0 28h6v18h-6z"
+      />
+    </g>
+  </g>
+  <text x="60" y="55" fill="#17121F" font-family="monospace" font-size="14" letter-spacing="3">
+    CINEVIBZ / END TITLES
+  </text>
+  <text
+    x="60"
+    y="118"
+    fill="#17121F"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="50"
+    font-weight="800"
+    letter-spacing="-2"
+  >
+    The credits roll.
+  </text>
+  <text
+    x="60"
+    y="177"
+    fill="#873BFF"
+    font-family="Georgia,serif"
+    font-size="56"
+    font-style="italic"
+    letter-spacing="-2"
+  >
+    The curiosity stays.
+  </text>
+</svg>

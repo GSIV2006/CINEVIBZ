@@ -1,0 +1,180 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1440"
+  height="260"
+  viewBox="0 0 1440 260"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">The CineVibz recommendation pipeline</title>
+  <desc id="desc">
+    Interpret → Retrieve → Enrich → Rank → Diversify → Explain. A deterministic, evidence-based
+    pipeline.
+  </desc>
+  <rect width="1440" height="260" rx="8" fill="#17121F" />
+  <path d="M40 213h1360" stroke="#F5EBD8" stroke-opacity=".25" />
+  <g transform="translate(40 0)">
+    <text y="61" fill="#FF5C9A" font-family="Georgia,serif" font-size="36" font-style="italic">
+      01
+    </text>
+    <text
+      y="108"
+      fill="#FF5C9A"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="22"
+      font-weight="800"
+      letter-spacing="1"
+    >
+      INTERPRET
+    </text>
+    <text y="147" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Find the mood.
+    </text>
+    <text y="174" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Keep the constraints.
+    </text>
+  </g>
+  <path
+    d="M231 98h23m-7-7 7 7-7 7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".55"
+    stroke-width="2"
+  />
+  <g transform="translate(275 0)">
+    <text y="61" fill="#FF8B45" font-family="Georgia,serif" font-size="36" font-style="italic">
+      02
+    </text>
+    <text
+      y="108"
+      fill="#FF8B45"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="22"
+      font-weight="800"
+      letter-spacing="1"
+    >
+      RETRIEVE
+    </text>
+    <text y="147" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Search real
+    </text>
+    <text y="174" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      catalogue records.
+    </text>
+  </g>
+  <path
+    d="M466 98h23m-7-7 7 7-7 7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".55"
+    stroke-width="2"
+  />
+  <g transform="translate(510 0)">
+    <text y="61" fill="#F5EBD8" font-family="Georgia,serif" font-size="36" font-style="italic">
+      03
+    </text>
+    <text
+      y="108"
+      fill="#F5EBD8"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="22"
+      font-weight="800"
+      letter-spacing="1"
+    >
+      ENRICH
+    </text>
+    <text y="147" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Bring in metadata
+    </text>
+    <text y="174" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      and available signals.
+    </text>
+  </g>
+  <path
+    d="M701 98h23m-7-7 7 7-7 7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".55"
+    stroke-width="2"
+  />
+  <g transform="translate(745 0)">
+    <text y="61" fill="#30D5E8" font-family="Georgia,serif" font-size="36" font-style="italic">
+      04
+    </text>
+    <text
+      y="108"
+      fill="#30D5E8"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="22"
+      font-weight="800"
+      letter-spacing="1"
+    >
+      RANK
+    </text>
+    <text y="147" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Reward evidence.
+    </text>
+    <text y="174" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Reject mismatches.
+    </text>
+  </g>
+  <path
+    d="M936 98h23m-7-7 7 7-7 7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".55"
+    stroke-width="2"
+  />
+  <g transform="translate(980 0)">
+    <text y="61" fill="#B68AFF" font-family="Georgia,serif" font-size="36" font-style="italic">
+      05
+    </text>
+    <text
+      y="108"
+      fill="#B68AFF"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="22"
+      font-weight="800"
+      letter-spacing="1"
+    >
+      DIVERSIFY
+    </text>
+    <text y="147" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Reduce repetition.
+    </text>
+    <text y="174" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Keep the relevance.
+    </text>
+  </g>
+  <path
+    d="M1171 98h23m-7-7 7 7-7 7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".55"
+    stroke-width="2"
+  />
+  <g transform="translate(1215 0)">
+    <text y="61" fill="#F5EBD8" font-family="Georgia,serif" font-size="36" font-style="italic">
+      06
+    </text>
+    <text
+      y="108"
+      fill="#F5EBD8"
+      font-family="Arial,Helvetica,sans-serif"
+      font-size="22"
+      font-weight="800"
+      letter-spacing="1"
+    >
+      EXPLAIN
+    </text>
+    <text y="147" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Show the reason.
+    </text>
+    <text y="174" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="19">
+      Name the evidence.
+    </text>
+  </g>
+  <text x="40" y="241" fill="#F5EBD8" font-family="monospace" font-size="12" letter-spacing="2">
+    THE CRITERION: RELEVANCE OVER POPULARITY.
+  </text>
+</svg>

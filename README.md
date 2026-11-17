@@ -1,396 +1,217 @@
-<img width="1708" height="902" alt="Screenshot 2026-11-17 at 10 50 11 PM" src="https://github.com/user-attachments/assets/646f2335-6592-4867-b2c1-fb6289eb9804" />
+<a name="cinevibz"></a>
 
-<img width="1709" height="810" alt="Screenshot 2026-11-17 at 10 50 35 PM" src="https://github.com/user-attachments/assets/c90fdd73-7ba6-4d9b-996d-596f4099334a" />
+<div align="center">
+  <img src="docs/readme/cover.svg" alt="CineVibz — Find your next feeling. Real titles. Strange detours. Good reasons." width="100%" />
 
-<img width="1699" height="957" alt="Screenshot 2026-11-17 at 10 50 53 PM" src="https://github.com/user-attachments/assets/de828ebb-f1bf-4d1a-a22a-aa89449286ca" />
+  <h1>A feeling is a good place to start.</h1>
 
+  <p><strong>Movies, series, anime and detours you didn’t see coming.</strong><br />
+  A guest-first discovery app built around mood, real catalogue records and explained recommendations.</p>
 
- <div align="center">
+  <p>
+    <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-251832?style=flat-square&amp;logo=nextdotjs&amp;logoColor=F5EBD8" alt="Next.js" /></a>
+    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-251832?style=flat-square&amp;logo=typescript&amp;logoColor=30D5E8" alt="TypeScript" /></a>
+    <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-251832?style=flat-square&amp;logo=tailwindcss&amp;logoColor=30D5E8" alt="Tailwind CSS" /></a>
+    <a href="https://motion.dev/"><img src="https://img.shields.io/badge/Framer_Motion-251832?style=flat-square&amp;logo=framer&amp;logoColor=FF5C9A" alt="Framer Motion" /></a>
+    <a href="https://www.themoviedb.org/"><img src="https://img.shields.io/badge/TMDB-251832?style=flat-square&amp;logo=themoviedatabase&amp;logoColor=30D5E8" alt="TMDB catalogue" /></a>
+    <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel_ready-251832?style=flat-square&amp;logo=vercel&amp;logoColor=F5EBD8" alt="Ready for Vercel deployment" /></a>
+  </p>
 
-# ✳ CineVibz
-
-### Find your next feeling.
-
-**Not sure what to watch? Don't choose a genre. Choose a feeling.**
-
-A mood-driven entertainment discovery experience that helps you find movies, series, anime and more through the emotions, atmospheres and experiences you're looking for.
-
-<br/>
-
-[Explore CineVibz](https://github.com/GSIV2006/CINEVIBZ) · [Report an Issue](https://github.com/GSIV2006/CINEVIBZ/issues) · [Request a Feature](https://github.com/GSIV2006/CINEVIBZ/issues)
-
-<br/>
-
-![Next.js](https://img.shields.io/badge/Next.js-App_Router-000000?style=flat-square&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?style=flat-square&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Styling-06B6D4?style=flat-square&logo=tailwindcss)
-![TMDB](https://img.shields.io/badge/Data-TMDB-01B4E4?style=flat-square&logo=themoviedatabase)
-![Vercel](https://img.shields.io/badge/Deployment-Vercel-000000?style=flat-square&logo=vercel)
-
+  <p><a href="https://github.com/GSIV2006/CINEVIBZ"><strong>THE REPOSITORY ↗</strong></a> &nbsp; / &nbsp; <a href="#screenshots">SCREENSHOTS</a> &nbsp; / &nbsp; <a href="#engine">THE ENGINE</a> &nbsp; / &nbsp; <a href="#run-locally">RUN IT</a></p>
 </div>
 
----
+<br />
 
-## ◉ The idea
+<a name="screenshots"></a>
 
-Sometimes you don't know what movie you want to watch.
+## 01 / A few frames
 
-You just know you want something that feels like:
+**The internet’s little cinema club.** A cream-paper opening, a restless poster deck, and a search that starts with a feeling, a film or a face.
 
-- Walking through Tokyo at 2 AM.
-- The last evening of a beautiful summer.
-- A fever dream you can't quite remember.
-- Something beautiful, but emotionally devastating.
-- Being a kid again, without a care in the world.
-- Questioning everything after the credits roll.
+[![CineVibz homepage: Good films. Strange feelings. A mood search and an interactive poster deck.](docs/screenshots/homepage.png)](docs/screenshots/homepage.png)
 
-Traditional entertainment platforms ask you what genre you like.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="docs/screenshots/catalogue-search.png"><img src="docs/screenshots/catalogue-search.png" alt="Catalogue search with title/person input and format, genre, country, language and release filters." width="100%" /></a>
+      <p><strong>A film. A face. A whole cinema culture.</strong><br />The catalogue search, with explicit filters.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="docs/screenshots/watch-roulette.png"><img src="docs/screenshots/watch-roulette.png" alt="Watch Roulette: a vinyl-inspired interface with format, genre, country, language and release-period controls." width="100%" /></a>
+      <p><strong>A little less choice. A little more chance.</strong><br />Watch Roulette, before the reveal.</p>
+    </td>
+  </tr>
+</table>
 
-**CineVibz asks you what you're feeling.**
+<details>
+<summary><strong>Small screen, same obsession — see the mobile quiz ↗</strong></summary>
 
-Describe an atmosphere, an emotion, a memory or even a completely random thought. CineVibz interprets the feeling, explores its entertainment catalogue and finds titles that might capture it.
+<p align="center">
+  <img src="docs/screenshots/cinevibz-quiz-replay.png" alt="The Daily Screen Test on mobile, showing a fresh Anime quiz round and the preserved best score." width="300" />
+</p>
 
-Because sometimes the best thing to watch is something you didn't even know existed.
+</details>
 
----
+<sub>Real application captures. The three desktop images above were supplied by the project owner; the mobile image comes from the existing browser verification. Click a desktop image for its full resolution.</sub>
 
-## ✦ What you can do
+<br />
 
-### Discover by mood
+## 02 / Choose your detour
 
-The heart of CineVibz.
+Start with **“Indian thrillers”**, **“a fever dream”** or **“something comforting”**. Follow a mood, revisit an old favourite, or let chance choose the next frame.
 
-Describe what you want to experience in your own words and get recommendations ranked around your requested mood, atmosphere, themes and preferences.
+<table>
+  <tr>
+    <td width="50%" valign="top"><h3>✳ Mood Discovery</h3><p>Describe the experience you want. Get real titles ranked against the mood evidence and constraints the engine can recognise.</p></td>
+    <td width="50%" valign="top"><h3>↗ Watchlist</h3><p>Keep the discoveries worth returning to. Save titles and mark them watched, without creating an account.</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><h3>Today’s Rabbit Hole</h3><p>A daily selection with editorial notes and “Why This Today?”. Stable through the India day, ready for a new detour at midnight.</p></td>
+    <td valign="top"><h3>The Weekly Cut</h3><p>A themed edition with actual theme-based retrieval. Your week’s selection stays with you through Sunday.</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><h3>Popular Choices</h3><p>A dedicated feed of popular catalogue titles, for the nights when you want to see what the fuss is about.</p></td>
+    <td valign="top"><h3>Trending Now</h3><p>A separate view of what’s currently trending. A different signal, with its own place in the discovery flow.</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><h3>Find Your Frequency</h3><p>Mood shortcuts into the recommendation engine. Find a starting point for nostalgic evenings and existential hours.</p></td>
+    <td valign="top"><h3>Outside Your Algorithm</h3><p>A less-seen catalogue lane, ordered toward lower popularity. More room for titles you might otherwise scroll past.</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><h3>Watch Roulette</h3><p>Six format choices, real catalogue pools and an animated reveal. Filter the possibilities; exclude earlier picks in the session.</p></td>
+    <td valign="top"><h3>Daily Screen Test</h3><p>Nine categories. Five questions per attempt. Sourced explanations, saved progress and fresh replay rounds that prioritise unseen questions.</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><h3>Today’s Feeling</h3><p>A daily prompt to chase. Find a matching title, save a favourite and complete the challenge toward your shared discovery streak.</p></td>
+    <td valign="top"><h3>Your Rabbit Holes</h3><p>Revisit mood searches, explored titles, saves, spins, quizzes and challenges. Your history, with filters and erase controls.</p></td>
+  </tr>
+</table>
 
-No need to know the genre. No need to know the title. Just describe the feeling.
+**Looking for something specific?** Exact-title search, verified actor/director credits and dedicated title pages keep the catalogue grounded. Indian cinema uses production-country constraints; South Indian cinema also uses regional original languages. Search for **Ram Charan** or **Peddi** to follow the actual records.
 
-### Today's Rabbit Hole
+<br />
 
-A daily collection of entertainment worth getting lost in.
+<a name="engine"></a>
 
-Discover a changing selection with individual editorial notes and a little explanation of why each title made today's cut.
+## 03 / A reason for every recommendation
 
-###  The Weekly Cut
+> **Relevance over popularity.** A title should earn its place through evidence that fits the request.
 
-A weekly editorial selection built around a distinct theme.
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/readme/engine-mobile.svg" />
+  <img src="docs/readme/engine.svg" alt="Interpret → Retrieve → Enrich → Rank → Diversify → Explain. Translate the mood and constraints; find and enrich real catalogue candidates; score evidence; reduce repetition; show the reason." width="100%" />
+</picture>
 
-A new collection every week, designed to take you beyond your usual watchlist.
+The engine uses **deterministic interpretation and evidence-based ranking**. Known phrases become mood signals and explicit constraints; metadata supplies the evidence. Hard-filter violations are rejected, preference adjustments stay bounded, and low-evidence matches are omitted. **No LLM API is called.**
 
-###  Popular Choices & Trending Now
+The limits matter too: catalogue metadata can be sparse, retrieval is finite, and visual style or pacing can be especially difficult to establish. Scores are **not probabilities of satisfaction**. The app explains the signals it found; it does not invent missing evidence.
 
-Explore established popular titles and currently trending entertainment through separate catalogue feeds.
+[Read the architecture, filtering rules and ranking details →](docs/ENGINEERING.md#recommendation-architecture)
 
-###  Find Your Frequency
+<br />
 
-Explore curated moods and discover entertainment that matches different emotional and atmospheric experiences.
+## 04 / In the projection booth
 
-From nostalgic evenings to existential hours, there's a frequency for every mood.
+| Interface                               | Catalogue & logic                        | Delivery & checks                  |
+| :-------------------------------------- | :--------------------------------------- | :--------------------------------- |
+| Next.js App Router · React · TypeScript | TMDB · server-only API requests          | Vercel deployment configuration    |
+| Tailwind CSS · Framer Motion · Lucide   | Deterministic interpretation and ranking | GitHub Actions · Vitest · Prettier |
 
-###  Outside Your Algorithm
+**Guest-first, browser-local.** Watchlists, preferences, history and quiz progress stay in the browser, with cross-tab storage synchronisation. There is no account requirement or cross-device cloud sync. Supabase and paid AI APIs are not required.
 
-A space for discoveries beyond the obvious.
+**TMDB is the catalogue provider.** AniList is deliberately **not integrated**; its permission requirements must be cleared before use for this service.
 
-Explore international cinema, less-seen titles, unusual animation and entertainment you might otherwise scroll past.
+<br />
 
-### Watch Roulette
+<a name="run-locally"></a>
 
-Can't decide? Let chance take over.
+## 05 / Press play locally
 
-Spin for a random title from a real catalogue pool, with filters for format, genre, language, country and release period.
-
-###  Daily Screen Test
-
-A five-question entertainment quiz with multiple categories, explanations, saved progress and daily challenges.
-
-###  Today's Feeling
-
-A daily discovery challenge built around an unusual emotional or atmospheric prompt.
-
-Find a title that captures the feeling, save your favourite and complete the challenge.
-
-###  Your Rabbit Holes
-
-Your personal discovery history.
-
-Revisit previous mood searches, explored titles, saved entertainment, roulette discoveries and completed activities.
-
-###  Your Watchlist
-
-Save titles, mark them as watched and build a personal collection without needing to create an account.
-
----
-
-##  The recommendation engine
-
-Recommendations are what make CineVibz CineVibz.
-
-The objective isn't to find titles that merely share a genre. It's to find titles that have meaningful connections to the experience a person describes.
-
-The recommendation pipeline follows several stages:
-
-| Stage | What happens |
-|---|---|
-| 01 — Interpret | Translate the user's prompt into mood dimensions and constraints. |
-| 02 — Retrieve | Search the real catalogue for potential matches. |
-| 03 — Enrich | Retrieve relevant metadata for candidate titles. |
-| 04 — Rank | Evaluate mood, atmosphere, themes and other available evidence. |
-| 05 — Diversify | Reduce repetitive results while preserving relevance. |
-| 06 — Explain | Show the evidence behind each recommendation. |
-
-### What influences a recommendation?
-
-- Emotional tone
-- Mood and atmosphere
-- Themes and narrative signals
-- Genre relevance
-- Setting and visual evidence where available
-- User preferences and feedback
-- Explicit language, format and release constraints
-
-The engine uses a deterministic interpretation and evidence-based ranking system. It does not call a paid LLM API for every recommendation.
-
-Recommendations are not probabilities of user satisfaction. Their quality depends on catalogue metadata, retrieval coverage and the specificity of the request.
-
-**The goal: relevance over popularity.**
-
-A lesser-known title that genuinely fits the feeling should have a chance to rank above a mainstream title that barely matches.
-
----
-
-##  Built with
-
-CineVibz is built using a lightweight, modern web stack.
-
-| Technology | Purpose |
-|---|---|
-| [Next.js](https://nextjs.org/) | Application framework and server-side routes |
-| [TypeScript](https://www.typescriptlang.org/) | Type safety |
-| [Tailwind CSS](https://tailwindcss.com/) | Styling |
-| [Framer Motion](https://motion.dev/) | Animations and interactions |
-| [Lucide](https://lucide.dev/) | Icons |
-| [TMDB](https://www.themoviedb.org/) | Entertainment catalogue and metadata |
-| [Vercel](https://vercel.com/) | Deployment |
-
-### A note on the data
-
-TMDB is the initial catalogue provider.
-
-AniList is not currently integrated. Its API permission requirements need to be cleared before using it for this particular discovery service.
-
-There is no paid LLM dependency in the initial implementation.
-
----
-
-##  Getting started
-
-Want to run CineVibz locally?
-
-### Prerequisites
-
-- Node.js 24 or later
-- npm
-- A TMDB API Read Access Token
-
-### 1. Clone the repository
+Use **Node.js 24** and npm. Dependency versions are pinned; `.nvmrc` and `package.json` select the same Node major used by the GitHub workflow and Vercel configuration.
 
 ```bash
 git clone https://github.com/GSIV2006/CINEVIBZ.git
 cd CINEVIBZ
-```
-
-### 2. Install dependencies
-
-```bash
 npm ci
 ```
 
-### 3. Configure your environment
+Open the folder in **VS Code**. Create `.env.local` in the project root and add your [TMDB API Read Access Token](https://www.themoviedb.org/settings/api):
 
-Create a `.env.local` file in the root directory:
-
-```env
-TMDB_READ_ACCESS_TOKEN=your_tmdb_access_token
+```dotenv
+TMDB_READ_ACCESS_TOKEN=your_tmdb_read_access_token
 ```
 
-You can obtain your token from [TMDB Developer Settings](https://www.themoviedb.org/settings/api).
-
-### 4. Start the development server
+Keep an existing configured `.env.local` intact. Use the **API Read Access Token**, as described in the [TMDB getting-started guide](https://developer.themoviedb.org/docs/getting-started).
 
 ```bash
 npm run dev
 ```
 
-### 5. Open CineVibz
+Open **[localhost:3000](http://localhost:3000)**.
 
-Visit:
+> **Keep the token server-only.** Never commit `.env.local`, paste the token into an issue, expose it in frontend code, or prefix it with `NEXT_PUBLIC_`. `.env.local` is ignored by Git. Missing or invalid credentials, rate limits and provider outages produce useful errors rather than fabricated results; guest lists and the sourced quiz still work.
 
-[http://localhost:3000](http://localhost:3000)
+**Ready to host?** Import the repository into Vercel as a Next.js project, using the folder containing `package.json`. Add `TMDB_READ_ACCESS_TOKEN` to Production, and Preview if needed, before deploying. The included configuration uses `npm ci` and `npm run build`. No database migrations are needed; localhost browser data does not migrate to the hosted domain.
 
-**Keep your API credentials private.** Never commit `.env.local`, expose your token through frontend code or upload it to GitHub.
+[Push, environment setup and hosted checks →](docs/DEPLOYMENT.md)
 
-If the TMDB credential is unavailable or the provider fails, catalogue-dependent features display appropriate errors instead of fabricated results.
+<br />
 
----
+## 06 / Show the work
 
-##  Testing & validation
+Recorded local validation on **17 November 2026**:
 
-CineVibz includes automated tests for its recommendation logic, catalogue integration and application functionality.
+| Automated tests | Curated mood / constraint requests | Real TMDB test fixtures |
+| :-------------: | :--------------------------------: | :---------------------: |
+| **120 passing** |               **38**               |     **28 records**      |
 
-Run the following commands:
-
-```bash
-npm test
-```
+TypeScript, formatting and the production build passed, including a clean dependency installation without a local TMDB token. Fixtures are used only in tests; production does not import a fake catalogue. GitHub Actions runs the offline checks on pushes to `main` and pull requests without needing a TMDB secret.
 
 ```bash
-npm run typecheck
-```
-
-```bash
-npm run build
-```
-
-```bash
-npm run verify
-```
-
-```bash
+npm run verify        # TypeScript + tests + production build
 npm run format:check
 ```
 
-The current implementation includes:
+**Passing tests does not prove perfect recommendations.** The corpus is small, metadata coverage varies, and relevance still needs human review. The quiz bank has **427 question variants** drawn from Academy facts and **61 verified TMDB records**; it is finite and eventually repeats.
 
-- 120 automated tests.
-- 38 curated mood and constraint requests.
-- Test fixtures based on actual TMDB records.
-- Recommendation evaluation reports.
-- Live catalogue regression checks.
-- Engagement feature integration checks.
+| Read further                                                     | What you’ll find                                                                       |
+| :--------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
+| [Engineering notes](docs/ENGINEERING.md)                         | Retrieval limits, scoring, content controls, caching and individual test commands      |
+| [Validation](docs/VALIDATION.md)                                 | What was checked, live/browser evidence and what it does not prove                     |
+| [Recommendation evaluation](docs/recommendation-evaluation.json) | Constraint compliance, duplicates, completeness, diversity and illustrative title hits |
+| [Live catalogue checks](docs/catalogue-regressions-live.json)    | The 15 reported search and recommendation regression checks                            |
+| [Live engagement checks](docs/engagement-live-checks.json)       | Daily curation, roulette and challenge integration                                     |
+| [Quiz sources](docs/quiz-verification.json)                      | The record capture behind the sourced quiz facts                                       |
+| [Deployment guide](docs/DEPLOYMENT.md)                           | GitHub, Vercel, environment variables and post-deployment checks                       |
 
-Test fixtures are used for testing and are not imported into production catalogue components.
+<details>
+<summary><strong>Before you get lost: storage, content controls and provider limits</strong></summary>
 
-Passing tests does not guarantee perfect recommendations. The evaluation corpus is finite, and continued human review is necessary to improve relevance.
+- **Daily means Asia/Kolkata.** Browser snapshots preserve daily editions until midnight and weekly editions through Sunday. These are local editions, not a global editorial archive; clearing storage or using another browser creates a new local edition. No separate cron job is required.
+- **Content controls are conservative.** Adult-only TMDB entries are excluded. General-mode automatic recommendations additionally require recognised certification and can omit relevant international or unrated titles. Catalogue search can include mature/unrated titles, with an optional family-friendly filter. Ratings vary by region; this is not a parental-control guarantee.
+- **Provider availability still matters.** Server requests use caching, deduplication, bounded concurrency, timeouts and explicit rate-limit handling. Provider usage limits apply. Public deployments should configure request protection and usage alerts for their traffic.
+- **Personal activity stays local.** Watchlists, feedback, history and quiz progress are browser data. There is no account sync or globally shared editorial archive in this version.
 
-More detailed validation information is available in [`docs/VALIDATION.md`](docs/VALIDATION.md).
+The [engineering notes](docs/ENGINEERING.md) retain the full operational details and limits.
 
----
+</details>
 
-##  Behind the scenes
+<br />
 
-A few implementation decisions worth knowing:
+## 07 / Credits where they belong
 
-**Catalogue integrity**
+<img src="public/tmdb.svg" alt="The Movie Database" width="110" />
 
-Titles, posters and metadata are tied to their corresponding provider records. The application avoids fabricated catalogue entries and unrelated poster substitutions.
+**This product uses the TMDB API but is not endorsed or certified by TMDB.** Catalogue artwork belongs to its respective rights holders. Posters and backdrops come from the corresponding provider records.
 
-**Caching**
+Quiz facts link to official Academy ceremony records or exact TMDB title records. Interface fonts: **Syne, Space Grotesk and Manrope**. Icons: **Lucide**. The cinema eye and motion graphics are original HTML/CSS artwork; the README’s cover, diagram and end card are original SVGs. Application screenshots are real captures.
 
-TMDB requests use server-side caching, request deduplication, bounded concurrency, timeouts and rate-limit handling.
+An independent project by **[G S I Venkat](https://www.linkedin.com/in/gsi-venkat-9a02083a3)**, exploring entertainment discovery, recommendation systems and expressive web design.
 
-**Daily and weekly editions**
+[Found a rough edge? Have a good detour? Open an issue ↗](https://github.com/GSIV2006/CINEVIBZ/issues)
 
-Daily collections use the Asia/Kolkata date boundary. Weekly collections remain stable through Sunday.
+<br />
 
-Browser snapshots preserve the editions locally. These are not globally synchronized editorial collections.
+![The credits roll. The curiosity stays. CineVibz — Find your next feeling.](docs/readme/end-credits.svg)
 
-**Guest-first experience**
-
-Watchlists, preferences, history, quiz progress and other personal activity are stored locally in the browser.
-
-There is no account requirement or cloud synchronization in this initial version.
-
-**Content controls**
-
-Adult-only entries are excluded. Automatic recommendations apply conservative certification checks, which can sometimes exclude otherwise relevant international titles.
-
----
-
-##  Project documentation
-
-Additional technical information is available in the repository:
-
-- [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) — Deployment instructions.
-- [`docs/VALIDATION.md`](docs/VALIDATION.md) — Testing scope and limitations.
-- [`docs/recommendation-evaluation.json`](docs/recommendation-evaluation.json) — Recommendation evaluation results.
-
----
-
-##  Deployment
-
-CineVibz is designed for deployment on Vercel.
-
-The repository includes a Vercel configuration and a GitHub Actions workflow for automated checks.
-
-To deploy:
-
-1. Push the repository to GitHub.
-2. Import it into Vercel.
-3. Add `TMDB_READ_ACCESS_TOKEN` to the Vercel environment variables.
-4. Deploy the application.
-
-Once GitHub and Vercel are connected, future pushes to the production branch can trigger automatic deployments.
-
-See [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for the complete instructions.
-
----
-
-##  Current limitations
-
-CineVibz is an evolving personal project. A few things are intentionally limited in its initial version:
-
-- Catalogue coverage depends on TMDB and its available metadata.
-- Mood interpretation is deterministic rather than unrestricted AI language understanding.
-- Recommendation quality varies with the evidence available for each title.
-- Watchlists and user preferences are stored locally, not synchronized across devices.
-- Daily and weekly editions are browser-local rather than a shared global archive.
-- AniList integration is pending permission clarification.
-
-These are known boundaries, not features being presented as completed functionality.
-
----
-
-##  Credits & attribution
-
-Entertainment metadata and images are provided through the [TMDB API](https://www.themoviedb.org/).
-
-<div align="center">
-
-This product uses the TMDB API but is not endorsed or certified by TMDB.
-
-</div>
-
-Film artwork, posters and backdrops belong to their respective rights holders.
-
-Quiz facts are linked to official Academy ceremony records or the corresponding TMDB title records.
-
-Fonts used: Syne, Space Grotesk and Manrope.
-
-Icons: Lucide.
-
----
-
-##  A little about the project
-
-CineVibz started with a simple thought:
-
-What if finding something to watch felt more like discovering music, exploring a moodboard or falling into a random internet rabbit hole?
-
-Instead of endlessly scrolling through genres and ratings, what if you could just describe a feeling?
-
-That's the experience I'm trying to build.
-
-CineVibz is an independent personal project, built to explore the intersection of entertainment discovery, recommendation systems and expressive web design.
-
-If you find something interesting, have an idea or spot something that could be better, feel free to open an issue.
-
-<br/>
-
-<div align="center">
-
-### Don't just find something to watch.
-
-### Find your next feeling.
-
-**CineVibz ✳**
-
-</div>
+<p align="center"><strong>CineVibz — Find your next feeling.</strong><br /><a href="#cinevibz">Back to the opening frame ↑</a></p>

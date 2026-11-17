@@ -1,0 +1,191 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="720"
+  height="900"
+  viewBox="0 0 720 900"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">The CineVibz recommendation pipeline</title>
+  <desc id="desc">
+    Interpret → Retrieve → Enrich → Rank → Diversify → Explain. A readable vertical edition for
+    smaller screens.
+  </desc>
+  <rect width="720" height="900" rx="8" fill="#17121F" />
+  <text x="30" y="82" fill="#FF5C9A" font-family="Georgia,serif" font-size="40" font-style="italic">
+    01
+  </text>
+  <text
+    x="112"
+    y="76"
+    fill="#FF5C9A"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="32"
+    font-weight="800"
+    letter-spacing="1"
+  >
+    INTERPRET
+  </text>
+  <text x="112" y="121" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="27">
+    Find the mood. Keep the constraints.
+  </text>
+  <path
+    d="M53 104v56m-7-7 7 7 7-7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".45"
+    stroke-width="2"
+  />
+  <text
+    x="30"
+    y="214"
+    fill="#FF8B45"
+    font-family="Georgia,serif"
+    font-size="40"
+    font-style="italic"
+  >
+    02
+  </text>
+  <text
+    x="112"
+    y="208"
+    fill="#FF8B45"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="32"
+    font-weight="800"
+    letter-spacing="1"
+  >
+    RETRIEVE
+  </text>
+  <text x="112" y="253" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="27">
+    Search real catalogue records.
+  </text>
+  <path
+    d="M53 236v56m-7-7 7 7 7-7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".45"
+    stroke-width="2"
+  />
+  <text
+    x="30"
+    y="346"
+    fill="#F5EBD8"
+    font-family="Georgia,serif"
+    font-size="40"
+    font-style="italic"
+  >
+    03
+  </text>
+  <text
+    x="112"
+    y="340"
+    fill="#F5EBD8"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="32"
+    font-weight="800"
+    letter-spacing="1"
+  >
+    ENRICH
+  </text>
+  <text x="112" y="385" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="27">
+    Bring in metadata and available signals.
+  </text>
+  <path
+    d="M53 368v56m-7-7 7 7 7-7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".45"
+    stroke-width="2"
+  />
+  <text
+    x="30"
+    y="478"
+    fill="#30D5E8"
+    font-family="Georgia,serif"
+    font-size="40"
+    font-style="italic"
+  >
+    04
+  </text>
+  <text
+    x="112"
+    y="472"
+    fill="#30D5E8"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="32"
+    font-weight="800"
+    letter-spacing="1"
+  >
+    RANK
+  </text>
+  <text x="112" y="517" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="27">
+    Reward evidence. Reject mismatches.
+  </text>
+  <path
+    d="M53 500v56m-7-7 7 7 7-7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".45"
+    stroke-width="2"
+  />
+  <text
+    x="30"
+    y="610"
+    fill="#B68AFF"
+    font-family="Georgia,serif"
+    font-size="40"
+    font-style="italic"
+  >
+    05
+  </text>
+  <text
+    x="112"
+    y="604"
+    fill="#B68AFF"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="32"
+    font-weight="800"
+    letter-spacing="1"
+  >
+    DIVERSIFY
+  </text>
+  <text x="112" y="649" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="27">
+    Reduce repetition. Keep the relevance.
+  </text>
+  <path
+    d="M53 632v56m-7-7 7 7 7-7"
+    fill="none"
+    stroke="#F5EBD8"
+    stroke-opacity=".45"
+    stroke-width="2"
+  />
+  <text
+    x="30"
+    y="742"
+    fill="#F5EBD8"
+    font-family="Georgia,serif"
+    font-size="40"
+    font-style="italic"
+  >
+    06
+  </text>
+  <text
+    x="112"
+    y="736"
+    fill="#F5EBD8"
+    font-family="Arial,Helvetica,sans-serif"
+    font-size="32"
+    font-weight="800"
+    letter-spacing="1"
+  >
+    EXPLAIN
+  </text>
+  <text x="112" y="781" fill="#F5EBD8" font-family="Arial,Helvetica,sans-serif" font-size="27">
+    Show the reason. Name the evidence.
+  </text>
+  <path d="M30 838h660" stroke="#F5EBD8" stroke-opacity=".3" />
+  <text x="30" y="875" fill="#F5EBD8" font-family="monospace" font-size="19" letter-spacing="1.5">
+    RELEVANCE OVER POPULARITY.
+  </text>
+</svg>
