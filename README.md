@@ -1,3 +1,10 @@
+<img width="1708" height="902" alt="Screenshot 2026-11-17 at 10 50 11 PM" src="https://github.com/user-attachments/assets/646f2335-6592-4867-b2c1-fb6289eb9804" />
+
+<img width="1709" height="810" alt="Screenshot 2026-11-17 at 10 50 35 PM" src="https://github.com/user-attachments/assets/c90fdd73-7ba6-4d9b-996d-596f4099334a" />
+
+<img width="1699" height="957" alt="Screenshot 2026-11-17 at 10 50 53 PM" src="https://github.com/user-attachments/assets/de828ebb-f1bf-4d1a-a22a-aa89449286ca" />
+
+
  <div align="center">
 
 # ✳ CineVibz
